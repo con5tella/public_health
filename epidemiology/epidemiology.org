@@ -211,3 +211,14 @@
 
 ***** 生存率（survival rate）
 指接受某种治疗的病人或某病患者中，经n年随访尚存活的病人数所占的比例。
+
+**** 疾病负担指标
+
+***** 潜在减寿年数（potential years of life lost, PYLL）
+是某病某年龄组人群死亡者的期望寿命与实际死亡年龄之差的总和，即死亡所造
+成的寿命损失。
+
+***** 伤残调整寿命年（disability adjusted life year, DALY）
+是指从发病到死亡所损失的全部健康寿命年，包括因早死所致的寿命损失年
+（years of life lost, YLL）和疾病所致伤残引起的健康寿命损失年（years
+lived with disability, YLD）两部分。
