@@ -238,3 +238,13 @@ lived with disability, YLD）两部分。
 **** 大流行（pandemic）
 某病发病率显著超过该病历年发病率水平，疾病蔓延迅速，涉及地区广，在短期
 内跨越省界、国界甚至洲界形成世界性流行，称之为大流行。
+
+*** 疾病的分布
+
+**** 人群分布
+
+***** 年龄
+
+****** 横断面分析（cross sectional analysis）
+
+****** 出生队列分析（birth cohort analysis）
