@@ -1,0 +1,6 @@
+#+TITLE: Medical Statistics
+#+AUTHOR: Yuanchen Xie <yuanchen.gm@gmail.com>
+#+STARTUP: content
+#+STARTUP: indent
+
+* 卫生统计学
