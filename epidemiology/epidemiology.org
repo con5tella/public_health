@@ -849,3 +849,13 @@ Poisson分布估算样本量
 1:1匹配，即为每一个病例配一名对照，又称配对（pair matching）。
 
 **** 衍生的研究类型
+
+***** 巢式病例对照研究（nested case-control study, case control study nested in a cohort）
+
+***** 病例队列研究（case-cohort study）
+
+***** 病例交叉设计（case-crossover design）
+
+***** 病例时间对照设计（case-time-control design）
+
+***** 病例病例研究（case-case study）
