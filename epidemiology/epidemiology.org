@@ -859,3 +859,18 @@ Poisson分布估算样本量
 ***** 病例时间对照设计（case-time-control design）
 
 ***** 病例病例研究（case-case study）
+
+*** 一般实施步骤
+
+**** 提出假设
+
+**** 明确适宜的研究类型
+
+**** 病例与对照的来源与选择
+- 医院为基础的病例对照研究（hospital-based case-control study）
+- 社区为基础的病例对照研究（community-based case-control study）
+  人群为基础的病例对照研究（population-based case-control study）
+
+***** 病例的选择
+
+***** 对照的选择
