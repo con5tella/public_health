@@ -975,6 +975,18 @@ Poisson分布估算样本量
 
 *** 常见偏倚及其控制
 
+**** 选择偏倚
+由于选入的研究对象与未选入的研究对象在某些特征上存在差异而引起的系统误
+差称为选择偏倚。
+
+***** 入院率偏倚（admission rate bias），Berkson偏倚
+
+***** 现患病例-新发病例偏倚（prevalence-incidence bias），奈曼偏倚（Neyman bias）
+
+***** 检出症候偏倚（detection signal bias），暴露偏倚（unmasking bias）
+
+***** 时间效应偏倚（time effect bias）
+
 *** 研究实例
 
 *** 优点与局限性及实施时应注意的问题
