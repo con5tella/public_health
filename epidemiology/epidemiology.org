@@ -1033,3 +1033,10 @@ Poisson分布估算样本量
 ***** 随机分组
 ***** 具有均衡可比的对照组
 ***** 有人为施加的干预措施
+**** 主要类型
+***** 临床试验（clinical trial）
+***** 现场试验（field trial）
+***** 社区试验（community trial），社区干预试验（community intervention trial）
+**** 主要用途
+***** 验证假设
+***** 评价疾病防治效果
