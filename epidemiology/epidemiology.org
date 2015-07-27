@@ -1155,3 +1155,8 @@ Poisson分布估算样本量
 ***** 减少失访
 ***** 避免「沾染」
 ***** 控制混杂因素
+**** 评价效果的指标
+***** 保护率（protection rate, PR）
+***** 效果指数（index of effectiveness, IE）
+***** 抗体阳转率（antibody positive conversion rate）
+***** 抗体几何平均滴度（GMT）
