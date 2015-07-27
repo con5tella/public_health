@@ -1083,8 +1083,57 @@ Poisson分布估算样本量
 ******* 计算说得的N是一组人群（试验组或对照组）的大小
 ******* 考虑到可能发生的失访，应在公式计算的基础上增加10%~15%作为实际应用的样本量
 ***** 设立严格的对照
+****** 影响研究效应的主要因素
+******* 不能预知的结局（unpredictable outcome）
+******* 疾病的自然史
+******* 霍桑效应（Hawthorne effect）
+正在进行的研究对被研究者的影响（常常是有利的影响）。
+******* 安慰剂效应（placebo effect）
+******* 潜在的未知因素的影响
+****** 常用的对照方法
+******* 标准对照（standard control），阳性对照（positive control）
+******* 安慰剂对照（placebo control），阴性对照（negative control）
+******* 交叉对照（crossover control）
+******* 互相对照（mutual control）
+******* 自身对照（self control）
 ***** 随机分组
+****** 原则
+随机化是为了使对照组与试验组具有可比性，提高研究结果的真实性，减少偏倚。
+
+每位研究对象被分配到试验组或对照组的机会相等，而不受研究者或受试者主观
+愿望或客观因素所影响。
+****** 方法
+******* 简单随机法（simple randomization）
+******* 区组随机法（block randomization）
+******* 分层随机法（stratified randomization）
 ***** 应用盲法
+****** 单盲（single blind）
+****** 双盲（double blind）
+****** 三盲（triple blind）
 ***** 收集、整理与分析资料
+****** 收集资料
+****** 整理资料
+******* 不合格（ineligibility）的研究对象
+******* 不依从（noncompliance）的研究对象
+随机对照干预试验实际依从和分组
+|                | A治疗                  | A治疗     | B治疗     | B治疗                  |
+| 实际依从情况   | 未完成A治疗或改为B治疗 | 完成A治疗 | 完成B治疗 | 未完成B治疗或改为A治疗 |
+| 资料整理后分组 | ①                      | ②         | ③         | ④                      |
+******** 意向性分析（intention-to-treat(ITT) analysis）
+比较①组+②组与③组+④组。反映了原来试验意向干预的效果。
+******** 遵循研究方案分析（per-protocol(PP) analysis）
+比较①组和③组，而不分析②组和④组。
+******** 接受干预措施分析
+比较①组+④组和②组+③组。
+******* 失访（loss to follow-up）的研究对象
+****** 分析资料
+******* 有效率（effective rate）
+******* 治愈率（cure rate）
+******* 病死率（case fatality rate）
+******* 不良事件发生率（adverse event rate）
+******* 生存率（survival rate）
+******* 相对危险度降低（relative risk reduction, RRR）
+******* 绝对危险度降低（absolute risk reduction, ARR）
+******* 需治疗人数（number needed to treat, NNT）
 ***** 多因素试验设计
 **** 偏倚及其控制
