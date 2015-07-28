@@ -1128,13 +1128,21 @@ Poisson分布估算样本量
 ******* 失访（loss to follow-up）的研究对象
 ****** 分析资料
 ******* 有效率（effective rate）
+治疗有效例数 / 治疗的总例数 × 100%
 ******* 治愈率（cure rate）
+治愈例数 / 治疗总人数 × 100%
 ******* 病死率（case fatality rate）
+因该病死亡人数 / 某病受治疗人数 × 100%
 ******* 不良事件发生率（adverse event rate）
+发生不良事件病例数 / 可供评价不良事件的总病例数 × 100%
 ******* 生存率（survival rate）
+N年生存率 = N年存活的病例数 / 随访满N年的病例数 × 100%
 ******* 相对危险度降低（relative risk reduction, RRR）
+(对照组事件发生率 - 试验组事件发生率) / 对照组事件发生率
 ******* 绝对危险度降低（absolute risk reduction, ARR）
+对照组事件发生率 - 试验组事件发生率
 ******* 需治疗人数（number needed to treat, NNT）
+NNT = 1/ARR 
 ***** 多因素试验设计
 **** 偏倚及其控制
 ***** 选择偏倚
@@ -1157,6 +1165,11 @@ Poisson分布估算样本量
 ***** 控制混杂因素
 **** 评价效果的指标
 ***** 保护率（protection rate, PR）
+(对照组发病（或死亡）率 - 试验组发病（或死亡）率) / 对照组发病（或死亡）
+率 × 100%
 ***** 效果指数（index of effectiveness, IE）
+对照组发病率 / 试验组发病率
 ***** 抗体阳转率（antibody positive conversion rate）
+抗体阳性人数 / 疫苗接种人数 × 100%
 ***** 抗体几何平均滴度（GMT）
+GMT = (anti log2^m)×C = 2^m/C
