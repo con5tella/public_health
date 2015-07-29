@@ -137,3 +137,10 @@ x̄ = (Σf X_0)/Σf = (Σf X_0)/n
 
 **** 变异系数（coefficient of variation, CV）
 主要用于量纲不同的变量间，或均数差别较大的变量间变异程度的比较。
+
+*** 描述分布形态的统计指标
+
+**** 偏度系数（coefficient of skewness, SKEW）
+取正值时，分布为正偏峰；取负值时，分布为负偏峰。
+
+**** 峰度系数（coefficient of kurtosis, KURT）
