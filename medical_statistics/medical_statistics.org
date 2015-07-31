@@ -275,3 +275,7 @@ GRR = 总和生育率 × 女婴占出生婴儿的比例。
 ****** 死因构成及死因顺位的指标
 
 ******* 死因构成比（proportion of dying of a specific cause），比例死亡比（proportionate mortality rate, PMR），相对死亡比
+
+*** 疾病统计（morbidity statistics）常用指标
+
+**** 疾病和死因分类
