@@ -250,4 +250,28 @@ GRR = 总和生育率 × 女婴占出生婴儿的比例。
 
 ****** 测量死亡水平的指标
 
+******* 粗死亡率（crude death rate, CDR），死亡率（mortality rate）
+
+******* 年龄别死亡率（age-specific death rate, ASDR）
+死亡专率
+
+******* 婴儿死亡率（infant mortality rate, IMR）
+
+******* 新生儿死亡率（neonatal mortality rate, NMR）
+
+******* 新生儿后期死亡率（post-neonatal mortality rate, PNMR）
+某地某年活产儿中满28天但未满1周岁的新生儿死亡频率。
+
+******* 围生儿死亡率（perinatal mortality rate）
+
+******* 5岁以下儿童死亡率（child mortality rate under age 5）
+
+******* 孕产妇死亡率（maternal mortality rate）
+
+******* 死因别死亡率（cause-specific death rate, CSDR）
+
+******* 某病病死率（case fatality rate, CFR）
+
 ****** 死因构成及死因顺位的指标
+
+******* 死因构成比（proportion of dying of a specific cause），比例死亡比（proportionate mortality rate, PMR），相对死亡比
