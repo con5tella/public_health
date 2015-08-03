@@ -1466,3 +1466,42 @@ NNBS = 1/ARR
 ***** 生物学合理性（biologic plausibility）
 ***** 关联的一致性（coherence）
 ***** 实验证据（experimental evidence）
+** 预防策略
+*** 健康、影响因素及医学模式
+**** 健康
+***** 个体健康
+健康是生理、心理、精神和社会方面的一种动态的圆满状态，而不仅仅是没有疾
+病和虚弱。
+***** 人群健康
+**** 影响健康的因素
+***** 个体因素
+****** 遗传和生物学因素
+****** 生活方式因素
+****** 社会经济状况因素
+***** 环境因素
+****** 自然环境
+****** 建成环境（built environment）
+****** 社会和经济环境
+***** 卫生服务因素
+卫生服务的质量、可获得性、可及性和可负担性，服务提供者的能力等。
+**** 医学模式
+***** 生物医学模式（biomedical model）
+***** 生物-心理-社会医学模式（biopsychosocial model）
+*** 预防策略与措施
+**** 策略与措施
+**** 疾病预防（disease prevention）
+- 消灭（eradication）是指通过监测和围堵等措施，消灭传染病病原体，从而
+  终止所有的疾病传播。
+- 消除（elimination）是将疾病的传播减少到事先规定的一个非常低的水平，
+  但不是消灭某一疾病。
+***** 第一级预防（primary prevention），病因预防
+***** 第二级预防（secondary prevention），「三早预防」
+早发现、早诊断、早治疗。
+***** 第三级预防（tertiary prevention），临床预防，疾病管理（disease management）
+**** 健康保护与健康促进
+***** 健康保护（health protection），健康防护
+***** 健康促进（health promotion）
+健康促进 = 健康教育（health education） × 健康的公共政策
+**** 高危策略与全人群策略
+***** 高危策略（high-risk strategy）
+***** 全人群策略（population-based strategy）
