@@ -1344,3 +1344,47 @@ NNBS = 1/ARR
 ***** 病程长短偏倚（length bias）
 ***** 过度诊断偏倚（over diagnosis bias）
 ***** 志愿者偏倚（volunteer bias）
+** 偏倚及其控制
+*** 选择偏倚（selection bias）
+被选入到研究中的研究对象，与没有被选入者特征上的差异所导致的系统误差。
+**** 种类
+***** 入院率偏倚（admission rate bias），伯克森偏倚（Berkson's bias）
+***** 现患病例-新发病例偏倚（prevalence-incidence bias），奈曼偏倚（Neyman bias）
+***** 检出症候偏倚（detection signal bias）
+***** 无应答偏倚（non-response bias）
+***** 易感性偏倚（susceptibility bias）
+**** 测量
+**** 控制
+***** 掌握发生环节
+***** 严格选择标准
+***** 研究对象的合作
+***** 采用多种对照
+*** 信息偏倚（information bias），观察偏倚（observational bias）
+**** 种类
+***** 回忆偏倚（recall bias）
+***** 报告偏倚（reporting bias）
+***** 暴露怀疑偏倚（exposure suspicion bias）
+***** 诊断怀疑偏倚（diagnostic suspicion bias）
+***** 测量偏倚（detection bias）
+**** 测量
+**** 控制
+***** 严格信息标准
+***** 盲法收集信息
+***** 采用客观指标
+***** 调查技术的应用
+***** 统计学处理
+*** 混杂偏倚（confounding bias），混杂
+**** 混杂因素及其特点
+***** 混杂因素（confounding factor），外来因素（extraneous factor），混杂因子，混杂变量
+与研究因素和研究疾病均有关，若在比较的人群组中分布不均衡，可以歪曲（缩
+小或放大）研究因素与疾病之间真实联系的因素。
+****** 是所研究疾病的危险因素
+****** 与所研究的因素有关
+****** 不是研究因素与研究疾病因果链上的中间变量
+**** 测量
+**** 控制
+***** 限制（restriction）
+***** 随机化（randomization）
+***** 匹配（matching）
+***** 统计学处理
+标准化法、分层分析、多因素分析等。
