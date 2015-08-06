@@ -1614,3 +1614,48 @@ NNBS = 1/ARR
 ****** 隐伏（latency）
 ****** 疾病（disease）
 ****** 痊愈（cure）
+*** 流行过程（epidemic process）
+传染病在人群中连续传播的过程，包括病原体从传染源排出，经过一定的传播途
+径，侵入易感者机体而形成新的感染的整个过程。
+**** 基本环节
+***** 传染源（source of infection）
+体内有病原体生长、繁殖并且能排除病原体的人和动物。
+****** 病人
+******* 潜伏期（incubation period）
+******* 临床症状期（clinical stage）
+******* 恢复期（convalescence）
+****** 病原携带者（carrier）
+****** 受感染的动物
+***** 传播途径（route of transmission）
+病原体从传染源排除后，侵入新的易感宿主前，在外环境中所经历的全部过程。
+****** 经空气传播（air-borne transmission）
+******* 经飞沫传播（droplet transmission）
+******* 经飞沫核传播（droplet nucleus transmission）
+******* 经尘埃传播（dust transmission）
+****** 经水或食物传播
+******* 经水传播（water-borne transmission）
+******* 经食物传播（food-borne transmission）
+****** 经接触传播（contact transmission）
+******* 直接接触传播（direct contact transmission）
+******* 间接接触传播（indirect contact transmission）
+****** 经媒介节肢动物传播（arthropod/vector-borne transmission）
+******* 机械携带（mechanical vector）
+******* 生物学传播（biological vector）
+****** 经土壤传播（soil-borne transmission）
+****** 医源性传播（iatrogenic transmission）
+******* 外源性感染（exogenous infections），交叉感染（corss infections）
+******* 内源性感染（endogenous infections），自身感染（antogenous infections）
+****** 垂直传播（vertical transmission），围生期传播（perinatal transmission）
+******* 经胎盘传播
+******* 上行性感染
+******* 分娩时传播
+***** 人群易感性（herd susceptibility）
+人群作为一个整体对传染病的易感程度，取决于该人群中易感个体所占的比例。
+****** 人群易感性升高
+******* 新生儿增加
+******* 易感人口迁入
+******* 免疫人口免疫力自然消退
+******* 免疫人口死亡
+****** 人群易感性降低
+******* 计划免疫
+******* 传染病流行
