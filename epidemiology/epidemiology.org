@@ -1733,3 +1733,26 @@ NNBS = 1/ARR
 ***** 封闭被传染病病原体污染的公共饮用水源、食品以及相关物品
 ***** 控制或者扑杀染疫野生动物、家畜家禽
 ***** 封闭可能造成传染病扩散的场所
+*** 免疫规划及其效果评价
+**** 预防接种
+***** 人工自动免疫（active immunization）
+采用人工免疫的方法，将疫苗、类毒素和菌苗等免疫原接种到易感者机体，使机
+体自身的免疫系统产生相关传染病的特异性免疫力，从而预防传染病发生的措施。
+****** 减毒活疫苗（live-attenuated vaccine）
+- 卡介苗（BCG）
+- 牛痘
+- 麻疹
+- 脊髓灰质炎
+****** 灭活疫苗（inactivated vaccine）
+****** 类毒素（toxoid）
+****** 亚单位疫苗（subunit vaccine）
+****** 合成疫苗（synthetic vaccine）
+****** 结合疫苗（conjugate vaccine）
+****** 基因工程疫苗（gene engineering vaccine）
+***** 人工被动免疫（artificial passive immunization）
+直接给机体注入免疫应答产物，使机体立即获得免疫力，但在体内维持时间较短。
+****** 免疫血清（immune serum）
+****** 人免疫球蛋白制剂
+***** 人工被动自动免疫（artificial passive and active immunity）
+同时给机体注射抗原物质和抗体，使机体迅速获得特异性抗体，并刺激机体产生
+持久的免疫力。
