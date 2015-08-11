@@ -1756,3 +1756,8 @@ NNBS = 1/ARR
 ***** 人工被动自动免疫（artificial passive and active immunity）
 同时给机体注射抗原物质和抗体，使机体迅速获得特异性抗体，并刺激机体产生
 持久的免疫力。
+**** 免疫规划
+***** 计划免疫与免疫规划
+***** 免疫规划的内容
+***** 免疫程序（immunization schedules）
+***** 预防接种注意事项
