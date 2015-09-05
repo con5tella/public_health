@@ -2102,17 +2102,40 @@ life lived with disability, YLLD）
 **** 现场卫生学评价
 **** 传染病防控
 **** 其他处置
-** 精神卫生流行病学
-** 分子流行病学
-** 药物流行病学
-** 流行病学与循证医学
+** 精神卫生流行病学（mental health epidemiology）
+** 分子流行病学（molecular epidemiology）
+** 药物流行病学（pharmacoepidemiology）
+** 流行病学与循证医学（Epidemiology and Evidance-Based Medicine）
 ** 系统综述和meta分析
-** 恶性肿瘤
-** 心血管疾病
-** 糖尿病
-** 流行性感冒
-** 病毒性肝炎
-** 感染性腹泻
-** 性传播疾病
-** 结核病
-** 地方病
+系统综述（systematic review, SR）
+
+meta分析（meta-analysis, MA）
+
+** 恶性肿瘤（cancer）
+** 心血管疾病（cardiovascular disease, CVD）
+*** 高血压（hypertension）
+*** 脑卒中（stroke）
+*** 冠心病（coronary heart disease, CHD）
+*** 预防策略与措施
+**** 一级预防
+***** 预防策略
+****** 高危人群策略
+****** 全人群策略
+****** 总体危险评估和危险分层防止策略
+***** 预防措施
+****** 合理膳食
+****** 禁烟限酒
+****** 适量运动
+****** 控制体重
+****** 心理平衡
+****** 药物干预
+**** 二级预防
+**** 三级预防
+**** 社区综合防治
+** 糖尿病（diabetes mellitus, DM）
+** 流行性感冒（Influenza）
+** 病毒性肝炎（viral hepatitis）
+** 感染性腹泻（infectious diarrhea）
+** 性传播疾病（sexually transmitted disease, STD）
+** 结核病（tuberculosis）
+** 地方病（endemic disease）
