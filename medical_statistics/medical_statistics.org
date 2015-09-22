@@ -800,3 +800,66 @@ u检验，相应的检验统计量为Z。
 ****** 偏度系数 SKEW
 
 ****** 峰度系数 KURT
+
+** 方差分析（analysis of variance, ANOVA），F检验
+
+*** 方差分析的基本思想
+把全部观察值间的变异按设计和需要分解成两个或多个组成部分，然后将各部分的变异与随机误差进行比较，以判断各部分的变异是否具有统计学意义。
+F = MS_组间 / MS_组内
+
+**** 总变异（total variation）
+
+**** 组间变异（variation between groups）
+
+**** 组内变异（variation within groups）
+
+*** 完全随机设计（completely randomized design）资料的方差分析
+属单向方差分析（one-way ANOVA）
+
+*** 随机区组设计（randomized block design）资料的方差分析
+属双向方差分析（two-way ANOVA）
+
+**** 离均差平方和与自由度的分解
+
+**** 随机区组设计资料方差分析的基本步骤
+
+*** 析因设计（factorial design）资料的方差分析
+
+*** 重复测量资料（repeated measurement data）的方差分析
+
+*** 多个样本均数的两两比较
+
+**** SNK法，q检验
+属多重极差检验（multiple range test）
+
+在研究设计阶段未预先考虑或预料到，经假设检验得出多个总体均数不全等的提示后，才决定进行多个均数的两两事后比较。
+
+**** Dunnett法，Dunnett-t检验
+在设计阶段就根据研究目的或专业知识而计划好的某些均数间的两两比较。
+
+**** Bonferroni法
+在设计阶段就根据研究目的或专业知识而计划好的某些均数间的两两比较。
+
+*** 方差分析的前提条件和数据变换
+
+**** 方差分析的前提条件
+
+***** 各样本是相互独立的随机样本，均服从正态分布
+
+***** 各样本的总体方差相等，即方差齐性（homogeneity of variance）
+
+**** 方差齐性检验
+
+***** Bartlett χ^2 检验
+
+***** Levene 检验
+
+**** 考察前提条件的残差图（residual plot）法
+
+**** 数据变换（data transformations）
+
+***** 对数变换
+
+***** 平方根变换
+
+***** 平方根反正弦变换
