@@ -2693,6 +2693,66 @@ L_s：接噪作业时间对应的卫生标准。
 
 *** 工作场所的通风与照明
 
+**** 工作场所的通风
+
+***** 概述
+
+****** 工业工作场所通风（ventilation of industrial workplaces）
+包括通风、除尘、排毒、防暑降温等。
+
+****** 非工业工作场所通风（ventilation of non-industrial workplaces）
+
+****** 对工作环境和大气环境的卫生学要求
+
+****** 通风方法的分类
+
+******* 按通风系统的工作动力分类
+
+******** 自然通风（natural ventilation）
+以风压和热压作用使空气流动所形成的一种通风方式。
+
+******** 机械通风（mechanical ventilation）
+
+******* 按工作环境实施的换气原则分类
+
+******** 全面通风（general ventilation）
+
+********* 按照通风动力的不同分类
+
+********** 全面自然通风
+
+********** 全面机械通风
+
+********* 按对有害物控制机制的不同分类
+
+********** 稀释通风（dilution ventilation）
+
+********** 单向流通风（unilateralism airflow ventilation）
+
+********** 均匀流通风（uniformity airflow ventilation）
+
+********** 置换通风（metathesis ventilation）
+
+******** 局部通风（local ventilation）
+
+********* 局部送风（local dilution ventilation）
+
+********* 局部排风（local exhaust ventilation）
+
+********* 混合通风（mixed ventilation）
+
+***** 自然通风
+
+***** 机械通风
+
+***** 防暑降温、防寒
+
+***** 洁净工作场所通风
+
+***** 事故通风
+
+**** 工作场所采光与照明
+
 *** 个人防护用品
 
 ** 职业卫生服务与健康促进
