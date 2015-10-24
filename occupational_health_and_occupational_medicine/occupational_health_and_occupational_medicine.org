@@ -2855,4 +2855,64 @@ L_s：接噪作业时间对应的卫生标准。
 
 ** 职业卫生法律法规与监督管理
 
+*** 职业病防治法
+控制职业病危害源头、预防为主、防治结合、分类管理、综合治理。
+
+职业病诊断应当由省级以上人民政府卫生行政部门批准的医疗卫生机构承担。
+
+诊断机构应组织3名以上取得职业病诊断资格的执业医师进行集体诊断。
+
+*** 相关配套法规与规章
+
+*** 职业卫生标准
+是以保护劳动者健康为目的，对劳动条件各种卫生要求所做出的技术规定，可视作技术尺度。
+
+**** 工业场所有害因素职业接触限值
+为保护作业人员健康而规定的工作场所有害因素的接触限量值，属于卫生标准的一个主要组成部分。
+
+在保证健康的前提下，做到经济合理，技术可行，即安全性与可行性相结合。
+
+***** 职业接触限值（occupational exposure limits, OELs）
+劳动者在职业活动中长期反复接触某种有害因素，对绝大多数人的健康不引起有害作用的容许接触浓度（permissible concentration, PC）或接触水平。
+
+****** 时间加权平均容许浓度（PC-TWA）
+
+****** 短时间接触容许浓度（PC-STEL）
+
+****** 最高容许浓度（maximum allowable concentration, MAC）
+工作地点化学物质一个工作日内任何时间均不得超过的浓度。
+
+***** 阈限值
+
+****** 时间加权平均阈限值（threshold limit value-time weighted average, TLV-TWA）
+
+****** 短时间接触阈限值（threshold limit value-short term exposure limit, TLV-STEL）
+
+****** 上限值（threshold limit value-ceiling, TLV-C）
+
+***** 容许接触限值
+
+***** 最高工作场所浓度（maximale arbeitsplatz-konzentration, MAK）
+
+***** 技术参考浓度（technische richtkonzentration, TRK）
+致癌物质根据目前技术条件所能达到的最低浓度，遵守TRK只能减少并不能排除该物质对健康的危害。
+
+***** 容许浓度
+
+***** 保证健康的职业接触限值（health-based occupational exposure limitation）
+
+**** 生物接触限值（biological exposure limit, BEL）
+
+**** 化学致癌物职业接触限值
+
+**** 职业卫生标准的应用
+
+*** 职业卫生监督
+
+**** 预防性职业卫生监督
+
+**** 经常性职业卫生监督
+
+*** 国际职业卫生法规与管理
+
 ** 职业伤害与职业安全
