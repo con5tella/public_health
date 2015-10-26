@@ -236,6 +236,19 @@ hormesis，某些物质在低剂量时对生物系统具有刺激作用，而在
 *** 健康危险度评价（health risk assessment, HRA）
 按一定的准则，对有害环境因素作用于人群的有害健康效应进行综合定性、定量评价的过程。
 
+**** 健康危险度评价的基本内容和方法
+
+***** 危害鉴定（hazard identification）
+
+***** 剂量-反应关系的评定（dose-response assessment）
+健康危险度评价的核心。
+
+***** 暴露评价（exposure assessment）
+
+***** 危险度特征分析（risk characterization）
+
+**** 健康危险度评价的应用
+
 ** 大气卫生
 
 ** 水体卫生
