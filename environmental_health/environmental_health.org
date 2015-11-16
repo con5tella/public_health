@@ -2160,4 +2160,4 @@ hormesis，某些物质在低剂量时对生物系统具有刺激作用，而在
 
 *** 家用化学品的卫生监督与管理
 
-** 突发环境污染事件及其应急处理
+** 突发环境污染事件（abrupt environmental pollution accidents）及其应急处理
