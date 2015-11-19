@@ -1,15 +1,8 @@
 * Public Health
-
-公共卫生知识整理
-
-** 环境卫生学
-
-** 流行病学
-
-** 卫生统计学
-
-** 营养与食品卫生学
-
-** 职业卫生与职业医学
-
-人民卫生出版社
+- 公共卫生知识整理
+- 人民卫生出版社
+** Environmental Health 环境卫生学
+** Epidemiology 流行病学
+** Medical Statistics 卫生统计学
+** Nutrition Science And Food Hygiene 营养与食品卫生学
+** Occupational Health And Occupational Medicine 职业卫生与职业医学
