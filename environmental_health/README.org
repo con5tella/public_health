@@ -1,10 +1,5 @@
 * environmental health / environmental hygiene
-
-环境卫生学
-
-the context of knowledge about environmental health,
-people's health publishing house, version 6th.
-
-人民卫生出版社，第 6 版，「环境卫生学」知识整理。
-
-框架已建立，内容完善中……
+- 环境卫生学
+- the context of knowledge about environmental health, people's health publishing house, version 6th.
+- 人民卫生出版社，第 6 版，「环境卫生学」知识整理。
+- 框架已建立，内容完善中……
