@@ -1,10 +1,6 @@
 * occupational health & occupational medicine
-
-职业卫生与职业医学
-
-the context of knowledge about occupational health and occupational methionine,
-people's health publishing house, version 6th.
-
-人民卫生出版社，第6版，「职业卫生与职业医学」知识整理。
-
-框架已完结。
+- 职业卫生与职业医学
+- the context of knowledge about occupational health and occupational methionine,
+  people's health publishing house, version 6th.
+- 人民卫生出版社，第 6 版，「职业卫生与职业医学」知识整理。
+- 框架已完结。
