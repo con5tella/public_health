@@ -1611,8 +1611,8 @@
 ** 药物流行病学（pharmacoepidemiology）
 ** 流行病学与循证医学（Epidemiology and Evidance-Based Medicine）
 ** 系统综述和 meta 分析
-系统综述（systematic review, SR）
-meta 分析（meta-analysis, MA）
+- 系统综述（systematic review, SR）
+- meta 分析（meta-analysis, MA）
 ** 恶性肿瘤（cancer）
 ** 心血管疾病（cardiovascular disease, CVD）
 *** 高血压（hypertension）
