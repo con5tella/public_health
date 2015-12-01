@@ -1,5 +1,5 @@
 * epidemiology
-- 流行病学
 - the context of knowledge about epidemiology, people's health publishing house, version 7th.
+* 流行病学
 - 人民卫生出版社，第 7 版，「流行病学」知识整理。
 - 框架已建立，内容完善中……
