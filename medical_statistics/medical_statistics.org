@@ -401,6 +401,7 @@
 - Student's t 分布（Student's t-distribution），是总体均数的区间估计和假设检验的理论基础。
   #+begin_src latex
 $ t = (x̄-μ)/S_x̄ = (x̄-μ)/(S/sqrt(n)), v=n-1 $
+$ x^μ $
   #+end_src
 - t 分布图是一簇曲线，当 v→∞时，t 分布趋近于标准正态分布。
 **** 图形与特征
