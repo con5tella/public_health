@@ -32,6 +32,23 @@
 - 统计量（statistic）
 **** 设计与分析
 **** 因果与联系
+*** 医学统计工作的基本步骤
+**** 统计设计（design）
+- 课题研究的方案。
+***** 专业设计
+***** 统计设计
+**** 收集资料（data collection）
+- 通过合理可靠的手段与渠道获得研究所需的原始数据。
+**** 整理资料（data sorting / data processing）
+- 对收集到的原始资料去伪存真、归类整理汇总的过程。
+**** 分析资料（data analysis），统计分析（statistical analysis）
+***** 统计描述（statistical description）
+- 用恰当的样本统计量、统计表与统计图等描述与刻画资料的数量特征及其分布规律。
+***** 统计推断（statistical inference）
+****** 参数估计（parameter estimation）
+- 用样本统计量估计总体参数。
+****** 假设检验（hypothesis testing），显著性检验（significance test）
+- 用样本统计量对总体参数或分布的特定假设进行检验，进而对该假设的成立与否作出推断。
 ** 定量资料的统计描述
 *** 频率分布表（frequency distribution table）与频率分布图
 **** 离散型定量变量的频率分布
