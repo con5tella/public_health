@@ -399,7 +399,7 @@
   S_p=sqrt(p(1-p)/(n-1))≈sqrt(p(1-p)/n)
 *** t 分布
 - Student's t 分布（Student's t-distribution），是总体均数的区间估计和假设检验的理论基础。
-- t = (
+- t = (x̄-μ)/S_x̄ = (x̄-μ)/(S/sqrt(n)), v=n-1
 - t 分布图是一簇曲线。
 **** 图形与特征
 - t 值的分布与自由度 v 有关。
