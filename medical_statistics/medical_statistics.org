@@ -93,7 +93,9 @@
 - 对于偏峰分布资料，常把中位数和四分位数间距结合起来描述资料的集中趋势和离散趋势。
 **** 方差（variance），均方差（mean square deviation）
 - 用离均差平方和放映所有观察值的变异大小。
-- 样本方差 S^2
+#+BEGIN_src latex
+$ 样本方差 S^2 $
+#+END_src
 **** 标准差（standard deviation）
 - 正态分布或近似正态分布资料，常把均数和标准差结合起来，全面描述资料的集中趋势和离散趋势。
 **** 变异系数（coefficient of variation, CV）
