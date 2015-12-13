@@ -551,9 +551,13 @@ u 检验，相应的检验统计量为 Z。
 ***** P-P 图，频率-频率图（proportion-proportion plot）
 ***** Q-Q 图，分位数-分位数图（quantile-quanlite plot）
 **** 统计检验法
+- χ^2 检验适用于任意频数分布的拟合优度检验，并非检验正态性的专用方法，效率不够高。
 ***** W 检验（W test）
+- 3≤n≤50 时使用
 ***** D 检验（D' Agostino）
-***** 矩法
+- 50<n≤1000 时使用
+***** 矩法，动差法
+- 分布不对称的程度和方向，用偏度系数（coefficient of skewness）衡量。
 ****** 偏度系数 SKEW
 ****** 峰度系数 KURT
 ** 方差分析（analysis of variance, ANOVA），F 检验
