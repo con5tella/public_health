@@ -557,9 +557,10 @@ u 检验，相应的检验统计量为 Z。
 ***** D 检验（D' Agostino）
 - 50<n≤1000 时使用
 ***** 矩法，动差法
-- 分布不对称的程度和方向，用偏度系数（coefficient of skewness）衡量。
 ****** 偏度系数 SKEW
+- 分布不对称的程度和方向，用偏度系数（coefficient of skewness）衡量。
 ****** 峰度系数 KURT
+- 分布与正态曲线相比的尖削程度或平阔程度，用峰度系数（coefficient of kurtosis）衡量。
 ** 方差分析（analysis of variance, ANOVA），F 检验
 *** 方差分析的基本思想
 - t 检验方法只能判断两个处理组之间有无差别，对三个或以上处理组进行分析比较时多采用方差分析的方法。
