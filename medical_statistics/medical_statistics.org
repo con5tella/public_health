@@ -797,3 +797,8 @@ u 检验，相应的检验统计量为 Z。
 **** 对于线性回归模型通常采用最小二乘法来估计回归系数，并作进一步推断
 **** 建立回归方差后，须对回归系数β进行假设检验
 **** 直线回归的适用范围应以自变量取值范围为限
+#+begin_src latex
+  \begin{equation}
+  \Pr(X_t=j|X_{t-1}=i) = \frac{j(j-1)}{2}\Big(\frac{i}{N}\Big)^j\Big(\frac{N-i}{N}\Big)^{n-j}
+  \end{equation}
+#+end_src
