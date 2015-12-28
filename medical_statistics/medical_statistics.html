@@ -3,10 +3,10 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2015-12-25 五 00:02 -->
+<!-- 2015-12-28 一 11:29 -->
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="viewport" content="width=device-width, initial-scale=1" />
-<title>Medical Statistics</title>
+<title>卫生统计学 Medical Statistics</title>
 <meta  name="generator" content="Org-mode" />
 <meta  name="author" content="Yuanchen Xie &lt;yuanchen.gm@gmail.com&gt;" />
 <style type="text/css">
@@ -143,108 +143,365 @@ for the JavaScript code in this tag.
 </head>
 <body>
 <div id="content">
-<h1 class="title">Medical Statistics</h1>
+<h1 class="title">卫生统计学 Medical Statistics</h1>
 <div id="table-of-contents">
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orgheadline438">1. 卫生统计学</a>
+<li><a href="#orgheadline28">1. 绪论</a>
 <ul>
-<li><a href="#orgheadline28">1.1. 绪论</a>
+<li><a href="#orgheadline14">1.1. 统计学的若干概念</a>
 <ul>
-<li><a href="#orgheadline14">1.1.1. 统计学的若干概念</a></li>
-<li><a href="#orgheadline27">1.1.2. 医学统计工作的基本步骤</a></li>
+<li><a href="#orgheadline1">1.1.1. 总体与样本</a></li>
+<li><a href="#orgheadline2">1.1.2. 同质与变异</a></li>
+<li><a href="#orgheadline10">1.1.3. 变量的类型</a></li>
+<li><a href="#orgheadline11">1.1.4. 参数与统计量</a></li>
+<li><a href="#orgheadline12">1.1.5. 设计与分析</a></li>
+<li><a href="#orgheadline13">1.1.6. 因果与联系</a></li>
 </ul>
 </li>
-<li><a href="#orgheadline61">1.2. 定量资料的统计描述</a>
+<li><a href="#orgheadline27">1.2. 医学统计工作的基本步骤</a>
 <ul>
-<li><a href="#orgheadline40">1.2.1. 频率分布表（frequency distribution table）与频率分布图</a></li>
-<li><a href="#orgheadline51">1.2.2. 描述集中趋势的统计指标</a></li>
-<li><a href="#orgheadline57">1.2.3. 描述离散趋势的统计指标</a></li>
-<li><a href="#orgheadline60">1.2.4. 描述分布形态的统计指标</a></li>
+<li><a href="#orgheadline17">1.2.1. 统计设计（design）</a></li>
+<li><a href="#orgheadline18">1.2.2. 收集资料（data collection）</a></li>
+<li><a href="#orgheadline19">1.2.3. 整理资料（data sorting / data processing）</a></li>
+<li><a href="#orgheadline26">1.2.4. 分析资料（data analysis），统计分析（statistical analysis）</a></li>
 </ul>
 </li>
-<li><a href="#orgheadline151">1.3. 定性资料的统计描述</a>
-<ul>
-<li><a href="#orgheadline74">1.3.1. 三类相对数</a></li>
-<li><a href="#orgheadline108">1.3.2. 医学人口统计常用指标</a></li>
-<li><a href="#orgheadline117">1.3.3. 疾病统计（morbidity statistics）常用指标</a></li>
-<li><a href="#orgheadline139">1.3.4. 粗率的标准化法</a></li>
-<li><a href="#orgheadline150">1.3.5. 动态数列及其指标</a></li>
 </ul>
 </li>
-<li><a href="#orgheadline182">1.4. 统计表与统计图</a>
+<li><a href="#orgheadline61">2. 定量资料的统计描述</a>
 <ul>
-<li><a href="#orgheadline165">1.4.1. 统计表（statistical table）</a></li>
-<li><a href="#orgheadline181">1.4.2. 统计图（statistical chart）</a></li>
+<li><a href="#orgheadline40">2.1. 频率分布表（frequency distribution table）与频率分布图</a>
+<ul>
+<li><a href="#orgheadline29">2.1.1. 离散型定量变量的频率分布</a></li>
+<li><a href="#orgheadline34">2.1.2. 连续型定量变量的频率分布</a></li>
+<li><a href="#orgheadline39">2.1.3. 频率分布表（图）的用途</a></li>
 </ul>
 </li>
-<li><a href="#orgheadline228">1.5. 常用概率分布</a>
+<li><a href="#orgheadline51">2.2. 描述集中趋势的统计指标</a>
 <ul>
-<li><a href="#orgheadline189">1.5.1. 二项分布（binomial distribution）</a></li>
-<li><a href="#orgheadline196">1.5.2. Poisson 分布（Poisson distribution）</a></li>
-<li><a href="#orgheadline227">1.5.3. 正态分布（normal distribution）</a></li>
+<li><a href="#orgheadline43">2.2.1. 算数均数（arithmetic mean）</a></li>
+<li><a href="#orgheadline46">2.2.2. 几何均数（geometric mean, G）</a></li>
+<li><a href="#orgheadline49">2.2.3. 中位数（median, M）</a></li>
+<li><a href="#orgheadline50">2.2.4. 百分位数（percentile, P<sub>x</sub>）</a></li>
 </ul>
 </li>
-<li><a href="#orgheadline255">1.6. 参数估计（estimation of parameter）基础</a>
+<li><a href="#orgheadline57">2.3. 描述离散趋势的统计指标</a>
 <ul>
-<li><a href="#orgheadline238">1.6.1. 抽样分布与抽样误差</a></li>
-<li><a href="#orgheadline243">1.6.2. t 分布</a></li>
-<li><a href="#orgheadline254">1.6.3. 总体均数及总体概率的估计</a></li>
+<li><a href="#orgheadline52">2.3.1. 极差（range, R）</a></li>
+<li><a href="#orgheadline53">2.3.2. 四分位数间距（quartile range, Q）</a></li>
+<li><a href="#orgheadline54">2.3.3. 方差（variance），均方差（mean square deviation）</a></li>
+<li><a href="#orgheadline55">2.3.4. 标准差（standard deviation）</a></li>
+<li><a href="#orgheadline56">2.3.5. 变异系数（coefficient of variation, CV）</a></li>
 </ul>
 </li>
-<li><a href="#orgheadline324">1.7. 假设检验基础</a>
+<li><a href="#orgheadline60">2.4. 描述分布形态的统计指标</a>
 <ul>
-<li><a href="#orgheadline265">1.7.1. 假设检验的概念与原理</a></li>
-<li><a href="#orgheadline272">1.7.2. Z 检验                                                          :Z 检验:</a></li>
-<li><a href="#orgheadline288">1.7.3. t 检验</a></li>
-<li><a href="#orgheadline291">1.7.4. Poisson 分布资料的 Z 检验</a></li>
-<li><a href="#orgheadline295">1.7.5. 假设检验与区间估计的关系</a></li>
-<li><a href="#orgheadline302">1.7.6. 假设检验的统计意义与实际意义</a></li>
-<li><a href="#orgheadline313">1.7.7. 假设检验的功效</a></li>
-<li><a href="#orgheadline323">1.7.8. 正态性检验</a></li>
+<li><a href="#orgheadline58">2.4.1. 偏度系数（coefficient of skewness, SKEW）</a></li>
+<li><a href="#orgheadline59">2.4.2. 峰度系数（coefficient of kurtosis, KURT）</a></li>
 </ul>
 </li>
-<li><a href="#orgheadline352">1.8. 方差分析（analysis of variance, ANOVA），F 检验</a>
-<ul>
-<li><a href="#orgheadline328">1.8.1. 方差分析的基本思想</a></li>
-<li><a href="#orgheadline329">1.8.2. 完全随机设计（completely randomized design）资料的方差分析</a></li>
-<li><a href="#orgheadline332">1.8.3. 随机区组设计（randomized block design）资料的方差分析</a></li>
-<li><a href="#orgheadline333">1.8.4. 析因设计（factorial design）资料的方差分析</a></li>
-<li><a href="#orgheadline334">1.8.5. 重复测量资料（repeated measurement data）的方差分析</a></li>
-<li><a href="#orgheadline338">1.8.6. 多个样本均数的两两比较</a></li>
-<li><a href="#orgheadline351">1.8.7. 方差分析的前提条件和数据变换</a></li>
 </ul>
 </li>
-<li><a href="#orgheadline378">1.9. χ<sup>2</sup> 检验</a>
+<li><a href="#orgheadline151">3. 定性资料的统计描述</a>
 <ul>
-<li><a href="#orgheadline355">1.9.1. χ<sup>2</sup> 分布和拟合优度检验</a></li>
-<li><a href="#orgheadline364">1.9.2. 独立样本 2×2 列联表（contingency table）资料的χ<sup>2</sup> 检验，四格表χ<sup>2</sup> 检验</a></li>
-<li><a href="#orgheadline377">1.9.3. 独立样本 R×C 列联表资料的χ<sup>2</sup> 检验</a></li>
+<li><a href="#orgheadline74">3.1. 三类相对数</a>
+<ul>
+<li><a href="#orgheadline64">3.1.1. 频率与频率分布</a></li>
+<li><a href="#orgheadline65">3.1.2. 强度（intensity）</a></li>
+<li><a href="#orgheadline66">3.1.3. 相对比（ratio）</a></li>
+<li><a href="#orgheadline73">3.1.4. 应用相对数时的注意事项</a></li>
 </ul>
 </li>
-<li><a href="#orgheadline390">1.10. 基于秩次的非参数检验</a>
+<li><a href="#orgheadline108">3.2. 医学人口统计常用指标</a>
 <ul>
-<li><a href="#orgheadline381">1.10.1. 单样本和配对设计资料的符号秩和检验（Wilcoxon singned-rank test）</a></li>
-<li><a href="#orgheadline384">1.10.2. 两组独立样本比较的秩和检验（Wilcoxon rank test for two independent samples）</a></li>
-<li><a href="#orgheadline388">1.10.3. 多组独立样本比较的秩和检验（Kruskal-Wallis test for independent samples）</a></li>
-<li><a href="#orgheadline389">1.10.4. 随机化区组设计资料的秩和检验，Friedman 秩和检验（Friedman's test）</a></li>
+<li><a href="#orgheadline78">3.2.1. 医学人口统计资料的来源</a></li>
+<li><a href="#orgheadline83">3.2.2. 描述人口学特征的常用指标</a></li>
+<li><a href="#orgheadline107">3.2.3. 生育和人口死亡的常用指标</a></li>
 </ul>
 </li>
-<li><a href="#orgheadline404">1.11. 两变量关联性分析</a>
+<li><a href="#orgheadline117">3.3. 疾病统计（morbidity statistics）常用指标</a>
 <ul>
-<li><a href="#orgheadline396">1.11.1. 线性相关（linear correlation）</a></li>
-<li><a href="#orgheadline399">1.11.2. 秩相关</a></li>
-<li><a href="#orgheadline403">1.11.3. 分类变量的关联性分析</a></li>
+<li><a href="#orgheadline109">3.3.1. 疾病和死因分类</a></li>
+<li><a href="#orgheadline116">3.3.2. 疾病统计指标</a></li>
 </ul>
 </li>
-<li><a href="#orgheadline437">1.12. 简单回归分析</a>
+<li><a href="#orgheadline139">3.4. 粗率的标准化法</a>
 <ul>
-<li><a href="#orgheadline419">1.12.1. 线性回归</a></li>
-<li><a href="#orgheadline424">1.12.2. 线性回归的应用</a></li>
-<li><a href="#orgheadline425">1.12.3. 残差分析（residual analysis）</a></li>
-<li><a href="#orgheadline429">1.12.4. 非线性回归（non-linear regression）</a></li>
-<li><a href="#orgheadline436">1.12.5. 注意事项</a></li>
+<li><a href="#orgheadline121">3.4.1. 标准化法的意义和基本思想</a></li>
+<li><a href="#orgheadline133">3.4.2. 标准化率的计算</a></li>
+<li><a href="#orgheadline138">3.4.3. 应用标准化法的注意事项</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline150">3.5. 动态数列及其指标</a>
+<ul>
+<li><a href="#orgheadline140">3.5.1. 动态数列（dynamic series）</a></li>
+<li><a href="#orgheadline143">3.5.2. 绝对增长量</a></li>
+<li><a href="#orgheadline146">3.5.3. 发展速度与增长速度</a></li>
+<li><a href="#orgheadline149">3.5.4. 平均发展速度和平均增长速度</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgheadline182">4. 统计表与统计图</a>
+<ul>
+<li><a href="#orgheadline165">4.1. 统计表（statistical table）</a>
+<ul>
+<li><a href="#orgheadline157">4.1.1. 结构</a></li>
+<li><a href="#orgheadline160">4.1.2. 种类</a></li>
+<li><a href="#orgheadline164">4.1.3. 编制注意事项</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline181">4.2. 统计图（statistical chart）</a>
+<ul>
+<li><a href="#orgheadline170">4.2.1. 基本要求</a></li>
+<li><a href="#orgheadline180">4.2.2. 常用绘制方法及注意事项</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgheadline228">5. 常用概率分布</a>
+<ul>
+<li><a href="#orgheadline189">5.1. 二项分布（binomial distribution）</a>
+<ul>
+<li><a href="#orgheadline185">5.1.1. 特征</a></li>
+<li><a href="#orgheadline188">5.1.2. 二项分布的应用</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline196">5.2. Poisson 分布（Poisson distribution）</a>
+<ul>
+<li><a href="#orgheadline192">5.2.1. 特征</a></li>
+<li><a href="#orgheadline195">5.2.2. 应用</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline227">5.3. 正态分布（normal distribution）</a>
+<ul>
+<li><a href="#orgheadline202">5.3.1. 特点</a></li>
+<li><a href="#orgheadline206">5.3.2. 正态概率密度曲线下的面积</a></li>
+<li><a href="#orgheadline226">5.3.3. 正态分布的应用</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgheadline255">6. 参数估计（estimation of parameter）基础</a>
+<ul>
+<li><a href="#orgheadline238">6.1. 抽样分布与抽样误差</a>
+<ul>
+<li><a href="#orgheadline236">6.1.1. 样本均数的抽样分布与抽样误差</a></li>
+<li><a href="#orgheadline237">6.1.2. 样本频率的抽样分布与抽样误差</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline243">6.2. t 分布</a>
+<ul>
+<li><a href="#orgheadline242">6.2.1. 图形与特征</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline254">6.3. 总体均数及总体概率的估计</a>
+<ul>
+<li><a href="#orgheadline246">6.3.1. 参数估计的基础理论</a></li>
+<li><a href="#orgheadline253">6.3.2. 总体均数及总体概率的区间估计</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgheadline324">7. 假设检验基础</a>
+<ul>
+<li><a href="#orgheadline265">7.1. 假设检验的概念与原理</a>
+<ul>
+<li><a href="#orgheadline258">7.1.1. 思维逻辑</a></li>
+<li><a href="#orgheadline264">7.1.2. 基本步骤</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline272">7.2. Z 检验                                                          :Z 检验:</a>
+<ul>
+<li><a href="#orgheadline268">7.2.1. 大样本均数比较的 Z 检验</a></li>
+<li><a href="#orgheadline271">7.2.2. 大样本率的 Z 检验</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline288">7.3. t 检验</a>
+<ul>
+<li><a href="#orgheadline273">7.3.1. 单样本资料的 t 检验（one sample/group t-test）</a></li>
+<li><a href="#orgheadline276">7.3.2. 配对设计（paired design）资料的 t 检验</a></li>
+<li><a href="#orgheadline279">7.3.3. 两对立样本资料的 t 检验（paired/matched t-test）</a></li>
+<li><a href="#orgheadline280">7.3.4. 两独立样本资料的方差齐性检验</a></li>
+<li><a href="#orgheadline284">7.3.5. 两总体方差不等时的均数比较的 t' 检验，近似 t 检验（separate variance estimation t-test）</a></li>
+<li><a href="#orgheadline287">7.3.6. 大样本资料的 Z 检验                                           :Z 检验:</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline291">7.4. Poisson 分布资料的 Z 检验</a>
+<ul>
+<li><a href="#orgheadline289">7.4.1. 单样本资料的 Z 检验</a></li>
+<li><a href="#orgheadline290">7.4.2. 两独立样本资料的 Z 检验</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline295">7.5. 假设检验与区间估计的关系</a>
+<ul>
+<li><a href="#orgheadline292">7.5.1. 置信区间具有假设检验的主要功能</a></li>
+<li><a href="#orgheadline293">7.5.2. 置信区间可提供假设检验没有提供的信息</a></li>
+<li><a href="#orgheadline294">7.5.3. 假设检验比置信区间多提供的信息</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline302">7.6. 假设检验的统计意义与实际意义</a>
+<ul>
+<li><a href="#orgheadline300">7.6.1. 假设检验的统计意义</a></li>
+<li><a href="#orgheadline301">7.6.2. 假设检验的实际意义</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline313">7.7. 假设检验的功效</a>
+<ul>
+<li><a href="#orgheadline305">7.7.1. 假设检验的两类错误</a></li>
+<li><a href="#orgheadline308">7.7.2. 假设检验的功效</a></li>
+<li><a href="#orgheadline312">7.7.3. 应用假设检验需要注意的问题</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline323">7.8. 正态性检验</a>
+<ul>
+<li><a href="#orgheadline316">7.8.1. 图示法</a></li>
+<li><a href="#orgheadline322">7.8.2. 统计检验法</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgheadline352">8. 方差分析（analysis of variance, ANOVA），F 检验</a>
+<ul>
+<li><a href="#orgheadline328">8.1. 方差分析的基本思想</a>
+<ul>
+<li><a href="#orgheadline325">8.1.1. 总变异（total variation）</a></li>
+<li><a href="#orgheadline326">8.1.2. 组间变异（variation between groups）</a></li>
+<li><a href="#orgheadline327">8.1.3. 组内变异（variation within groups）</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline329">8.2. 完全随机设计（completely randomized design）资料的方差分析</a></li>
+<li><a href="#orgheadline332">8.3. 随机区组设计（randomized block design）资料的方差分析</a>
+<ul>
+<li><a href="#orgheadline330">8.3.1. 离均差平方和与自由度的分解</a></li>
+<li><a href="#orgheadline331">8.3.2. 随机区组设计资料方差分析的基本步骤</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline333">8.4. 析因设计（factorial design）资料的方差分析</a></li>
+<li><a href="#orgheadline334">8.5. 重复测量资料（repeated measurement data）的方差分析</a></li>
+<li><a href="#orgheadline338">8.6. 多个样本均数的两两比较</a>
+<ul>
+<li><a href="#orgheadline335">8.6.1. SNK 法，q 检验</a></li>
+<li><a href="#orgheadline336">8.6.2. Dunnett 法，Dunnett-t 检验</a></li>
+<li><a href="#orgheadline337">8.6.3. Bonferroni 法</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline351">8.7. 方差分析的前提条件和数据变换</a>
+<ul>
+<li><a href="#orgheadline341">8.7.1. 方差分析的前提条件</a></li>
+<li><a href="#orgheadline345">8.7.2. 方差齐性检验</a></li>
+<li><a href="#orgheadline346">8.7.3. 考察前提条件的残差图（residual plot）法</a></li>
+<li><a href="#orgheadline350">8.7.4. 数据变换（data transformations）</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgheadline378">9. χ<sup>2</sup> 检验</a>
+<ul>
+<li><a href="#orgheadline355">9.1. χ<sup>2</sup> 分布和拟合优度检验</a>
+<ul>
+<li><a href="#orgheadline353">9.1.1. χ<sup>2</sup> 分布</a></li>
+<li><a href="#orgheadline354">9.1.2. 拟合优度检验</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline364">9.2. 独立样本 2×2 列联表（contingency table）资料的χ<sup>2</sup> 检验，四格表χ<sup>2</sup> 检验</a>
+<ul>
+<li><a href="#orgheadline359">9.2.1. 列联表χ<sup>2</sup> 检验的公式</a></li>
+<li><a href="#orgheadline363">9.2.2. 2×2 列联表χ<sup>2</sup> 检验注意事项</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline377">9.3. 独立样本 R×C 列联表资料的χ<sup>2</sup> 检验</a>
+<ul>
+<li><a href="#orgheadline365">9.3.1. 多个独立样本率的比较</a></li>
+<li><a href="#orgheadline366">9.3.2. 多个独立样本频率分布的比较</a></li>
+<li><a href="#orgheadline367">9.3.3. R×C 列联表的分割</a></li>
+<li><a href="#orgheadline371">9.3.4. R×C 列联表χ<sup>2</sup> 检验注意事项</a></li>
+<li><a href="#orgheadline374">9.3.5. 配对设计资料的χ<sup>2</sup> 检验</a></li>
+<li><a href="#orgheadline376">9.3.6. 2×2 列联表的确切概率法（Fisher's exact probability）</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgheadline390">10. 基于秩次的非参数检验</a>
+<ul>
+<li><a href="#orgheadline381">10.1. 单样本和配对设计资料的符号秩和检验（Wilcoxon singned-rank test）</a>
+<ul>
+<li><a href="#orgheadline379">10.1.1. 单样本资料的符号秩和检验</a></li>
+<li><a href="#orgheadline380">10.1.2. 配对设计资料的符号秩和检验</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline384">10.2. 两组独立样本比较的秩和检验（Wilcoxon rank test for two independent samples）</a>
+<ul>
+<li><a href="#orgheadline382">10.2.1. 定量变量两组独立样本的秩和检验</a></li>
+<li><a href="#orgheadline383">10.2.2. 有序分类变量两组独立样本的秩和检验</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline388">10.3. 多组独立样本比较的秩和检验（Kruskal-Wallis test for independent samples）</a>
+<ul>
+<li><a href="#orgheadline385">10.3.1. 定量变量多组独立样本的秩和检验</a></li>
+<li><a href="#orgheadline386">10.3.2. 有序变量多组独立样本的秩和检验</a></li>
+<li><a href="#orgheadline387">10.3.3. 多个独立样本间的多重比较</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline389">10.4. 随机化区组设计资料的秩和检验，Friedman 秩和检验（Friedman's test）</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline404">11. 两变量关联性分析</a>
+<ul>
+<li><a href="#orgheadline396">11.1. 线性相关（linear correlation）</a>
+<ul>
+<li><a href="#orgheadline391">11.1.1. 线性相关的概念及其统计描述</a></li>
+<li><a href="#orgheadline392">11.1.2. 相关系数的意义及计算</a></li>
+<li><a href="#orgheadline395">11.1.3. 相关系数的统计推断</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline399">11.2. 秩相关</a>
+<ul>
+<li><a href="#orgheadline397">11.2.1. 秩相关的概念及其统计描述</a></li>
+<li><a href="#orgheadline398">11.2.2. 秩相关系数的统计推断</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline403">11.3. 分类变量的关联性分析</a>
+<ul>
+<li><a href="#orgheadline400">11.3.1. 交叉分类 2×2 表的关联分析</a></li>
+<li><a href="#orgheadline401">11.3.2. 2×2 配对资料的关联性分析</a></li>
+<li><a href="#orgheadline402">11.3.3. R×C 表分类资料的关联性分析</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgheadline437">12. 简单回归分析</a>
+<ul>
+<li><a href="#orgheadline419">12.1. 线性回归</a>
+<ul>
+<li><a href="#orgheadline405">12.1.1. 概念及统计描述</a></li>
+<li><a href="#orgheadline410">12.1.2. 线性回归模型的适用条件</a></li>
+<li><a href="#orgheadline413">12.1.3. 回归参数的估计</a></li>
+<li><a href="#orgheadline418">12.1.4. 总体回归系数β的统计推断</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline424">12.2. 线性回归的应用</a>
+<ul>
+<li><a href="#orgheadline422">12.2.1. 统计预测（prediction）</a></li>
+<li><a href="#orgheadline423">12.2.2. 统计控制（statistical control）</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline425">12.3. 残差分析（residual analysis）</a></li>
+<li><a href="#orgheadline429">12.4. 非线性回归（non-linear regression）</a>
+<ul>
+<li><a href="#orgheadline428">12.4.1. 基本策略</a></li>
+</ul>
+</li>
+<li><a href="#orgheadline436">12.5. 注意事项</a>
+<ul>
+<li><a href="#orgheadline430">12.5.1. 要有实际意义，不能把毫无关联的两种现象随意进行回归分析，忽视事物现象间的内在联系和规律</a></li>
+<li><a href="#orgheadline431">12.5.2. 进行回归分析时应先绘制散点图（scatter plot）</a></li>
+<li><a href="#orgheadline432">12.5.3. 直线回归分析用于刻画应变量 Y 对自变量 X 在数值上的依存关系，应变量根据专业上的要求而定，把易于精确测量的变量作为 X</a></li>
+<li><a href="#orgheadline433">12.5.4. 对于线性回归模型通常采用最小二乘法来估计回归系数，并作进一步推断</a></li>
+<li><a href="#orgheadline434">12.5.5. 建立回归方差后，须对回归系数β进行假设检验</a></li>
+<li><a href="#orgheadline435">12.5.6. 直线回归的适用范围应以自变量取值范围为限</a></li>
 </ul>
 </li>
 </ul>
@@ -252,31 +509,36 @@ for the JavaScript code in this tag.
 </ul>
 </div>
 </div>
-<div id="outline-container-orgheadline438" class="outline-2">
-<h2 id="orgheadline438"><span class="section-number-2">1</span> 卫生统计学</h2>
+<div id="outline-container-orgheadline28" class="outline-2">
+<h2 id="orgheadline28"><span class="section-number-2">1</span> 绪论</h2>
 <div class="outline-text-2" id="text-1">
-</div><div id="outline-container-orgheadline28" class="outline-3">
-<h3 id="orgheadline28"><span class="section-number-3">1.1</span> 绪论</h3>
+</div><div id="outline-container-orgheadline14" class="outline-3">
+<h3 id="orgheadline14"><span class="section-number-3">1.1</span> 统计学的若干概念</h3>
 <div class="outline-text-3" id="text-1-1">
-</div><div id="outline-container-orgheadline14" class="outline-4">
-<h4 id="orgheadline14"><span class="section-number-4">1.1.1</span> 统计学的若干概念</h4>
+</div><div id="outline-container-orgheadline1" class="outline-4">
+<h4 id="orgheadline1"><span class="section-number-4">1.1.1</span> 总体与样本</h4>
 <div class="outline-text-4" id="text-1-1-1">
-</div><ol class="org-ol"><li><a id="orgheadline1"></a>总体与样本<br  /><div class="outline-text-5" id="text-1-1-1-1">
 <ul class="org-ul">
 <li>总体（population）</li>
 <li>个体（indiviual）</li>
 <li>样本（sample）</li>
 </ul>
-</div></li>
-<li><a id="orgheadline2"></a>同质与变异<br  /><div class="outline-text-5" id="text-1-1-1-2">
+</div>
+</div>
+<div id="outline-container-orgheadline2" class="outline-4">
+<h4 id="orgheadline2"><span class="section-number-4">1.1.2</span> 同质与变异</h4>
+<div class="outline-text-4" id="text-1-1-2">
 <ul class="org-ul">
 <li>同质性（homogeneity）</li>
 <li>变异（variation）</li>
 <li>没有同质性就构不成一个总体供人们研究，总体内没有变异性就无需统计学。</li>
 <li>异质性（heterogeneity）</li>
 </ul>
-</div></li>
-<li><a id="orgheadline10"></a>变量的类型<br  /><div class="outline-text-5" id="text-1-1-1-3">
+</div>
+</div>
+<div id="outline-container-orgheadline10" class="outline-4">
+<h4 id="orgheadline10"><span class="section-number-4">1.1.3</span> 变量的类型</h4>
+<div class="outline-text-4" id="text-1-1-3">
 <ul class="org-ul">
 <li>变量（variable）</li>
 </ul>
@@ -284,13 +546,16 @@ for the JavaScript code in this tag.
 <ol class="org-ol"><li><a id="orgheadline6"></a>定性（qualitative）<br  /><ol class="org-ol"><li><a id="orgheadline3"></a>分类变量（categorical variable），名义变量（nominative variable）<br  /></li>
 <li><a id="orgheadline4"></a>二分类变量（binary variable）<br  /></li>
 <li><a id="orgheadline5"></a>有序变量（ordinal variable），等级变量<br  /></li></ol></li>
-<li><a id="orgheadline9"></a>定量（quantitative）<br  /><ol class="org-ol"><li><a id="orgheadline7"></a>离散型变量（discrete variable）<br  /><div class="outline-text-7" id="text-1-1-1-3-2-1">
+<li><a id="orgheadline9"></a>定量（quantitative）<br  /><ol class="org-ol"><li><a id="orgheadline7"></a>离散型变量（discrete variable）<br  /><div class="outline-text-6" id="text-1-1-3-2-1">
 <ul class="org-ul">
 <li>只能取整数值。</li>
 </ul>
 </div></li>
-<li><a id="orgheadline8"></a>连续型变量（continuous variable）<br  /></li></ol></li></ol></li>
-<li><a id="orgheadline11"></a>参数与统计量<br  /><div class="outline-text-5" id="text-1-1-1-4">
+<li><a id="orgheadline8"></a>连续型变量（continuous variable）<br  /></li></ol></li></ol>
+</div>
+<div id="outline-container-orgheadline11" class="outline-4">
+<h4 id="orgheadline11"><span class="section-number-4">1.1.4</span> 参数与统计量</h4>
+<div class="outline-text-4" id="text-1-1-4">
 <ul class="org-ul">
 <li>正态分布（normal distribution）</li>
 <li>二项分布（binomial distribution）</li>
@@ -298,203 +563,287 @@ for the JavaScript code in this tag.
 <li>参数（parameter）</li>
 <li>统计量（statistic）</li>
 </ul>
-</div></li>
-<li><a id="orgheadline12"></a>设计与分析<br  /></li>
-<li><a id="orgheadline13"></a>因果与联系<br  /></li></ol>
 </div>
-<div id="outline-container-orgheadline27" class="outline-4">
-<h4 id="orgheadline27"><span class="section-number-4">1.1.2</span> 医学统计工作的基本步骤</h4>
-<div class="outline-text-4" id="text-1-1-2">
-</div><ol class="org-ol"><li><a id="orgheadline17"></a>统计设计（design）<br  /><div class="outline-text-5" id="text-1-1-2-1">
+</div>
+<div id="outline-container-orgheadline12" class="outline-4">
+<h4 id="orgheadline12"><span class="section-number-4">1.1.5</span> 设计与分析</h4>
+</div>
+<div id="outline-container-orgheadline13" class="outline-4">
+<h4 id="orgheadline13"><span class="section-number-4">1.1.6</span> 因果与联系</h4>
+</div>
+</div>
+<div id="outline-container-orgheadline27" class="outline-3">
+<h3 id="orgheadline27"><span class="section-number-3">1.2</span> 医学统计工作的基本步骤</h3>
+<div class="outline-text-3" id="text-1-2">
+</div><div id="outline-container-orgheadline17" class="outline-4">
+<h4 id="orgheadline17"><span class="section-number-4">1.2.1</span> 统计设计（design）</h4>
+<div class="outline-text-4" id="text-1-2-1">
 <ul class="org-ul">
 <li>课题研究的方案。</li>
 </ul>
 </div>
 <ol class="org-ol"><li><a id="orgheadline15"></a>专业设计<br  /></li>
-<li><a id="orgheadline16"></a>统计设计<br  /></li></ol></li>
-<li><a id="orgheadline18"></a>收集资料（data collection）<br  /><div class="outline-text-5" id="text-1-1-2-2">
+<li><a id="orgheadline16"></a>统计设计<br  /></li></ol>
+</div>
+<div id="outline-container-orgheadline18" class="outline-4">
+<h4 id="orgheadline18"><span class="section-number-4">1.2.2</span> 收集资料（data collection）</h4>
+<div class="outline-text-4" id="text-1-2-2">
 <ul class="org-ul">
 <li>通过合理可靠的手段与渠道获得研究所需的原始数据。</li>
 </ul>
-</div></li>
-<li><a id="orgheadline19"></a>整理资料（data sorting / data processing）<br  /><div class="outline-text-5" id="text-1-1-2-3">
+</div>
+</div>
+<div id="outline-container-orgheadline19" class="outline-4">
+<h4 id="orgheadline19"><span class="section-number-4">1.2.3</span> 整理资料（data sorting / data processing）</h4>
+<div class="outline-text-4" id="text-1-2-3">
 <ul class="org-ul">
 <li>对收集到的原始资料去伪存真、归类整理汇总的过程。</li>
 </ul>
-</div></li>
-<li><a id="orgheadline26"></a>分析资料（data analysis），统计分析（statistical analysis）<br  /><ol class="org-ol"><li><a id="orgheadline20"></a>统计描述（statistical description）<br  /><div class="outline-text-6" id="text-1-1-2-4-1">
+</div>
+</div>
+<div id="outline-container-orgheadline26" class="outline-4">
+<h4 id="orgheadline26"><span class="section-number-4">1.2.4</span> 分析资料（data analysis），统计分析（statistical analysis）</h4>
+<div class="outline-text-4" id="text-1-2-4">
+</div><ol class="org-ol"><li><a id="orgheadline20"></a>统计描述（statistical description）<br  /><div class="outline-text-5" id="text-1-2-4-1">
 <ul class="org-ul">
 <li>用恰当的样本统计量、统计表与统计图等描述与刻画资料的数量特征及其分布规律。</li>
 </ul>
 </div></li>
-<li><a id="orgheadline25"></a>统计推断（statistical inference）<br  /><ol class="org-ol"><li><a id="orgheadline23"></a>参数估计（parameter estimation）<br  /><div class="outline-text-7" id="text-1-1-2-4-2-1">
+<li><a id="orgheadline25"></a>统计推断（statistical inference）<br  /><ol class="org-ol"><li><a id="orgheadline23"></a>参数估计（parameter estimation）<br  /><div class="outline-text-6" id="text-1-2-4-2-1">
 <ul class="org-ul">
 <li>用样本指标值（统计量）估计总体指标值（参数）。</li>
 </ul>
 </div>
-<ol class="org-ol"><li><a id="orgheadline21"></a>点（值）估计（point estimation）<br  /><div class="outline-text-8" id="text-1-1-2-4-2-1-1">
+<ol class="org-ol"><li><a id="orgheadline21"></a>点（值）估计（point estimation）<br  /><div class="outline-text-7" id="text-1-2-4-2-1-1">
 <ul class="org-ul">
 <li>用相应样本统计量直接作为其总体参数的估计值。</li>
 </ul>
 </div></li>
-<li><a id="orgheadline22"></a>区间估计（interval estimation）<br  /><div class="outline-text-8" id="text-1-1-2-4-2-1-2">
+<li><a id="orgheadline22"></a>区间估计（interval estimation）<br  /><div class="outline-text-7" id="text-1-2-4-2-1-2">
 <ul class="org-ul">
 <li>按预先给定的概率（1-α）所确定的包含未知总体参数的一个范围。</li>
 </ul>
 </div></li></ol></li>
-<li><a id="orgheadline24"></a>假设检验（hypothesis testing），显著性检验（significance test）<br  /><div class="outline-text-7" id="text-1-1-2-4-2-2">
+<li><a id="orgheadline24"></a>假设检验（hypothesis testing），显著性检验（significance test）<br  /><div class="outline-text-6" id="text-1-2-4-2-2">
 <ul class="org-ul">
 <li>用样本统计量对总体参数或分布的特定假设进行检验，进而对该假设的成立与否作出推断。</li>
 </ul>
-</div></li></ol></li></ol></li></ol>
+</div></li></ol></li></ol>
 </div>
 </div>
-<div id="outline-container-orgheadline61" class="outline-3">
-<h3 id="orgheadline61"><span class="section-number-3">1.2</span> 定量资料的统计描述</h3>
-<div class="outline-text-3" id="text-1-2">
-</div><div id="outline-container-orgheadline40" class="outline-4">
-<h4 id="orgheadline40"><span class="section-number-4">1.2.1</span> 频率分布表（frequency distribution table）与频率分布图</h4>
-<div class="outline-text-4" id="text-1-2-1">
-</div><ol class="org-ol"><li><a id="orgheadline29"></a>离散型定量变量的频率分布<br  /></li>
-<li><a id="orgheadline34"></a>连续型定量变量的频率分布<br  /><ol class="org-ol"><li><a id="orgheadline30"></a>计算极差（range, R），全距，即数据的最大值与最小值之差。<br  /></li>
-<li><a id="orgheadline31"></a>确定组段数与组距<br  /><div class="outline-text-6" id="text-1-2-1-2-2">
+</div>
+<div id="outline-container-orgheadline61" class="outline-2">
+<h2 id="orgheadline61"><span class="section-number-2">2</span> 定量资料的统计描述</h2>
+<div class="outline-text-2" id="text-2">
+</div><div id="outline-container-orgheadline40" class="outline-3">
+<h3 id="orgheadline40"><span class="section-number-3">2.1</span> 频率分布表（frequency distribution table）与频率分布图</h3>
+<div class="outline-text-3" id="text-2-1">
+</div><div id="outline-container-orgheadline29" class="outline-4">
+<h4 id="orgheadline29"><span class="section-number-4">2.1.1</span> 离散型定量变量的频率分布</h4>
+</div>
+<div id="outline-container-orgheadline34" class="outline-4">
+<h4 id="orgheadline34"><span class="section-number-4">2.1.2</span> 连续型定量变量的频率分布</h4>
+<div class="outline-text-4" id="text-2-1-2">
+</div><ol class="org-ol"><li><a id="orgheadline30"></a>计算极差（range, R），全距，即数据的最大值与最小值之差。<br  /></li>
+<li><a id="orgheadline31"></a>确定组段数与组距<br  /><div class="outline-text-5" id="text-2-1-2-2">
 <ul class="org-ul">
 <li>组段数一般取 10 左右。等距分组，组距=R/预计的组段数。</li>
 </ul>
 </div></li>
-<li><a id="orgheadline32"></a>确定各组段的上、下限<br  /><div class="outline-text-6" id="text-1-2-1-2-3">
+<li><a id="orgheadline32"></a>确定各组段的上、下限<br  /><div class="outline-text-5" id="text-2-1-2-3">
 <ul class="org-ul">
 <li>除最后一个组段外，其余组段应包含其下限值，不包含其上限值。</li>
 </ul>
 </div></li>
-<li><a id="orgheadline33"></a>列表<br  /></li></ol></li>
-<li><a id="orgheadline39"></a>频率分布表（图）的用途<br  /><ol class="org-ol"><li><a id="orgheadline35"></a>揭示资料的分布类型<br  /></li>
+<li><a id="orgheadline33"></a>列表<br  /></li></ol>
+</div>
+<div id="outline-container-orgheadline39" class="outline-4">
+<h4 id="orgheadline39"><span class="section-number-4">2.1.3</span> 频率分布表（图）的用途</h4>
+<div class="outline-text-4" id="text-2-1-3">
+</div><ol class="org-ol"><li><a id="orgheadline35"></a>揭示资料的分布类型<br  /></li>
 <li><a id="orgheadline36"></a>描述分布的集中趋势和离散趋势<br  /></li>
 <li><a id="orgheadline37"></a>便于发现某些特大和特小的可疑值<br  /></li>
-<li><a id="orgheadline38"></a>便于进一步计算指标和统计分析<br  /></li></ol></li></ol>
+<li><a id="orgheadline38"></a>便于进一步计算指标和统计分析<br  /></li></ol>
 </div>
-<div id="outline-container-orgheadline51" class="outline-4">
-<h4 id="orgheadline51"><span class="section-number-4">1.2.2</span> 描述集中趋势的统计指标</h4>
-<div class="outline-text-4" id="text-1-2-2">
-</div><ol class="org-ol"><li><a id="orgheadline43"></a>算数均数（arithmetic mean）<br  /><div class="outline-text-5" id="text-1-2-2-1">
+</div>
+<div id="outline-container-orgheadline51" class="outline-3">
+<h3 id="orgheadline51"><span class="section-number-3">2.2</span> 描述集中趋势的统计指标</h3>
+<div class="outline-text-3" id="text-2-2">
+</div><div id="outline-container-orgheadline43" class="outline-4">
+<h4 id="orgheadline43"><span class="section-number-4">2.2.1</span> 算数均数（arithmetic mean）</h4>
+<div class="outline-text-4" id="text-2-2-1">
 <ul class="org-ul">
 <li>总体均数用 μ 表示，样本均数用 x̄ 表示。</li>
 </ul>
 </div>
-<ol class="org-ol"><li><a id="orgheadline41"></a>直接法<br  /><div class="outline-text-6" id="text-1-2-2-1-1">
+<ol class="org-ol"><li><a id="orgheadline41"></a>直接法<br  /><div class="outline-text-5" id="text-2-2-1-1">
 <ul class="org-ul">
 <li>直接将所有原始观察值相加，再除以总例数。</li>
 <li>x̄ = (X<sub>1</sub>+X<sub>2</sub>+&#x2026;+X<sub>n</sub>)/n = (Σ<sup>n</sup><sub>i</sub>=1 X<sub>i</sub>)/n</li>
 </ul>
 </div></li>
-<li><a id="orgheadline42"></a>频率表法<br  /><div class="outline-text-6" id="text-1-2-2-1-2">
+<li><a id="orgheadline42"></a>频率表法<br  /><div class="outline-text-5" id="text-2-2-1-2">
 <ul class="org-ul">
 <li>对于样本含量较大的数据集，可以在编制频率表的基础上计算均数的近似值。</li>
 <li>x̄ = (Σf X<sub>0</sub>)/Σf = (Σf X<sub>0</sub>)/n</li>
 </ul>
-</div></li></ol></li>
-<li><a id="orgheadline46"></a>几何均数（geometric mean, G）<br  /><ol class="org-ol"><li><a id="orgheadline44"></a>直接法<br  /><div class="outline-text-6" id="text-1-2-2-2-1">
+</div></li></ol>
+</div>
+<div id="outline-container-orgheadline46" class="outline-4">
+<h4 id="orgheadline46"><span class="section-number-4">2.2.2</span> 几何均数（geometric mean, G）</h4>
+<div class="outline-text-4" id="text-2-2-2">
+</div><ol class="org-ol"><li><a id="orgheadline44"></a>直接法<br  /><div class="outline-text-5" id="text-2-2-2-1">
 <ul class="org-ul">
 <li>对数与反对数的底必须相同。</li>
 </ul>
 </div></li>
-<li><a id="orgheadline45"></a>频率表法<br  /></li></ol></li>
-<li><a id="orgheadline49"></a>中位数（median, M）<br  /><div class="outline-text-5" id="text-1-2-2-3">
+<li><a id="orgheadline45"></a>频率表法<br  /></li></ol>
+</div>
+<div id="outline-container-orgheadline49" class="outline-4">
+<h4 id="orgheadline49"><span class="section-number-4">2.2.3</span> 中位数（median, M）</h4>
+<div class="outline-text-4" id="text-2-2-3">
 <ul class="org-ul">
 <li>将原始观察值从小到大或从大到小排序后，位次居中的那个数。适用于偏峰分布。</li>
 </ul>
 </div>
 <ol class="org-ol"><li><a id="orgheadline47"></a>直接法<br  /></li>
-<li><a id="orgheadline48"></a>频率表法<br  /></li></ol></li>
-<li><a id="orgheadline50"></a>百分位数（percentile, P<sub>x</sub>）<br  /></li></ol>
+<li><a id="orgheadline48"></a>频率表法<br  /></li></ol>
 </div>
-<div id="outline-container-orgheadline57" class="outline-4">
-<h4 id="orgheadline57"><span class="section-number-4">1.2.3</span> 描述离散趋势的统计指标</h4>
-<div class="outline-text-4" id="text-1-2-3">
-</div><ol class="org-ol"><li><a id="orgheadline52"></a>极差（range, R）<br  /><div class="outline-text-5" id="text-1-2-3-1">
+<div id="outline-container-orgheadline50" class="outline-4">
+<h4 id="orgheadline50"><span class="section-number-4">2.2.4</span> 百分位数（percentile, P<sub>x</sub>）</h4>
+</div>
+</div>
+<div id="outline-container-orgheadline57" class="outline-3">
+<h3 id="orgheadline57"><span class="section-number-3">2.3</span> 描述离散趋势的统计指标</h3>
+<div class="outline-text-3" id="text-2-3">
+</div><div id="outline-container-orgheadline52" class="outline-4">
+<h4 id="orgheadline52"><span class="section-number-4">2.3.1</span> 极差（range, R）</h4>
+<div class="outline-text-4" id="text-2-3-1">
 <ul class="org-ul">
 <li>最大值与最小值之差。</li>
 </ul>
-</div></li>
-<li><a id="orgheadline53"></a>四分位数间距（quartile range, Q）<br  /><div class="outline-text-5" id="text-1-2-3-2">
+</div>
+</div>
+<div id="outline-container-orgheadline53" class="outline-4">
+<h4 id="orgheadline53"><span class="section-number-4">2.3.2</span> 四分位数间距（quartile range, Q）</h4>
+<div class="outline-text-4" id="text-2-3-2">
 <ul class="org-ul">
 <li>对于偏峰分布资料，常把中位数和四分位数间距结合起来描述资料的集中趋势和离散趋势。</li>
 </ul>
-</div></li>
-<li><a id="orgheadline54"></a>方差（variance），均方差（mean square deviation）<br  /><div class="outline-text-5" id="text-1-2-3-3">
+</div>
+</div>
+<div id="outline-container-orgheadline54" class="outline-4">
+<h4 id="orgheadline54"><span class="section-number-4">2.3.3</span> 方差（variance），均方差（mean square deviation）</h4>
+<div class="outline-text-4" id="text-2-3-3">
 <ul class="org-ul">
 <li>描述一个变量的所有观察值与总体均数的平均离散程度的指标。</li>
 <li>总体方差：σ<sup>2</sup>，样本方差：S<sup>2</sup>。</li>
 <li>S<sup>2</sup> = (Σ X<sup>2</sup>) - ((ΣX)<sup>2</sup>/n) / n-1</li>
 </ul>
-</div></li>
-<li><a id="orgheadline55"></a>标准差（standard deviation）<br  /><div class="outline-text-5" id="text-1-2-3-4">
+</div>
+</div>
+<div id="outline-container-orgheadline55" class="outline-4">
+<h4 id="orgheadline55"><span class="section-number-4">2.3.4</span> 标准差（standard deviation）</h4>
+<div class="outline-text-4" id="text-2-3-4">
 <ul class="org-ul">
 <li>正态分布或近似正态分布资料，常把均数和标准差结合起来，全面描述资料的集中趋势和离散趋势。</li>
 </ul>
-</div></li>
-<li><a id="orgheadline56"></a>变异系数（coefficient of variation, CV）<br  /><div class="outline-text-5" id="text-1-2-3-5">
+</div>
+</div>
+<div id="outline-container-orgheadline56" class="outline-4">
+<h4 id="orgheadline56"><span class="section-number-4">2.3.5</span> 变异系数（coefficient of variation, CV）</h4>
+<div class="outline-text-4" id="text-2-3-5">
 <ul class="org-ul">
 <li>主要用于量纲不同的变量间，或均数差别较大的变量间变异程度的比较。</li>
 <li>CV = S/x̄×100%</li>
 </ul>
-</div></li></ol>
 </div>
-<div id="outline-container-orgheadline60" class="outline-4">
-<h4 id="orgheadline60"><span class="section-number-4">1.2.4</span> 描述分布形态的统计指标</h4>
-<div class="outline-text-4" id="text-1-2-4">
-</div><ol class="org-ol"><li><a id="orgheadline58"></a>偏度系数（coefficient of skewness, SKEW）<br  /><div class="outline-text-5" id="text-1-2-4-1">
+</div>
+</div>
+<div id="outline-container-orgheadline60" class="outline-3">
+<h3 id="orgheadline60"><span class="section-number-3">2.4</span> 描述分布形态的统计指标</h3>
+<div class="outline-text-3" id="text-2-4">
+</div><div id="outline-container-orgheadline58" class="outline-4">
+<h4 id="orgheadline58"><span class="section-number-4">2.4.1</span> 偏度系数（coefficient of skewness, SKEW）</h4>
+<div class="outline-text-4" id="text-2-4-1">
 <ul class="org-ul">
 <li>取正值时，分布为正偏峰；取负值时，分布为负偏峰。</li>
 </ul>
-</div></li>
-<li><a id="orgheadline59"></a>峰度系数（coefficient of kurtosis, KURT）<br  /></li></ol>
 </div>
 </div>
-<div id="outline-container-orgheadline151" class="outline-3">
-<h3 id="orgheadline151"><span class="section-number-3">1.3</span> 定性资料的统计描述</h3>
-<div class="outline-text-3" id="text-1-3">
-</div><div id="outline-container-orgheadline74" class="outline-4">
-<h4 id="orgheadline74"><span class="section-number-4">1.3.1</span> 三类相对数</h4>
-<div class="outline-text-4" id="text-1-3-1">
-</div><ol class="org-ol"><li><a id="orgheadline64"></a>频率与频率分布<br  /><ol class="org-ol"><li><a id="orgheadline62"></a>多分类变量的频率分布<br  /></li>
-<li><a id="orgheadline63"></a>二分类变量的频率分布<br  /></li></ol></li>
-<li><a id="orgheadline65"></a>强度（intensity）<br  /><div class="outline-text-5" id="text-1-3-1-2">
+<div id="outline-container-orgheadline59" class="outline-4">
+<h4 id="orgheadline59"><span class="section-number-4">2.4.2</span> 峰度系数（coefficient of kurtosis, KURT）</h4>
+</div>
+</div>
+</div>
+<div id="outline-container-orgheadline151" class="outline-2">
+<h2 id="orgheadline151"><span class="section-number-2">3</span> 定性资料的统计描述</h2>
+<div class="outline-text-2" id="text-3">
+</div><div id="outline-container-orgheadline74" class="outline-3">
+<h3 id="orgheadline74"><span class="section-number-3">3.1</span> 三类相对数</h3>
+<div class="outline-text-3" id="text-3-1">
+</div><div id="outline-container-orgheadline64" class="outline-4">
+<h4 id="orgheadline64"><span class="section-number-4">3.1.1</span> 频率与频率分布</h4>
+<div class="outline-text-4" id="text-3-1-1">
+</div><ol class="org-ol"><li><a id="orgheadline62"></a>多分类变量的频率分布<br  /></li>
+<li><a id="orgheadline63"></a>二分类变量的频率分布<br  /></li></ol>
+</div>
+<div id="outline-container-orgheadline65" class="outline-4">
+<h4 id="orgheadline65"><span class="section-number-4">3.1.2</span> 强度（intensity）</h4>
+<div class="outline-text-4" id="text-3-1-2">
 <ul class="org-ul">
 <li>强度型指标是指单位时间内某现象发生的频率。</li>
 </ul>
-</div></li>
-<li><a id="orgheadline66"></a>相对比（ratio）<br  /></li>
-<li><a id="orgheadline73"></a>应用相对数时的注意事项<br  /><ol class="org-ol"><li><a id="orgheadline67"></a>理解相对数的含义不可望文生义<br  /></li>
+</div>
+</div>
+<div id="outline-container-orgheadline66" class="outline-4">
+<h4 id="orgheadline66"><span class="section-number-4">3.1.3</span> 相对比（ratio）</h4>
+</div>
+<div id="outline-container-orgheadline73" class="outline-4">
+<h4 id="orgheadline73"><span class="section-number-4">3.1.4</span> 应用相对数时的注意事项</h4>
+<div class="outline-text-4" id="text-3-1-4">
+</div><ol class="org-ol"><li><a id="orgheadline67"></a>理解相对数的含义不可望文生义<br  /></li>
 <li><a id="orgheadline68"></a>频率型指标的解释要紧扣总体与属性<br  /></li>
 <li><a id="orgheadline69"></a>计算相对数时分母应有足够数量<br  /></li>
 <li><a id="orgheadline70"></a>正确计算合计率<br  /></li>
 <li><a id="orgheadline71"></a>注意资料的可比性<br  /></li>
-<li><a id="orgheadline72"></a>样本相对数的统计推断<br  /></li></ol></li></ol>
+<li><a id="orgheadline72"></a>样本相对数的统计推断<br  /></li></ol>
 </div>
-<div id="outline-container-orgheadline108" class="outline-4">
-<h4 id="orgheadline108"><span class="section-number-4">1.3.2</span> 医学人口统计常用指标</h4>
-<div class="outline-text-4" id="text-1-3-2">
+</div>
+<div id="outline-container-orgheadline108" class="outline-3">
+<h3 id="orgheadline108"><span class="section-number-3">3.2</span> 医学人口统计常用指标</h3>
+<div class="outline-text-3" id="text-3-2">
 <ul class="org-ul">
 <li>医学人口统计（medical demography）是从卫生保健的角度研究和描述人口数量、分布、结构、变动及其规律，研究人口与卫生事业发展的相互关系，是卫生统计学的重要组成部分。</li>
 </ul>
 </div>
-<ol class="org-ol"><li><a id="orgheadline78"></a>医学人口统计资料的来源<br  /><ol class="org-ol"><li><a id="orgheadline75"></a>日常工作记录<br  /></li>
+<div id="outline-container-orgheadline78" class="outline-4">
+<h4 id="orgheadline78"><span class="section-number-4">3.2.1</span> 医学人口统计资料的来源</h4>
+<div class="outline-text-4" id="text-3-2-1">
+</div><ol class="org-ol"><li><a id="orgheadline75"></a>日常工作记录<br  /></li>
 <li><a id="orgheadline76"></a>统计报表<br  /></li>
-<li><a id="orgheadline77"></a>人口调查<br  /></li></ol></li>
-<li><a id="orgheadline83"></a>描述人口学特征的常用指标<br  /><ol class="org-ol"><li><a id="orgheadline79"></a>人口总数（population size）<br  /></li>
-<li><a id="orgheadline82"></a>人口构成及其统计指标<br  /><ol class="org-ol"><li><a id="orgheadline80"></a>人口金字塔（population pyramid）<br  /><div class="outline-text-7" id="text-1-3-2-2-2-1">
+<li><a id="orgheadline77"></a>人口调查<br  /></li></ol>
+</div>
+<div id="outline-container-orgheadline83" class="outline-4">
+<h4 id="orgheadline83"><span class="section-number-4">3.2.2</span> 描述人口学特征的常用指标</h4>
+<div class="outline-text-4" id="text-3-2-2">
+</div><ol class="org-ol"><li><a id="orgheadline79"></a>人口总数（population size）<br  /></li>
+<li><a id="orgheadline82"></a>人口构成及其统计指标<br  /><ol class="org-ol"><li><a id="orgheadline80"></a>人口金字塔（population pyramid）<br  /><div class="outline-text-6" id="text-3-2-2-2-1">
 <ul class="org-ul">
 <li>将人口的性别和年龄资料结合起来，以图形的方式表达人口的性别和年龄结构。</li>
 <li>能够形象直观地反映已有资料中男女性别人口的年龄结构，也可以分析过去人口的出生死亡情况以及今后人口的发展趋势。</li>
 </ul>
 </div></li>
-<li><a id="orgheadline81"></a>人口学特征指标<br  /><div class="outline-text-7" id="text-1-3-2-2-2-2">
+<li><a id="orgheadline81"></a>人口学特征指标<br  /><div class="outline-text-6" id="text-3-2-2-2-2">
 <ul class="org-ul">
 <li>负担系数（dependency ratio），抚养比，抚养系数：是指人口中非劳动年龄人数与劳动年龄人数之比。</li>
 </ul>
-</div></li></ol></li></ol></li>
-<li><a id="orgheadline107"></a>生育和人口死亡的常用指标<br  /><ol class="org-ol"><li><a id="orgheadline92"></a>有关生育的常用指标<br  /><ol class="org-ol"><li><a id="orgheadline84"></a>测量生育水平的统计指标<br  /><div class="outline-text-7" id="text-1-3-2-3-1-1">
+</div></li></ol></li></ol>
+</div>
+<div id="outline-container-orgheadline107" class="outline-4">
+<h4 id="orgheadline107"><span class="section-number-4">3.2.3</span> 生育和人口死亡的常用指标</h4>
+<div class="outline-text-4" id="text-3-2-3">
+</div><ol class="org-ol"><li><a id="orgheadline92"></a>有关生育的常用指标<br  /><ol class="org-ol"><li><a id="orgheadline84"></a>测量生育水平的统计指标<br  /><div class="outline-text-6" id="text-3-2-3-1-1">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -553,13 +902,13 @@ for the JavaScript code in this tag.
 </tbody>
 </table>
 </div></li>
-<li><a id="orgheadline91"></a>测量人口再生育的统计指标<br  /><ol class="org-ol"><li><a id="orgheadline85"></a>自然增长率（natural increase rate, NIR）<br  /><div class="outline-text-8" id="text-1-3-2-3-1-2-1">
+<li><a id="orgheadline91"></a>测量人口再生育的统计指标<br  /><ol class="org-ol"><li><a id="orgheadline85"></a>自然增长率（natural increase rate, NIR）<br  /><div class="outline-text-7" id="text-3-2-3-1-2-1">
 <ul class="org-ul">
 <li>是粗出生率（CBR）与粗死亡率（CDR）之差。</li>
 <li>NIR = CBR - CDR</li>
 </ul>
 </div></li>
-<li><a id="orgheadline86"></a>粗再生育率（gross reproduction rate, GRR）<br  /><div class="outline-text-8" id="text-1-3-2-3-1-2-2">
+<li><a id="orgheadline86"></a>粗再生育率（gross reproduction rate, GRR）<br  /><div class="outline-text-7" id="text-3-2-3-1-2-2">
 <ul class="org-ul">
 <li>每个妇女一生平均生育的女儿数。</li>
 <li>GRR = 总和生育率 × 女婴占出生婴儿的比例。</li>
@@ -568,7 +917,7 @@ for the JavaScript code in this tag.
 <li><a id="orgheadline90"></a>净再生育率（net reproduction rate, NRR）<br  /><ol class="org-ol"><li><a id="orgheadline87"></a>NRR = 1.0，未来人口将保持恒定，更替水平（replacement level）<br  /></li>
 <li><a id="orgheadline88"></a>NRR &gt; 1，未来人口将增多<br  /></li>
 <li><a id="orgheadline89"></a>NRR &lt; 1，未来人口将减少<br  /></li></ol></li></ol></li></ol></li>
-<li><a id="orgheadline106"></a>死亡统计指标<br  /><div class="outline-text-6" id="text-1-3-2-3-2">
+<li><a id="orgheadline106"></a>死亡统计指标<br  /><div class="outline-text-5" id="text-3-2-3-2">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -676,14 +1025,14 @@ for the JavaScript code in this tag.
 </table>
 </div>
 <ol class="org-ol"><li><a id="orgheadline103"></a>测量死亡水平的指标<br  /><ol class="org-ol"><li><a id="orgheadline93"></a>粗死亡率（crude death rate, CDR），死亡率（mortality rate）<br  /></li>
-<li><a id="orgheadline94"></a>年龄别死亡率（age-specific death rate, ASDR）<br  /><div class="outline-text-8" id="text-1-3-2-3-2-1-2">
+<li><a id="orgheadline94"></a>年龄别死亡率（age-specific death rate, ASDR）<br  /><div class="outline-text-7" id="text-3-2-3-2-1-2">
 <ul class="org-ul">
 <li>死亡专率</li>
 </ul>
 </div></li>
 <li><a id="orgheadline95"></a>婴儿死亡率（infant mortality rate, IMR）<br  /></li>
 <li><a id="orgheadline96"></a>新生儿死亡率（neonatal mortality rate, NMR）<br  /></li>
-<li><a id="orgheadline97"></a>新生儿后期死亡率（post-neonatal mortality rate, PNMR）<br  /><div class="outline-text-8" id="text-1-3-2-3-2-1-5">
+<li><a id="orgheadline97"></a>新生儿后期死亡率（post-neonatal mortality rate, PNMR）<br  /><div class="outline-text-7" id="text-3-2-3-2-1-5">
 <ul class="org-ul">
 <li>某地某年活产儿中满 28 天但未满 1 周岁的新生儿死亡频率。</li>
 </ul>
@@ -693,13 +1042,18 @@ for the JavaScript code in this tag.
 <li><a id="orgheadline100"></a>孕产妇死亡率（maternal mortality rate）<br  /></li>
 <li><a id="orgheadline101"></a>死因别死亡率（cause-specific death rate, CSDR）<br  /></li>
 <li><a id="orgheadline102"></a>某病病死率（case fatality rate, CFR）<br  /></li></ol></li>
-<li><a id="orgheadline105"></a>死因构成及死因顺位的指标<br  /><ol class="org-ol"><li><a id="orgheadline104"></a>死因构成比（proportion of dying of a specific cause），比例死亡比（proportionate mortality rate, PMR），相对死亡比<br  /></li></ol></li></ol></li></ol></li></ol>
+<li><a id="orgheadline105"></a>死因构成及死因顺位的指标<br  /><ol class="org-ol"><li><a id="orgheadline104"></a>死因构成比（proportion of dying of a specific cause），比例死亡比（proportionate mortality rate, PMR），相对死亡比<br  /></li></ol></li></ol></li></ol>
 </div>
-<div id="outline-container-orgheadline117" class="outline-4">
-<h4 id="orgheadline117"><span class="section-number-4">1.3.3</span> 疾病统计（morbidity statistics）常用指标</h4>
-<div class="outline-text-4" id="text-1-3-3">
-</div><ol class="org-ol"><li><a id="orgheadline109"></a>疾病和死因分类<br  /></li>
-<li><a id="orgheadline116"></a>疾病统计指标<br  /><div class="outline-text-5" id="text-1-3-3-2">
+</div>
+<div id="outline-container-orgheadline117" class="outline-3">
+<h3 id="orgheadline117"><span class="section-number-3">3.3</span> 疾病统计（morbidity statistics）常用指标</h3>
+<div class="outline-text-3" id="text-3-3">
+</div><div id="outline-container-orgheadline109" class="outline-4">
+<h4 id="orgheadline109"><span class="section-number-4">3.3.1</span> 疾病和死因分类</h4>
+</div>
+<div id="outline-container-orgheadline116" class="outline-4">
+<h4 id="orgheadline116"><span class="section-number-4">3.3.2</span> 疾病统计指标</h4>
+<div class="outline-text-4" id="text-3-3-2">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
 
 
@@ -774,12 +1128,12 @@ for the JavaScript code in this tag.
 </tbody>
 </table>
 </div>
-<ol class="org-ol"><li><a id="orgheadline110"></a>发病率（incidence rate, IR）<br  /><div class="outline-text-6" id="text-1-3-3-2-1">
+<ol class="org-ol"><li><a id="orgheadline110"></a>发病率（incidence rate, IR）<br  /><div class="outline-text-5" id="text-3-3-2-1">
 <ul class="org-ul">
 <li>一定时期内，在可能发生某病的一定人群中新发生某病的强度。</li>
 </ul>
 </div></li>
-<li><a id="orgheadline113"></a>患病率（prevalence rate, PR），现患率<br  /><div class="outline-text-6" id="text-1-3-3-2-2">
+<li><a id="orgheadline113"></a>患病率（prevalence rate, PR），现患率<br  /><div class="outline-text-5" id="text-3-3-2-2">
 <ul class="org-ul">
 <li>某时点上受检人数现患某种疾病的频率，通常用于描述病程较长或发病时间不易明确的疾病的患病情况。</li>
 <li>PR = IR × D</li>
@@ -788,239 +1142,307 @@ for the JavaScript code in this tag.
 </div>
 <ol class="org-ol"><li><a id="orgheadline111"></a>时点患病率（point prevalence rate）<br  /></li>
 <li><a id="orgheadline112"></a>期间患病率（period prevalence rate）<br  /></li></ol></li>
-<li><a id="orgheadline114"></a>治愈率（cure rate）<br  /><div class="outline-text-6" id="text-1-3-3-2-3">
+<li><a id="orgheadline114"></a>治愈率（cure rate）<br  /><div class="outline-text-5" id="text-3-3-2-3">
 <ul class="org-ul">
 <li>受治病人中治愈的频率。</li>
 </ul>
 </div></li>
-<li><a id="orgheadline115"></a>生存率（survival rate）<br  /><div class="outline-text-6" id="text-1-3-3-2-4">
+<li><a id="orgheadline115"></a>生存率（survival rate）<br  /><div class="outline-text-5" id="text-3-3-2-4">
 <ul class="org-ul">
 <li>病人能活到某一时点的概率。</li>
 </ul>
-</div></li></ol></li></ol>
+</div></li></ol>
 </div>
-<div id="outline-container-orgheadline139" class="outline-4">
-<h4 id="orgheadline139"><span class="section-number-4">1.3.4</span> 粗率的标准化法</h4>
-<div class="outline-text-4" id="text-1-3-4">
-</div><ol class="org-ol"><li><a id="orgheadline121"></a>标准化法的意义和基本思想<br  /><ol class="org-ol"><li><a id="orgheadline118"></a>选定两组之一，将其作为「标准」<br  /></li>
+</div>
+<div id="outline-container-orgheadline139" class="outline-3">
+<h3 id="orgheadline139"><span class="section-number-3">3.4</span> 粗率的标准化法</h3>
+<div class="outline-text-3" id="text-3-4">
+</div><div id="outline-container-orgheadline121" class="outline-4">
+<h4 id="orgheadline121"><span class="section-number-4">3.4.1</span> 标准化法的意义和基本思想</h4>
+<div class="outline-text-4" id="text-3-4-1">
+</div><ol class="org-ol"><li><a id="orgheadline118"></a>选定两组之一，将其作为「标准」<br  /></li>
 <li><a id="orgheadline119"></a>两组合并，作为「标准」<br  /></li>
-<li><a id="orgheadline120"></a>在两组之外另选一个群体，将其作为「标准」<br  /></li></ol></li>
-<li><a id="orgheadline133"></a>标准化率的计算<br  /><ol class="org-ol"><li><a id="orgheadline125"></a>直接标准化法<br  /><ol class="org-ol"><li><a id="orgheadline122"></a>选定「标准人口」<br  /></li>
+<li><a id="orgheadline120"></a>在两组之外另选一个群体，将其作为「标准」<br  /></li></ol>
+</div>
+<div id="outline-container-orgheadline133" class="outline-4">
+<h4 id="orgheadline133"><span class="section-number-4">3.4.2</span> 标准化率的计算</h4>
+<div class="outline-text-4" id="text-3-4-2">
+</div><ol class="org-ol"><li><a id="orgheadline125"></a>直接标准化法<br  /><ol class="org-ol"><li><a id="orgheadline122"></a>选定「标准人口」<br  /></li>
 <li><a id="orgheadline123"></a>分别计算「标准人口」的预期治愈人数<br  /></li>
 <li><a id="orgheadline124"></a>分别计算两种疗法的标准化治愈率<br  /></li></ol></li>
 <li><a id="orgheadline129"></a>间接标准化法<br  /><ol class="org-ol"><li><a id="orgheadline126"></a>选另一个地区作为标准<br  /></li>
 <li><a id="orgheadline127"></a>分别计算两组预期患病人数<br  /></li>
 <li><a id="orgheadline128"></a>分别计算两组实际患病人数与预期患病人数之比和标准化患病率<br  /></li></ol></li>
 <li><a id="orgheadline132"></a>标准化死亡比（standard mortality ratio, SMR）<br  /><ol class="org-ol"><li><a id="orgheadline130"></a>SMR&gt;1，被标准化人群的死亡率高于标准死亡率<br  /></li>
-<li><a id="orgheadline131"></a>SMR&lt;1，被标准化人群的死亡率低于标准死亡率<br  /></li></ol></li></ol></li>
-<li><a id="orgheadline138"></a>应用标准化法的注意事项<br  /><ol class="org-ol"><li><a id="orgheadline134"></a>标准化法的应用范围很广<br  /></li>
+<li><a id="orgheadline131"></a>SMR&lt;1，被标准化人群的死亡率低于标准死亡率<br  /></li></ol></li></ol>
+</div>
+<div id="outline-container-orgheadline138" class="outline-4">
+<h4 id="orgheadline138"><span class="section-number-4">3.4.3</span> 应用标准化法的注意事项</h4>
+<div class="outline-text-4" id="text-3-4-3">
+</div><ol class="org-ol"><li><a id="orgheadline134"></a>标准化法的应用范围很广<br  /></li>
 <li><a id="orgheadline135"></a>标准化后的标准化率，已经不再反映当时当地的实际水平，它只是表示相互比较的资料间的相对水平<br  /></li>
 <li><a id="orgheadline136"></a>标准化法的实质是找一个「标准」，使两组得以在一个共同的「平台」上进行比较<br  /></li>
-<li><a id="orgheadline137"></a>两样本标准化率是样本率，存在抽样误差。样本含量较小时，还应作假设检验<br  /></li></ol></li></ol>
+<li><a id="orgheadline137"></a>两样本标准化率是样本率，存在抽样误差。样本含量较小时，还应作假设检验<br  /></li></ol>
 </div>
-<div id="outline-container-orgheadline150" class="outline-4">
-<h4 id="orgheadline150"><span class="section-number-4">1.3.5</span> 动态数列及其指标</h4>
-<div class="outline-text-4" id="text-1-3-5">
-</div><ol class="org-ol"><li><a id="orgheadline140"></a>动态数列（dynamic series）<br  /><div class="outline-text-5" id="text-1-3-5-1">
+</div>
+<div id="outline-container-orgheadline150" class="outline-3">
+<h3 id="orgheadline150"><span class="section-number-3">3.5</span> 动态数列及其指标</h3>
+<div class="outline-text-3" id="text-3-5">
+</div><div id="outline-container-orgheadline140" class="outline-4">
+<h4 id="orgheadline140"><span class="section-number-4">3.5.1</span> 动态数列（dynamic series）</h4>
+<div class="outline-text-4" id="text-3-5-1">
 <ul class="org-ul">
 <li>是按时间顺序将一系列统计指标（可以是绝对数、相对数或平均数）排列起来，用以观察和比较该事物在时间上的变化和发展趋势。</li>
 </ul>
-</div></li>
-<li><a id="orgheadline143"></a>绝对增长量<br  /><div class="outline-text-5" id="text-1-3-5-2">
+</div>
+</div>
+<div id="outline-container-orgheadline143" class="outline-4">
+<h4 id="orgheadline143"><span class="section-number-4">3.5.2</span> 绝对增长量</h4>
+<div class="outline-text-4" id="text-3-5-2">
 <ul class="org-ul">
 <li>说明事物在一定时期增长的绝对值。</li>
 </ul>
 </div>
-<ol class="org-ol"><li><a id="orgheadline141"></a>累积增长量<br  /><div class="outline-text-6" id="text-1-3-5-2-1">
+<ol class="org-ol"><li><a id="orgheadline141"></a>累积增长量<br  /><div class="outline-text-5" id="text-3-5-2-1">
 <ul class="org-ul">
 <li>报告期指标与基线期指标之差。</li>
 </ul>
 </div></li>
-<li><a id="orgheadline142"></a>逐年增长量<br  /><div class="outline-text-6" id="text-1-3-5-2-2">
+<li><a id="orgheadline142"></a>逐年增长量<br  /><div class="outline-text-5" id="text-3-5-2-2">
 <ul class="org-ul">
 <li>报告期指标与前一期指标之差。</li>
 </ul>
-</div></li></ol></li>
-<li><a id="orgheadline146"></a>发展速度与增长速度<br  /><div class="outline-text-5" id="text-1-3-5-3">
+</div></li></ol>
+</div>
+<div id="outline-container-orgheadline146" class="outline-4">
+<h4 id="orgheadline146"><span class="section-number-4">3.5.3</span> 发展速度与增长速度</h4>
+<div class="outline-text-4" id="text-3-5-3">
 <ul class="org-ul">
 <li>均为相对比，说明事物在一定时期的变化情况。</li>
 </ul>
 </div>
-<ol class="org-ol"><li><a id="orgheadline144"></a>发展速度<br  /><div class="outline-text-6" id="text-1-3-5-3-1">
+<ol class="org-ol"><li><a id="orgheadline144"></a>发展速度<br  /><div class="outline-text-5" id="text-3-5-3-1">
 <ul class="org-ul">
 <li>报告期指标的水平相当于基线期（或前一期）指标的百分之多少或多少倍。</li>
 </ul>
 </div></li>
-<li><a id="orgheadline145"></a>增长速度<br  /><div class="outline-text-6" id="text-1-3-5-3-2">
+<li><a id="orgheadline145"></a>增长速度<br  /><div class="outline-text-5" id="text-3-5-3-2">
 <ul class="org-ul">
 <li>= 发展速度 - 100%</li>
 </ul>
-</div></li></ol></li>
-<li><a id="orgheadline149"></a>平均发展速度和平均增长速度<br  /><ol class="org-ol"><li><a id="orgheadline147"></a>平均发展速度<br  /><div class="outline-text-6" id="text-1-3-5-4-1">
+</div></li></ol>
+</div>
+<div id="outline-container-orgheadline149" class="outline-4">
+<h4 id="orgheadline149"><span class="section-number-4">3.5.4</span> 平均发展速度和平均增长速度</h4>
+<div class="outline-text-4" id="text-3-5-4">
+</div><ol class="org-ol"><li><a id="orgheadline147"></a>平均发展速度<br  /><div class="outline-text-5" id="text-3-5-4-1">
 <ul class="org-ul">
 <li>发展速度的几何平均数。</li>
 </ul>
 </div></li>
-<li><a id="orgheadline148"></a>平均增长速度<br  /><div class="outline-text-6" id="text-1-3-5-4-2">
+<li><a id="orgheadline148"></a>平均增长速度<br  /><div class="outline-text-5" id="text-3-5-4-2">
 <ul class="org-ul">
 <li>= 平均增长速度 - 100%</li>
 </ul>
-</div></li></ol></li></ol>
+</div></li></ol>
 </div>
 </div>
-<div id="outline-container-orgheadline182" class="outline-3">
-<h3 id="orgheadline182"><span class="section-number-3">1.4</span> 统计表与统计图</h3>
-<div class="outline-text-3" id="text-1-4">
-</div><div id="outline-container-orgheadline165" class="outline-4">
-<h4 id="orgheadline165"><span class="section-number-4">1.4.1</span> 统计表（statistical table）</h4>
-<div class="outline-text-4" id="text-1-4-1">
-</div><ol class="org-ol"><li><a id="orgheadline157"></a>结构<br  /><ol class="org-ol"><li><a id="orgheadline152"></a>标题<br  /></li>
-<li><a id="orgheadline153"></a>标目<br  /><div class="outline-text-6" id="text-1-4-1-1-2">
+</div>
+<div id="outline-container-orgheadline182" class="outline-2">
+<h2 id="orgheadline182"><span class="section-number-2">4</span> 统计表与统计图</h2>
+<div class="outline-text-2" id="text-4">
+</div><div id="outline-container-orgheadline165" class="outline-3">
+<h3 id="orgheadline165"><span class="section-number-3">4.1</span> 统计表（statistical table）</h3>
+<div class="outline-text-3" id="text-4-1">
+</div><div id="outline-container-orgheadline157" class="outline-4">
+<h4 id="orgheadline157"><span class="section-number-4">4.1.1</span> 结构</h4>
+<div class="outline-text-4" id="text-4-1-1">
+</div><ol class="org-ol"><li><a id="orgheadline152"></a>标题<br  /></li>
+<li><a id="orgheadline153"></a>标目<br  /><div class="outline-text-5" id="text-4-1-1-2">
 <ul class="org-ul">
 <li>说明表格内的项目。</li>
 </ul>
 </div></li>
-<li><a id="orgheadline154"></a>线条<br  /><div class="outline-text-6" id="text-1-4-1-1-3">
+<li><a id="orgheadline154"></a>线条<br  /><div class="outline-text-5" id="text-4-1-1-3">
 <ul class="org-ul">
 <li>顶线</li>
 <li>底线</li>
 <li>纵标目分隔线</li>
 </ul>
 </div></li>
-<li><a id="orgheadline155"></a>数字<br  /><div class="outline-text-6" id="text-1-4-1-1-4">
+<li><a id="orgheadline155"></a>数字<br  /><div class="outline-text-5" id="text-4-1-1-4">
 <ul class="org-ul">
 <li>必须准确无误，用阿拉伯数字表示。</li>
 </ul>
 </div></li>
-<li><a id="orgheadline156"></a>备注<br  /><div class="outline-text-6" id="text-1-4-1-1-5">
+<li><a id="orgheadline156"></a>备注<br  /><div class="outline-text-5" id="text-4-1-1-5">
 <ul class="org-ul">
 <li>不属于固有的组成部分，一般不列入表内。</li>
 </ul>
-</div></li></ol></li>
-<li><a id="orgheadline160"></a>种类<br  /><ol class="org-ol"><li><a id="orgheadline158"></a>简单表（simple table）<br  /><div class="outline-text-6" id="text-1-4-1-2-1">
+</div></li></ol>
+</div>
+<div id="outline-container-orgheadline160" class="outline-4">
+<h4 id="orgheadline160"><span class="section-number-4">4.1.2</span> 种类</h4>
+<div class="outline-text-4" id="text-4-1-2">
+</div><ol class="org-ol"><li><a id="orgheadline158"></a>简单表（simple table）<br  /><div class="outline-text-5" id="text-4-1-2-1">
 <ul class="org-ul">
 <li>按单一变量分组，由一组横标目与一组纵标目组成。</li>
 </ul>
 </div></li>
-<li><a id="orgheadline159"></a>复合表（combinative table），组合表<br  /><div class="outline-text-6" id="text-1-4-1-2-2">
+<li><a id="orgheadline159"></a>复合表（combinative table），组合表<br  /><div class="outline-text-5" id="text-4-1-2-2">
 <ul class="org-ul">
 <li>将两个或两个以上变量结合起来分组，由一组横标目和两组及以上纵标目结合起来。</li>
 </ul>
-</div></li></ol></li>
-<li><a id="orgheadline164"></a>编制注意事项<br  /><ol class="org-ol"><li><a id="orgheadline161"></a>简明扼要，重点突出<br  /></li>
-<li><a id="orgheadline162"></a>合理安排主语和谓语的位置<br  /></li>
-<li><a id="orgheadline163"></a>表内数据要认真核对、准确可靠<br  /></li></ol></li></ol>
+</div></li></ol>
 </div>
-<div id="outline-container-orgheadline181" class="outline-4">
-<h4 id="orgheadline181"><span class="section-number-4">1.4.2</span> 统计图（statistical chart）</h4>
-<div class="outline-text-4" id="text-1-4-2">
-</div><ol class="org-ol"><li><a id="orgheadline170"></a>基本要求<br  /><ol class="org-ol"><li><a id="orgheadline166"></a>根据资料的性质和分析目的选择最合适的图形<br  /></li>
+<div id="outline-container-orgheadline164" class="outline-4">
+<h4 id="orgheadline164"><span class="section-number-4">4.1.3</span> 编制注意事项</h4>
+<div class="outline-text-4" id="text-4-1-3">
+</div><ol class="org-ol"><li><a id="orgheadline161"></a>简明扼要，重点突出<br  /></li>
+<li><a id="orgheadline162"></a>合理安排主语和谓语的位置<br  /></li>
+<li><a id="orgheadline163"></a>表内数据要认真核对、准确可靠<br  /></li></ol>
+</div>
+</div>
+<div id="outline-container-orgheadline181" class="outline-3">
+<h3 id="orgheadline181"><span class="section-number-3">4.2</span> 统计图（statistical chart）</h3>
+<div class="outline-text-3" id="text-4-2">
+</div><div id="outline-container-orgheadline170" class="outline-4">
+<h4 id="orgheadline170"><span class="section-number-4">4.2.1</span> 基本要求</h4>
+<div class="outline-text-4" id="text-4-2-1">
+</div><ol class="org-ol"><li><a id="orgheadline166"></a>根据资料的性质和分析目的选择最合适的图形<br  /></li>
 <li><a id="orgheadline167"></a>每一张统计图都要有标题，简明扼要地说明图形要表达的主要内容，必要时应注明资料收集的时间和地点。标题一般位于图的下方<br  /></li>
 <li><a id="orgheadline168"></a>条图、散点图、线图和直方图都有纵、横坐标轴，要标明尺度。条图与直方图纵坐标从 0 开始，要标明 0 点位置。纵横坐标长度的比例一般为 5:7<br  /></li>
-<li><a id="orgheadline169"></a>比较不同事物时，宜选用不同的线条或颜色表示，并附图加以说明<br  /></li></ol></li>
-<li><a id="orgheadline180"></a>常用绘制方法及注意事项<br  /><ol class="org-ol"><li><a id="orgheadline171"></a>条图（bar chart）<br  /><div class="outline-text-6" id="text-1-4-2-2-1">
+<li><a id="orgheadline169"></a>比较不同事物时，宜选用不同的线条或颜色表示，并附图加以说明<br  /></li></ol>
+</div>
+<div id="outline-container-orgheadline180" class="outline-4">
+<h4 id="orgheadline180"><span class="section-number-4">4.2.2</span> 常用绘制方法及注意事项</h4>
+<div class="outline-text-4" id="text-4-2-2">
+</div><ol class="org-ol"><li><a id="orgheadline171"></a>条图（bar chart）<br  /><div class="outline-text-5" id="text-4-2-2-1">
 <ul class="org-ul">
 <li>用等宽直条的长短表示相互独立的各项指标数量的大小。所比较的数值可以是绝对数，也可以是相对数。</li>
 </ul>
 </div></li>
-<li><a id="orgheadline172"></a>百分条图（percent bar chart）<br  /><div class="outline-text-6" id="text-1-4-2-2-2">
+<li><a id="orgheadline172"></a>百分条图（percent bar chart）<br  /><div class="outline-text-5" id="text-4-2-2-2">
 <ul class="org-ul">
 <li>用于表示事物内部各部分的比重或所占比例。</li>
 </ul>
 </div></li>
-<li><a id="orgheadline173"></a>圆图（pie chart）<br  /><div class="outline-text-6" id="text-1-4-2-2-3">
+<li><a id="orgheadline173"></a>圆图（pie chart）<br  /><div class="outline-text-5" id="text-4-2-2-3">
 <ul class="org-ul">
 <li>用途与百分条图相同，用圆的面积表示事物的全部，用各扇形的面积表示各个组成部分所占比例。</li>
 </ul>
 </div></li>
-<li><a id="orgheadline174"></a>线图（line chart）<br  /><div class="outline-text-6" id="text-1-4-2-2-4">
+<li><a id="orgheadline174"></a>线图（line chart）<br  /><div class="outline-text-5" id="text-4-2-2-4">
 <ul class="org-ul">
 <li>用线段的升降表示统计指标的变化趋势，或某现象随另一现象的变迁情况，适用于连续性变量。</li>
 </ul>
 </div></li>
-<li><a id="orgheadline175"></a>半对数线图（semi-logarithmic line chart）<br  /><div class="outline-text-6" id="text-1-4-2-2-5">
+<li><a id="orgheadline175"></a>半对数线图（semi-logarithmic line chart）<br  /><div class="outline-text-5" id="text-4-2-2-5">
 <ul class="org-ul">
 <li>用于表示事物的发展速度（相对比）。</li>
 </ul>
 </div></li>
-<li><a id="orgheadline176"></a>散点图（scatter diagram）<br  /><div class="outline-text-6" id="text-1-4-2-2-6">
+<li><a id="orgheadline176"></a>散点图（scatter diagram）<br  /><div class="outline-text-5" id="text-4-2-2-6">
 <ul class="org-ul">
 <li>用点的密集程度、趋势表示两变量间的相关关系。</li>
 </ul>
 </div></li>
-<li><a id="orgheadline177"></a>直方图（histogram）<br  /><div class="outline-text-6" id="text-1-4-2-2-7">
+<li><a id="orgheadline177"></a>直方图（histogram）<br  /><div class="outline-text-5" id="text-4-2-2-7">
 <ul class="org-ul">
 <li>用于表示连续型变量的频数或频率分布。</li>
 </ul>
 </div></li>
-<li><a id="orgheadline178"></a>统计地图（statistical map）<br  /><div class="outline-text-6" id="text-1-4-2-2-8">
+<li><a id="orgheadline178"></a>统计地图（statistical map）<br  /><div class="outline-text-5" id="text-4-2-2-8">
 <ul class="org-ul">
 <li>用于表示某种现象在地域空间上的分布，根据不同地方某种现象的地理分布特征，采用不同密度的线条或不同颜色绘在地图上。</li>
 </ul>
 </div></li>
-<li><a id="orgheadline179"></a>箱式图（box plot）<br  /><div class="outline-text-6" id="text-1-4-2-2-9">
+<li><a id="orgheadline179"></a>箱式图（box plot）<br  /><div class="outline-text-5" id="text-4-2-2-9">
 <ul class="org-ul">
 <li>用于描述连续型变量的分布特征，表现连续型变量的 5 个特征值。</li>
 </ul>
-</div></li></ol></li></ol>
+</div></li></ol>
 </div>
 </div>
-<div id="outline-container-orgheadline228" class="outline-3">
-<h3 id="orgheadline228"><span class="section-number-3">1.5</span> 常用概率分布</h3>
-<div class="outline-text-3" id="text-1-5">
-</div><div id="outline-container-orgheadline189" class="outline-4">
-<h4 id="orgheadline189"><span class="section-number-4">1.5.1</span> 二项分布（binomial distribution）</h4>
-<div class="outline-text-4" id="text-1-5-1">
+</div>
+<div id="outline-container-orgheadline228" class="outline-2">
+<h2 id="orgheadline228"><span class="section-number-2">5</span> 常用概率分布</h2>
+<div class="outline-text-2" id="text-5">
+</div><div id="outline-container-orgheadline189" class="outline-3">
+<h3 id="orgheadline189"><span class="section-number-3">5.1</span> 二项分布（binomial distribution）</h3>
+<div class="outline-text-3" id="text-5-1">
 <ul class="org-ul">
 <li>如果每个观察对象阳性结果的发生概率均为π，阴性结果的发生概率均为(1-π)；而且各个观察对象的结果是相互独立的，那么重复观察 n 个人，发生阳性结果的人数 X 的概率分布为二项分布，记作 B(n,π) 。</li>
 </ul>
 </div>
-<ol class="org-ol"><li><a id="orgheadline185"></a>特征<br  /><div class="outline-text-5" id="text-1-5-1-1">
+<div id="outline-container-orgheadline185" class="outline-4">
+<h4 id="orgheadline185"><span class="section-number-4">5.1.1</span> 特征</h4>
+<div class="outline-text-4" id="text-5-1-1">
 <ul class="org-ul">
 <li>由二项分布的参数π以及观察的次数 n 决定。</li>
 </ul>
 </div>
-<ol class="org-ol"><li><a id="orgheadline183"></a>图形特征<br  /><div class="outline-text-6" id="text-1-5-1-1-1">
+<ol class="org-ol"><li><a id="orgheadline183"></a>图形特征<br  /><div class="outline-text-5" id="text-5-1-1-1">
 <ul class="org-ul">
 <li>高峰在 μ=nπ 处或附近；π为 0.5 时，图形是对称的；当π不等于 0.5 时，分布不对称，且对同一 n，π离 0.5 愈远，对称性愈差。</li>
 <li>对同一π，随着 n 的增大，分布趋于对称。</li>
 <li>当 n→∞时，只要π不太靠近 0 或 1，二项分布趋于对称。</li>
 </ul>
 </div></li>
-<li><a id="orgheadline184"></a>均数和标准差<br  /><div class="outline-text-6" id="text-1-5-1-1-2">
+<li><a id="orgheadline184"></a>均数和标准差<br  /><div class="outline-text-5" id="text-5-1-1-2">
 <ul class="org-ul">
 <li>总体均数 μ=nπ</li>
 <li>方差 σ<sup>2</sup>=nπ(1-π)</li>
 <li>标准差 σ=sqrt(nπ(1-π))</li>
 <li>阳性结果的概率 p=X/n</li>
 </ul>
-</div></li></ol></li>
-<li><a id="orgheadline188"></a>二项分布的应用<br  /><ol class="org-ol"><li><a id="orgheadline186"></a>概率估计<br  /></li>
-<li><a id="orgheadline187"></a>累计概率计算<br  /></li></ol></li></ol>
+</div></li></ol>
 </div>
-<div id="outline-container-orgheadline196" class="outline-4">
-<h4 id="orgheadline196"><span class="section-number-4">1.5.2</span> Poisson 分布（Poisson distribution）</h4>
-<div class="outline-text-4" id="text-1-5-2">
+<div id="outline-container-orgheadline188" class="outline-4">
+<h4 id="orgheadline188"><span class="section-number-4">5.1.2</span> 二项分布的应用</h4>
+<div class="outline-text-4" id="text-5-1-2">
+</div><ol class="org-ol"><li><a id="orgheadline186"></a>概率估计<br  /></li>
+<li><a id="orgheadline187"></a>累计概率计算<br  /></li></ol>
+</div>
+</div>
+<div id="outline-container-orgheadline196" class="outline-3">
+<h3 id="orgheadline196"><span class="section-number-3">5.2</span> Poisson 分布（Poisson distribution）</h3>
+<div class="outline-text-3" id="text-5-2">
 <ul class="org-ul">
 <li>离散型分布，用以描述单位时间、空间、面积等的罕见事件发生次数的概率分布。</li>
 <li>一般记作 P(λ) 。</li>
 <li>一个前提条件是事件发生的概率π不变，每个事件发生与否是独立的。</li>
 </ul>
 </div>
-<ol class="org-ol"><li><a id="orgheadline192"></a>特征<br  /><ol class="org-ol"><li><a id="orgheadline190"></a>总体均数与总体方差相等，均为λ<br  /></li>
-<li><a id="orgheadline191"></a>观察结果有可加性<br  /></li></ol></li>
-<li><a id="orgheadline195"></a>应用<br  /><ol class="org-ol"><li><a id="orgheadline193"></a>概率估计<br  /></li>
-<li><a id="orgheadline194"></a>累计概率计算<br  /></li></ol></li></ol>
+<div id="outline-container-orgheadline192" class="outline-4">
+<h4 id="orgheadline192"><span class="section-number-4">5.2.1</span> 特征</h4>
+<div class="outline-text-4" id="text-5-2-1">
+</div><ol class="org-ol"><li><a id="orgheadline190"></a>总体均数与总体方差相等，均为λ<br  /></li>
+<li><a id="orgheadline191"></a>观察结果有可加性<br  /></li></ol>
 </div>
-<div id="outline-container-orgheadline227" class="outline-4">
-<h4 id="orgheadline227"><span class="section-number-4">1.5.3</span> 正态分布（normal distribution）</h4>
-<div class="outline-text-4" id="text-1-5-3">
-</div><ol class="org-ol"><li><a id="orgheadline202"></a>特点<br  /><ol class="org-ol"><li><a id="orgheadline197"></a>关于 x=μ对称<br  /></li>
+<div id="outline-container-orgheadline195" class="outline-4">
+<h4 id="orgheadline195"><span class="section-number-4">5.2.2</span> 应用</h4>
+<div class="outline-text-4" id="text-5-2-2">
+</div><ol class="org-ol"><li><a id="orgheadline193"></a>概率估计<br  /></li>
+<li><a id="orgheadline194"></a>累计概率计算<br  /></li></ol>
+</div>
+</div>
+<div id="outline-container-orgheadline227" class="outline-3">
+<h3 id="orgheadline227"><span class="section-number-3">5.3</span> 正态分布（normal distribution）</h3>
+<div class="outline-text-3" id="text-5-3">
+</div><div id="outline-container-orgheadline202" class="outline-4">
+<h4 id="orgheadline202"><span class="section-number-4">5.3.1</span> 特点</h4>
+<div class="outline-text-4" id="text-5-3-1">
+</div><ol class="org-ol"><li><a id="orgheadline197"></a>关于 x=μ对称<br  /></li>
 <li><a id="orgheadline198"></a>在 x=μ处取得该概率密度函数的最大值，在 x=μ±σ处有拐点<br  /></li>
 <li><a id="orgheadline199"></a>曲线下面积为 1<br  /></li>
 <li><a id="orgheadline200"></a>μ决定曲线在横轴上的位置，μ增大，曲线沿横轴向右移；反之，μ减小，曲线沿横轴向左移<br  /></li>
-<li><a id="orgheadline201"></a>σ决定曲线的形状，当μ恒定时，σ越大，数据越分散，曲线越「矮胖」；σ越小，数据越集中，曲线越「瘦高」<br  /></li></ol></li>
-<li><a id="orgheadline206"></a>正态概率密度曲线下的面积<br  /><ol class="org-ol"><li><a id="orgheadline203"></a>共同的规律<br  /><div class="outline-text-6" id="text-1-5-3-2-1">
+<li><a id="orgheadline201"></a>σ决定曲线的形状，当μ恒定时，σ越大，数据越分散，曲线越「矮胖」；σ越小，数据越集中，曲线越「瘦高」<br  /></li></ol>
+</div>
+<div id="outline-container-orgheadline206" class="outline-4">
+<h4 id="orgheadline206"><span class="section-number-4">5.3.2</span> 正态概率密度曲线下的面积</h4>
+<div class="outline-text-4" id="text-5-3-2">
+</div><ol class="org-ol"><li><a id="orgheadline203"></a>共同的规律<br  /><div class="outline-text-5" id="text-5-3-2-1">
 <ul class="org-ul">
 <li>其标准差作为衡量单位，以均数为中心，
 <ul class="org-ul">
@@ -1030,7 +1452,7 @@ for the JavaScript code in this tag.
 </ul></li>
 </ul>
 </div></li>
-<li><a id="orgheadline204"></a>Z 变换与标准正态分布<br  /><div class="outline-text-6" id="text-1-5-3-2-2">
+<li><a id="orgheadline204"></a>Z 变换与标准正态分布<br  /><div class="outline-text-5" id="text-5-3-2-2">
 <ul class="org-ul">
 <li>对任意一个服从正态分布 N(μ,σ<sup>2</sup>) 的随机变量，可作 Z 变换，Z=(X-μ)/σ</li>
 <li>变换后的 Z 值仍然服从正态分布，且其总体均数为 0、总体标准差为 1。</li>
@@ -1040,32 +1462,36 @@ for the JavaScript code in this tag.
 <li>X 取值在区间μ±2.58σ内的概率为 0.99。</li>
 </ul>
 </div></li>
-<li><a id="orgheadline205"></a>正态变量的和与差的分布<br  /><div class="outline-text-6" id="text-1-5-3-2-3">
+<li><a id="orgheadline205"></a>正态变量的和与差的分布<br  /><div class="outline-text-5" id="text-5-3-2-3">
 <ul class="org-ul">
 <li>服从正态分布的随机变量的和与差的分布仍然是正态分布，</li>
 <li>不论 X 独立与否，和与差的均数就等于均数的和与差；</li>
 <li>X 独立时，和与差的方差都等于方差的和。</li>
 </ul>
-</div></li></ol></li>
-<li><a id="orgheadline226"></a>正态分布的应用<br  /><ol class="org-ol"><li><a id="orgheadline213"></a>确定医学参考值范围<br  /><div class="outline-text-6" id="text-1-5-3-3-1">
+</div></li></ol>
+</div>
+<div id="outline-container-orgheadline226" class="outline-4">
+<h4 id="orgheadline226"><span class="section-number-4">5.3.3</span> 正态分布的应用</h4>
+<div class="outline-text-4" id="text-5-3-3">
+</div><ol class="org-ol"><li><a id="orgheadline213"></a>确定医学参考值范围<br  /><div class="outline-text-5" id="text-5-3-3-1">
 <ul class="org-ul">
 <li>医学参考值范围（reference range）是指特定的「正常」人群的解剖、生理、生化指标及组织代谢产物含量等数据中大多数个体的取值所在的范围。</li>
 </ul>
 </div>
 <ol class="org-ol"><li><a id="orgheadline209"></a>意义<br  /><ol class="org-ol"><li><a id="orgheadline207"></a>用于划界、分类，如临床上生理、生化指标常常是医生判断某指标正常与异常的参考依据<br  /></li>
 <li><a id="orgheadline208"></a>动态分析，如某个地区不同时期某些重金属元素的正常值可反映环境污染的动态变化或环保效果<br  /></li></ol></li>
-<li><a id="orgheadline212"></a>确定方法<br  /><ol class="org-ol"><li><a id="orgheadline210"></a>百分位数法<br  /><div class="outline-text-8" id="text-1-5-3-3-1-2-1">
+<li><a id="orgheadline212"></a>确定方法<br  /><ol class="org-ol"><li><a id="orgheadline210"></a>百分位数法<br  /><div class="outline-text-7" id="text-5-3-3-1-2-1">
 <ul class="org-ul">
 <li>双侧 95%医学参考值范围是(P<sub>2.5,P</sub><sub>97.5</sub>)，单侧范围是 P<sub>95</sub> 一下或 P<sub>5</sub> 以上。</li>
 <li>适用于任何分布类型的资料。</li>
 </ul>
 </div></li>
-<li><a id="orgheadline211"></a>正态分布法<br  /><div class="outline-text-8" id="text-1-5-3-3-1-2-2">
+<li><a id="orgheadline211"></a>正态分布法<br  /><div class="outline-text-7" id="text-5-3-3-1-2-2">
 <ul class="org-ul">
 <li>若 X 服从正态分布，医学参考值范围还可以依正态分布的规律计算。</li>
 </ul>
 </div></li></ol></li></ol></li>
-<li><a id="orgheadline223"></a>质量控制图<br  /><div class="outline-text-6" id="text-1-5-3-3-2">
+<li><a id="orgheadline223"></a>质量控制图<br  /><div class="outline-text-5" id="text-5-3-3-2">
 <ul class="org-ul">
 <li>质量控制的一个重要工具是控制图。</li>
 <li>基本原理是，如果某一波动仅仅由个体差异或随机测量误差所致，那么观察结果服从正态分布。</li>
@@ -1079,101 +1505,119 @@ for the JavaScript code in this tag.
 <li><a id="orgheadline219"></a>连续 5 个点中有 4 个点距中心线距离超过 1 个标准差<br  /></li>
 <li><a id="orgheadline220"></a>中心线一侧或两侧连续 15 个点距中心线距离都在 1 个标准差以内<br  /></li>
 <li><a id="orgheadline221"></a>中心线一侧或两侧连续 8 个点距中心线距离都超出 1 个标准差范围<br  /></li></ol></li></ol></li>
-<li><a id="orgheadline224"></a>二项分布的正态近似<br  /><div class="outline-text-6" id="text-1-5-3-3-3">
+<li><a id="orgheadline224"></a>二项分布的正态近似<br  /><div class="outline-text-5" id="text-5-3-3-3">
 <ul class="org-ul">
 <li>当 nπ和 n(1-π)都大于 5 时，二项分布 B(n,π)近似正态分布 N(nπ,nπ(1-π))。</li>
 <li>二项分布为离散型变量分布，变量只能在正整数处取值，为了借用连续型变量的分布函数计算概率，首先要把概率函数连续化。</li>
 </ul>
 </div></li>
-<li><a id="orgheadline225"></a>Poisson 分布的正态近似<br  /><div class="outline-text-6" id="text-1-5-3-3-4">
+<li><a id="orgheadline225"></a>Poisson 分布的正态近似<br  /><div class="outline-text-5" id="text-5-3-3-4">
 <ul class="org-ul">
 <li>随着λ→∞，Poisson 分布也渐进正态分布。</li>
 <li>当λ≥20 时，Poisson 分布资料可按正态分布处理。</li>
 <li>Poisson 分布也是离散型变量分布，为了借用连续型变量的分布函数计算概率，也要对概率函数作校正。</li>
 </ul>
-</div></li></ol></li></ol>
+</div></li></ol>
 </div>
 </div>
-<div id="outline-container-orgheadline255" class="outline-3">
-<h3 id="orgheadline255"><span class="section-number-3">1.6</span> 参数估计（estimation of parameter）基础</h3>
-<div class="outline-text-3" id="text-1-6">
+</div>
+<div id="outline-container-orgheadline255" class="outline-2">
+<h2 id="orgheadline255"><span class="section-number-2">6</span> 参数估计（estimation of parameter）基础</h2>
+<div class="outline-text-2" id="text-6">
 <ul class="org-ul">
 <li>统计学中通过抽样来估计总体参数。</li>
 </ul>
 </div>
-<div id="outline-container-orgheadline238" class="outline-4">
-<h4 id="orgheadline238"><span class="section-number-4">1.6.1</span> 抽样分布与抽样误差</h4>
-<div class="outline-text-4" id="text-1-6-1">
-</div><ol class="org-ol"><li><a id="orgheadline236"></a>样本均数的抽样分布与抽样误差<br  /><ol class="org-ol"><li><a id="orgheadline234"></a>样本均数抽样分布特点<br  /><ol class="org-ol"><li><a id="orgheadline229"></a>样本均数恰好等于总体均数是极其罕见的<br  /></li>
+<div id="outline-container-orgheadline238" class="outline-3">
+<h3 id="orgheadline238"><span class="section-number-3">6.1</span> 抽样分布与抽样误差</h3>
+<div class="outline-text-3" id="text-6-1">
+</div><div id="outline-container-orgheadline236" class="outline-4">
+<h4 id="orgheadline236"><span class="section-number-4">6.1.1</span> 样本均数的抽样分布与抽样误差</h4>
+<div class="outline-text-4" id="text-6-1-1">
+</div><ol class="org-ol"><li><a id="orgheadline234"></a>样本均数抽样分布特点<br  /><ol class="org-ol"><li><a id="orgheadline229"></a>样本均数恰好等于总体均数是极其罕见的<br  /></li>
 <li><a id="orgheadline230"></a>样本均数之间存在差异<br  /></li>
 <li><a id="orgheadline231"></a>样本均数围绕总体均数，中间多、两边少，左右基本对称，呈近似正态分布<br  /></li>
 <li><a id="orgheadline232"></a>样本均数之间的变异明显小于原始变量值之间的变异<br  /></li>
 <li><a id="orgheadline233"></a>随着样本含量的增大，样本均数的变异范围逐渐缩小<br  /></li></ol></li>
-<li><a id="orgheadline235"></a>标准误（standard error of mean, SEM, SE）<br  /><div class="outline-text-6" id="text-1-6-1-1-2">
+<li><a id="orgheadline235"></a>标准误（standard error of mean, SEM, SE）<br  /><div class="outline-text-5" id="text-6-1-1-2">
 <ul class="org-ul">
 <li>样本均数的标准差，用于反映均数抽样误差大小。</li>
 <li>σ<sub>x</sub>=σ/sqrt(n)</li>
 <li>均数标准误的大小与标准差的大小成正比，而与样本含量 n 的平方根成反比。可通过增加样本含量来减少均数的标准误，从而降低抽样误差。</li>
 <li>当样本量较大时（n≥30），样本均数的分布接近正态分布；标准误仍然是原总体标准差的 1/sqrt(n)倍。</li>
 </ul>
-</div></li></ol></li>
-<li><a id="orgheadline237"></a>样本频率的抽样分布与抽样误差<br  /><div class="outline-text-5" id="text-1-6-1-2">
+</div></li></ol>
+</div>
+<div id="outline-container-orgheadline237" class="outline-4">
+<h4 id="orgheadline237"><span class="section-number-4">6.1.2</span> 样本频率的抽样分布与抽样误差</h4>
+<div class="outline-text-4" id="text-6-1-2">
 <ul class="org-ul">
 <li>样本频率围绕总体概率呈近似对称分布。</li>
 <li>随机变量 X~B(n,π) ，样本频率 p=X/n 的总体概率为π，标准误为：σ<sub>p</sub>=sqrt(π(1-π)/n)</li>
 <li>实际工作中，总体概率π一般未知，常用样本频率 p 来近似地代替，得到标准误的估计值
 S<sub>p</sub>=sqrt(p(1-p)/(n-1))≈sqrt(p(1-p)/n)</li>
 </ul>
-</div></li></ol>
 </div>
-<div id="outline-container-orgheadline243" class="outline-4">
-<h4 id="orgheadline243"><span class="section-number-4">1.6.2</span> t 分布</h4>
-<div class="outline-text-4" id="text-1-6-2">
+</div>
+</div>
+<div id="outline-container-orgheadline243" class="outline-3">
+<h3 id="orgheadline243"><span class="section-number-3">6.2</span> t 分布</h3>
+<div class="outline-text-3" id="text-6-2">
 <ul class="org-ul">
 <li>Student's t 分布（Student's t-distribution），是总体均数的区间估计和假设检验的理论基础。</li>
 <li>t = (x̄-μ)/S<sub>x̄</sub> = (x̄-μ)/(S/sqrt(n)), v=n-1</li>
 <li>t 分布图是一簇曲线，当 v→∞时，t 分布趋近于标准正态分布。</li>
 </ul>
 </div>
-<ol class="org-ol"><li><a id="orgheadline242"></a>图形与特征<br  /><div class="outline-text-5" id="text-1-6-2-1">
+<div id="outline-container-orgheadline242" class="outline-4">
+<h4 id="orgheadline242"><span class="section-number-4">6.2.1</span> 图形与特征</h4>
+<div class="outline-text-4" id="text-6-2-1">
 <ul class="org-ul">
 <li>t 值的分布与自由度 v 有关。</li>
 </ul>
 </div>
 <ol class="org-ol"><li><a id="orgheadline239"></a>单峰分布，以 0 为中心，左右对称<br  /></li>
 <li><a id="orgheadline240"></a>v 越小，t 值越分散，曲线的峰部越矮，尾部越高<br  /></li>
-<li><a id="orgheadline241"></a>随着 v 逐渐增大，t 分布逐渐接近标准正态分布；当 v 趋向∞时，t 分布趋近标准正态分布<br  /></li></ol></li></ol>
+<li><a id="orgheadline241"></a>随着 v 逐渐增大，t 分布逐渐接近标准正态分布；当 v 趋向∞时，t 分布趋近标准正态分布<br  /></li></ol>
 </div>
-<div id="outline-container-orgheadline254" class="outline-4">
-<h4 id="orgheadline254"><span class="section-number-4">1.6.3</span> 总体均数及总体概率的估计</h4>
-<div class="outline-text-4" id="text-1-6-3">
-</div><ol class="org-ol"><li><a id="orgheadline246"></a>参数估计的基础理论<br  /><ol class="org-ol"><li><a id="orgheadline244"></a>点估计（point estimation）<br  /><div class="outline-text-6" id="text-1-6-3-1-1">
+</div>
+<div id="outline-container-orgheadline254" class="outline-3">
+<h3 id="orgheadline254"><span class="section-number-3">6.3</span> 总体均数及总体概率的估计</h3>
+<div class="outline-text-3" id="text-6-3">
+</div><div id="outline-container-orgheadline246" class="outline-4">
+<h4 id="orgheadline246"><span class="section-number-4">6.3.1</span> 参数估计的基础理论</h4>
+<div class="outline-text-4" id="text-6-3-1">
+</div><ol class="org-ol"><li><a id="orgheadline244"></a>点估计（point estimation）<br  /><div class="outline-text-5" id="text-6-3-1-1">
 <ul class="org-ul">
 <li>是直接利用样本统计量的一个数值来估计总体参数。</li>
 <li>总体参数μ是未知的，但它是固定的值，并不是随机变量；而样本统计量是随机的，不同的样本所得结果是不相同的。</li>
 <li>因没有考虑到抽样误差的大小，故难以反映参数的估计值对其真值的代表性。</li>
 </ul>
 </div></li>
-<li><a id="orgheadline245"></a>区间估计（interval estimation）<br  /><div class="outline-text-6" id="text-1-6-3-1-2">
+<li><a id="orgheadline245"></a>区间估计（interval estimation）<br  /><div class="outline-text-5" id="text-6-3-1-2">
 <ul class="org-ul">
 <li>是将样本统计量与标准误结合起来，确定一个具有较大置信度的包含总体参数的范围，该范围称为总体参数的置信区间（confidence interval, CI）。</li>
 <li>置信区间是一个开区间，不包括两个置信限的数值。</li>
 </ul>
-</div></li></ol></li>
-<li><a id="orgheadline253"></a>总体均数及总体概率的区间估计<br  /><ol class="org-ol"><li><a id="orgheadline249"></a>总体均数的置信区间<br  /><div class="outline-text-6" id="text-1-6-3-2-1">
+</div></li></ol>
+</div>
+<div id="outline-container-orgheadline253" class="outline-4">
+<h4 id="orgheadline253"><span class="section-number-4">6.3.2</span> 总体均数及总体概率的区间估计</h4>
+<div class="outline-text-4" id="text-6-3-2">
+</div><ol class="org-ol"><li><a id="orgheadline249"></a>总体均数的置信区间<br  /><div class="outline-text-5" id="text-6-3-2-1">
 <ul class="org-ul">
 <li>区间估计中，总体参数虽未知，但却是固定的值，而不是随机变量值，其大小与抽样无关。</li>
 <li>可信度为 95%的可信区间的涵义：如果重复 100 次样本含量相同的抽样，每个样本均按同一方法构建 95%的可信区间，则理论上平均有 95 个可信区间包含了总体均数，还有 5 个可信区间未包含总体均数。</li>
 <li>当样本含量确定后，准确性和精确性是相互牵制的。</li>
 </ul>
 </div>
-<ol class="org-ol"><li><a id="orgheadline247"></a>t 分布法<br  /><div class="outline-text-7" id="text-1-6-3-2-1-1">
+<ol class="org-ol"><li><a id="orgheadline247"></a>t 分布法<br  /><div class="outline-text-6" id="text-6-3-2-1-1">
 <ul class="org-ul">
 <li>当σ未知且 n 较小（如 n≤50）时。
 (x̄ - t<sub>α</sub>/2,v S<sub>x̄</sub>, x̄ + t<sub>α</sub>/2,v S<sub>x̄</sub>)</li>
 </ul>
 </div></li>
-<li><a id="orgheadline248"></a>正态近似法<br  /><div class="outline-text-7" id="text-1-6-3-2-1-2">
+<li><a id="orgheadline248"></a>正态近似法<br  /><div class="outline-text-6" id="text-6-3-2-1-2">
 <ul class="org-ul">
 <li>当σ已知时。总体均数的可信度为(1-α)的可信区间为
 (x̄ - z<sub>α</sub>/2 σ<sub>x̄</sub>, x̄ + z<sub>α</sub>/2 σ<sub>x̄</sub>)</li>
@@ -1181,12 +1625,12 @@ S<sub>p</sub>=sqrt(p(1-p)/(n-1))≈sqrt(p(1-p)/n)</li>
 (x̄ - z<sub>α</sub>/2 S<sub>x̄</sub>, x̄ + z<sub>α</sub>/2 S<sub>x̄</sub>)</li>
 </ul>
 </div></li></ol></li>
-<li><a id="orgheadline252"></a>总体概率的置信区间<br  /><ol class="org-ol"><li><a id="orgheadline250"></a>查表法<br  /><div class="outline-text-7" id="text-1-6-3-2-2-1">
+<li><a id="orgheadline252"></a>总体概率的置信区间<br  /><ol class="org-ol"><li><a id="orgheadline250"></a>查表法<br  /><div class="outline-text-6" id="text-6-3-2-2-1">
 <ul class="org-ul">
 <li>小样本资料，如 n≤50，当 p 非常接近 0 或 100%时，可查表直接确定总体概率π的置信区间。</li>
 </ul>
 </div></li>
-<li><a id="orgheadline251"></a>正态近似法<br  /><div class="outline-text-7" id="text-1-6-3-2-2-2">
+<li><a id="orgheadline251"></a>正态近似法<br  /><div class="outline-text-6" id="text-6-3-2-2-2">
 <ul class="org-ul">
 <li>n 足够大，且 np 及 n(1-p)均大于 5，可用公式近似地估计总体概率的双侧置信区间。
 <ul class="org-ul">
@@ -1194,23 +1638,31 @@ S<sub>p</sub>=sqrt(p(1-p)/(n-1))≈sqrt(p(1-p)/n)</li>
 <li>S<sub>p</sub> = sqrt(p(1-p)/n)</li>
 </ul></li>
 </ul>
-</div></li></ol></li></ol></li></ol>
+</div></li></ol></li></ol>
 </div>
 </div>
-<div id="outline-container-orgheadline324" class="outline-3">
-<h3 id="orgheadline324"><span class="section-number-3">1.7</span> 假设检验基础</h3>
-<div class="outline-text-3" id="text-1-7">
+</div>
+<div id="outline-container-orgheadline324" class="outline-2">
+<h2 id="orgheadline324"><span class="section-number-2">7</span> 假设检验基础</h2>
+<div class="outline-text-2" id="text-7">
 <ul class="org-ul">
 <li>由样本信息对相应总体的特征进行推断称为统计推断（statistical inference）。</li>
 <li>若对所估计的总体首先提出一个假设，然后通过样本数据去推断是否拒绝这一假设，称为假设检验（hypothesis testing），也称显著性检验（significance test）。</li>
 </ul>
 </div>
-<div id="outline-container-orgheadline265" class="outline-4">
-<h4 id="orgheadline265"><span class="section-number-4">1.7.1</span> 假设检验的概念与原理</h4>
-<div class="outline-text-4" id="text-1-7-1">
-</div><ol class="org-ol"><li><a id="orgheadline258"></a>思维逻辑<br  /><ol class="org-ol"><li><a id="orgheadline256"></a>需要从全局的范围，即从总体上对问题作出判断<br  /></li>
-<li><a id="orgheadline257"></a>不可能或者不允许对研究总体的每一个个体均做观察<br  /></li></ol></li>
-<li><a id="orgheadline264"></a>基本步骤<br  /><ol class="org-ol"><li><a id="orgheadline261"></a>建立检验假设，确定检验水准<br  /><div class="outline-text-6" id="text-1-7-1-2-1">
+<div id="outline-container-orgheadline265" class="outline-3">
+<h3 id="orgheadline265"><span class="section-number-3">7.1</span> 假设检验的概念与原理</h3>
+<div class="outline-text-3" id="text-7-1">
+</div><div id="outline-container-orgheadline258" class="outline-4">
+<h4 id="orgheadline258"><span class="section-number-4">7.1.1</span> 思维逻辑</h4>
+<div class="outline-text-4" id="text-7-1-1">
+</div><ol class="org-ol"><li><a id="orgheadline256"></a>需要从全局的范围，即从总体上对问题作出判断<br  /></li>
+<li><a id="orgheadline257"></a>不可能或者不允许对研究总体的每一个个体均做观察<br  /></li></ol>
+</div>
+<div id="outline-container-orgheadline264" class="outline-4">
+<h4 id="orgheadline264"><span class="section-number-4">7.1.2</span> 基本步骤</h4>
+<div class="outline-text-4" id="text-7-1-2">
+</div><ol class="org-ol"><li><a id="orgheadline261"></a>建立检验假设，确定检验水准<br  /><div class="outline-text-5" id="text-7-1-2-1">
 <ul class="org-ul">
 <li>根据研究目的、研究设计的类型和资料特点（变量种类、样本大小）等因素选择合适的检验方法，并且将需要推断的问题表述为关于总体特征的一对假设。</li>
 <li>H<sub>0</sub> 与 H<sub>1</sub> 应该既有联系又相互对立。</li>
@@ -1219,21 +1671,24 @@ S<sub>p</sub>=sqrt(p(1-p)/(n-1))≈sqrt(p(1-p)/n)</li>
 </div>
 <ol class="org-ol"><li><a id="orgheadline259"></a>零假设（null hypothesis），原假设，H<sub>0</sub><br  /></li>
 <li><a id="orgheadline260"></a>对立假设（alternative hypothesis），备择假设，H<sub>1</sub><br  /></li></ol></li>
-<li><a id="orgheadline262"></a>计算统计量（test statistic）<br  /><div class="outline-text-6" id="text-1-7-1-2-2">
+<li><a id="orgheadline262"></a>计算统计量（test statistic）<br  /><div class="outline-text-5" id="text-7-1-2-2">
 <ul class="org-ul">
 <li>根据样本数据计算相应的统计量。</li>
 </ul>
 </div></li>
-<li><a id="orgheadline263"></a>确定 P 值，做出推断<br  /><div class="outline-text-6" id="text-1-7-1-2-3">
+<li><a id="orgheadline263"></a>确定 P 值，做出推断<br  /><div class="outline-text-5" id="text-7-1-2-3">
 <ul class="org-ul">
 <li>P 值的定义：在零假设成立的条件下，出现统计量目前值及更不利于零假设数值的概率。</li>
 </ul>
-</div></li></ol></li></ol>
+</div></li></ol>
 </div>
-<div id="outline-container-orgheadline272" class="outline-4">
-<h4 id="orgheadline272"><span class="section-number-4">1.7.2</span> Z 检验                                                          :Z 检验:</h4>
-<div class="outline-text-4" id="text-1-7-2">
-</div><ol class="org-ol"><li><a id="orgheadline268"></a>大样本均数比较的 Z 检验<br  /><div class="outline-text-5" id="text-1-7-2-1">
+</div>
+<div id="outline-container-orgheadline272" class="outline-3">
+<h3 id="orgheadline272"><span class="section-number-3">7.2</span> Z 检验                                                          :Z 检验:</h3>
+<div class="outline-text-3" id="text-7-2">
+</div><div id="outline-container-orgheadline268" class="outline-4">
+<h4 id="orgheadline268"><span class="section-number-4">7.2.1</span> 大样本均数比较的 Z 检验</h4>
+<div class="outline-text-4" id="text-7-2-1">
 <ul class="org-ul">
 <li>样本数据服从正态分布</li>
 <li>已知总体方差
@@ -1242,127 +1697,170 @@ S<sub>p</sub>=sqrt(p(1-p)/(n-1))≈sqrt(p(1-p)/n)</li>
 </ul></li>
 </ul>
 </div>
-<ol class="org-ol"><li><a id="orgheadline266"></a>样本均数与总体均数比较的 Z 检验<br  /><div class="outline-text-6" id="text-1-7-2-1-1">
+<ol class="org-ol"><li><a id="orgheadline266"></a>样本均数与总体均数比较的 Z 检验<br  /><div class="outline-text-5" id="text-7-2-1-1">
 <ul class="org-ul">
 <li>z = (x̄-μ<sub>0</sub>) / (σ<sub>0</sub>/sqrt(n))</li>
 <li>当总体标准差σ<sub>0</sub> 未知，n≥60 时，可用样本标准差 S 作为σ<sub>0</sub> 的估计值。</li>
 </ul>
 </div></li>
-<li><a id="orgheadline267"></a>两样本均数比较的 Z 检验<br  /><div class="outline-text-6" id="text-1-7-2-1-2">
+<li><a id="orgheadline267"></a>两样本均数比较的 Z 检验<br  /><div class="outline-text-5" id="text-7-2-1-2">
 <ul class="org-ul">
 <li>z = (x̄<sub>1</sub>-x̄<sub>2</sub>)/σ<sub>x̄1</sub>-x̄2</li>
 </ul>
-</div></li></ol></li>
-<li><a id="orgheadline271"></a>大样本率的 Z 检验<br  /><div class="outline-text-5" id="text-1-7-2-2">
+</div></li></ol>
+</div>
+<div id="outline-container-orgheadline271" class="outline-4">
+<h4 id="orgheadline271"><span class="section-number-4">7.2.2</span> 大样本率的 Z 检验</h4>
+<div class="outline-text-4" id="text-7-2-2">
 <ul class="org-ul">
 <li>如果样本率 p 介于 0.1~0.9 之间，每组例数大于 60 例</li>
 <li>当样本率 p 在 0.1~0.9 之外时，np 或 n(1-p)的最小值大于 5</li>
 </ul>
 </div>
-<ol class="org-ol"><li><a id="orgheadline269"></a>单样本率的 Z 检验<br  /><div class="outline-text-6" id="text-1-7-2-2-1">
+<ol class="org-ol"><li><a id="orgheadline269"></a>单样本率的 Z 检验<br  /><div class="outline-text-5" id="text-7-2-2-1">
 <ul class="org-ul">
 <li>z = (p-π<sub>0</sub>) / σ<sub>p</sub> = (p-π<sub>0</sub>) / sqrt(π<sub>0</sub>(1-π<sub>0</sub>)/n)</li>
 </ul>
 </div></li>
-<li><a id="orgheadline270"></a>两个率比较的 Z 检验<br  /><div class="outline-text-6" id="text-1-7-2-2-2">
+<li><a id="orgheadline270"></a>两个率比较的 Z 检验<br  /><div class="outline-text-5" id="text-7-2-2-2">
 <ul class="org-ul">
 <li>z = (p<sub>1</sub>-p<sub>2</sub>) / σ<sub>(p<sub>1</sub>-p<sub>2</sub>)</sub></li>
 </ul>
-</div></li></ol></li></ol>
+</div></li></ol>
 </div>
-<div id="outline-container-orgheadline288" class="outline-4">
-<h4 id="orgheadline288"><span class="section-number-4">1.7.3</span> t 检验</h4>
-<div class="outline-text-4" id="text-1-7-3">
+</div>
+<div id="outline-container-orgheadline288" class="outline-3">
+<h3 id="orgheadline288"><span class="section-number-3">7.3</span> t 检验</h3>
+<div class="outline-text-3" id="text-7-3">
 <ul class="org-ul">
 <li>独立性（independence）</li>
 <li>正态性（normality）</li>
 <li>方差齐性（homogeneity）</li>
 </ul>
 </div>
-<ol class="org-ol"><li><a id="orgheadline273"></a>单样本资料的 t 检验（one sample/group t-test）<br  /><div class="outline-text-5" id="text-1-7-3-1">
+<div id="outline-container-orgheadline273" class="outline-4">
+<h4 id="orgheadline273"><span class="section-number-4">7.3.1</span> 单样本资料的 t 检验（one sample/group t-test）</h4>
+<div class="outline-text-4" id="text-7-3-1">
 <ul class="org-ul">
 <li>t = (x̄-μ)/S<sub>x̄</sub> = (x̄-μ) / (S/sqrt(n))</li>
 </ul>
-</div></li>
-<li><a id="orgheadline276"></a>配对设计（paired design）资料的 t 检验<br  /><ol class="org-ol"><li><a id="orgheadline274"></a>异体配对<br  /></li>
-<li><a id="orgheadline275"></a>自身配对<br  /></li></ol></li>
-<li><a id="orgheadline279"></a>两对立样本资料的 t 检验（paired/matched t-test）<br  /><div class="outline-text-5" id="text-1-7-3-3">
+</div>
+</div>
+<div id="outline-container-orgheadline276" class="outline-4">
+<h4 id="orgheadline276"><span class="section-number-4">7.3.2</span> 配对设计（paired design）资料的 t 检验</h4>
+<div class="outline-text-4" id="text-7-3-2">
+</div><ol class="org-ol"><li><a id="orgheadline274"></a>异体配对<br  /></li>
+<li><a id="orgheadline275"></a>自身配对<br  /></li></ol>
+</div>
+<div id="outline-container-orgheadline279" class="outline-4">
+<h4 id="orgheadline279"><span class="section-number-4">7.3.3</span> 两对立样本资料的 t 检验（paired/matched t-test）</h4>
+<div class="outline-text-4" id="text-7-3-3">
 <ul class="org-ul">
 <li>假定两个总体均服从正态分布。</li>
 </ul>
 </div>
-<ol class="org-ol"><li><a id="orgheadline277"></a>两样本所属总体方差相等，即具有方差齐性（homogeneity of variance）<br  /><div class="outline-text-6" id="text-1-7-3-3-1">
+<ol class="org-ol"><li><a id="orgheadline277"></a>两样本所属总体方差相等，即具有方差齐性（homogeneity of variance）<br  /><div class="outline-text-5" id="text-7-3-3-1">
 <ul class="org-ul">
 <li>t = (x̄<sub>1</sub> - x̄<sub>2</sub>) / S<sub>(x̄<sub>1</sub>-x̄<sub>2</sub>)</sub></li>
 </ul>
 </div></li>
-<li><a id="orgheadline278"></a>两样本所属总体方差不等（Satterthwaite 近似法）<br  /></li></ol></li>
-<li><a id="orgheadline280"></a>两独立样本资料的方差齐性检验<br  /><div class="outline-text-5" id="text-1-7-3-4">
+<li><a id="orgheadline278"></a>两样本所属总体方差不等（Satterthwaite 近似法）<br  /></li></ol>
+</div>
+<div id="outline-container-orgheadline280" class="outline-4">
+<h4 id="orgheadline280"><span class="section-number-4">7.3.4</span> 两独立样本资料的方差齐性检验</h4>
+<div class="outline-text-4" id="text-7-3-4">
 <ul class="org-ul">
 <li>F 统计量是方差之比，反映的是较大方差是较小方差的多少倍。</li>
 </ul>
-</div></li>
-<li><a id="orgheadline284"></a>两总体方差不等时的均数比较的 t' 检验，近似 t 检验（separate variance estimation t-test）<br  /><ol class="org-ol"><li><a id="orgheadline281"></a>Satterthwaite 法<br  /></li>
+</div>
+</div>
+<div id="outline-container-orgheadline284" class="outline-4">
+<h4 id="orgheadline284"><span class="section-number-4">7.3.5</span> 两总体方差不等时的均数比较的 t' 检验，近似 t 检验（separate variance estimation t-test）</h4>
+<div class="outline-text-4" id="text-7-3-5">
+</div><ol class="org-ol"><li><a id="orgheadline281"></a>Satterthwaite 法<br  /></li>
 <li><a id="orgheadline282"></a>Welch 法<br  /></li>
-<li><a id="orgheadline283"></a>Cochran &amp; Cox 法<br  /></li></ol></li>
-<li><a id="orgheadline287"></a>大样本资料的 Z 检验                                           :Z 检验:<br  /><div class="outline-text-5" id="text-1-7-3-6">
+<li><a id="orgheadline283"></a>Cochran &amp; Cox 法<br  /></li></ol>
+</div>
+<div id="outline-container-orgheadline287" class="outline-4">
+<h4 id="orgheadline287"><span class="section-number-4">7.3.6</span> 大样本资料的 Z 检验                                           :Z 检验:</h4>
+<div class="outline-text-4" id="text-7-3-6">
 <p>
 u 检验，相应的检验统计量为 Z。
 </p>
 </div>
 <ol class="org-ol"><li><a id="orgheadline285"></a>单样本资料的 Z 检验<br  /></li>
-<li><a id="orgheadline286"></a>两独立样本资料的 Z 检验<br  /></li></ol></li></ol>
+<li><a id="orgheadline286"></a>两独立样本资料的 Z 检验<br  /></li></ol>
 </div>
-<div id="outline-container-orgheadline291" class="outline-4">
-<h4 id="orgheadline291"><span class="section-number-4">1.7.4</span> Poisson 分布资料的 Z 检验</h4>
-<div class="outline-text-4" id="text-1-7-4">
+</div>
+<div id="outline-container-orgheadline291" class="outline-3">
+<h3 id="orgheadline291"><span class="section-number-3">7.4</span> Poisson 分布资料的 Z 检验</h3>
+<div class="outline-text-3" id="text-7-4">
 <ul class="org-ul">
 <li>当总体均数λ≥20 时，依据 Poisson 分布近似正态分布的原理，可以对其总体均数进行假设检验。</li>
 </ul>
 </div>
-<ol class="org-ol"><li><a id="orgheadline289"></a>单样本资料的 Z 检验<br  /></li>
-<li><a id="orgheadline290"></a>两独立样本资料的 Z 检验<br  /></li></ol>
+<div id="outline-container-orgheadline289" class="outline-4">
+<h4 id="orgheadline289"><span class="section-number-4">7.4.1</span> 单样本资料的 Z 检验</h4>
 </div>
-<div id="outline-container-orgheadline295" class="outline-4">
-<h4 id="orgheadline295"><span class="section-number-4">1.7.5</span> 假设检验与区间估计的关系</h4>
-<div class="outline-text-4" id="text-1-7-5">
-</div><ol class="org-ol"><li><a id="orgheadline292"></a>置信区间具有假设检验的主要功能<br  /></li>
-<li><a id="orgheadline293"></a>置信区间可提供假设检验没有提供的信息<br  /></li>
-<li><a id="orgheadline294"></a>假设检验比置信区间多提供的信息<br  /></li></ol>
+<div id="outline-container-orgheadline290" class="outline-4">
+<h4 id="orgheadline290"><span class="section-number-4">7.4.2</span> 两独立样本资料的 Z 检验</h4>
 </div>
-<div id="outline-container-orgheadline302" class="outline-4">
-<h4 id="orgheadline302"><span class="section-number-4">1.7.6</span> 假设检验的统计意义与实际意义</h4>
-<div class="outline-text-4" id="text-1-7-6">
-</div><ol class="org-ol"><li><a id="orgheadline300"></a>假设检验的统计意义<br  /><ol class="org-ol"><li><a id="orgheadline296"></a>P 值的正确理解<br  /><div class="outline-text-6" id="text-1-7-6-1-1">
+</div>
+<div id="outline-container-orgheadline295" class="outline-3">
+<h3 id="orgheadline295"><span class="section-number-3">7.5</span> 假设检验与区间估计的关系</h3>
+<div class="outline-text-3" id="text-7-5">
+</div><div id="outline-container-orgheadline292" class="outline-4">
+<h4 id="orgheadline292"><span class="section-number-4">7.5.1</span> 置信区间具有假设检验的主要功能</h4>
+</div>
+<div id="outline-container-orgheadline293" class="outline-4">
+<h4 id="orgheadline293"><span class="section-number-4">7.5.2</span> 置信区间可提供假设检验没有提供的信息</h4>
+</div>
+<div id="outline-container-orgheadline294" class="outline-4">
+<h4 id="orgheadline294"><span class="section-number-4">7.5.3</span> 假设检验比置信区间多提供的信息</h4>
+</div>
+</div>
+<div id="outline-container-orgheadline302" class="outline-3">
+<h3 id="orgheadline302"><span class="section-number-3">7.6</span> 假设检验的统计意义与实际意义</h3>
+<div class="outline-text-3" id="text-7-6">
+</div><div id="outline-container-orgheadline300" class="outline-4">
+<h4 id="orgheadline300"><span class="section-number-4">7.6.1</span> 假设检验的统计意义</h4>
+<div class="outline-text-4" id="text-7-6-1">
+</div><ol class="org-ol"><li><a id="orgheadline296"></a>P 值的正确理解<br  /><div class="outline-text-5" id="text-7-6-1-1">
 <ul class="org-ul">
 <li>假设检验只能作出拒绝 H<sub>0</sub> 或不拒绝 H<sub>0</sub> 的定性判断，但不能给出总体参数间的差别大小。</li>
 <li>总体参数间的差别大小的推断需计算 95%的可信区间。</li>
 </ul>
 </div></li>
-<li><a id="orgheadline297"></a>检验结果的正确理解<br  /><div class="outline-text-6" id="text-1-7-6-1-2">
+<li><a id="orgheadline297"></a>检验结果的正确理解<br  /><div class="outline-text-5" id="text-7-6-1-2">
 <ul class="org-ul">
 <li>在 H<sub>0</sub> 成立的条件下（即总体均数相同），从该总体中抽样所得的样本，它们能计算得到这样大和比它更大的检验统计量（t 值、Z 值、F 值）的可能性小于或等于检验水准α，因为小概率事件不可能在一次试验中发生，所以拒绝 H<sub>0</sub>。</li>
 <li>决不能把 P≤α 理解为两总体均数相同的可能性小于或等于α，因为假设检验的第一步就是先认定 H<sub>0</sub> 成立（如两总体均数相同），
 P 值是 H<sub>0</sub> 成立的条件下的 P 值。</li>
 </ul>
 </div></li>
-<li><a id="orgheadline298"></a>统计结论的表述<br  /><div class="outline-text-6" id="text-1-7-6-1-3">
+<li><a id="orgheadline298"></a>统计结论的表述<br  /><div class="outline-text-5" id="text-7-6-1-3">
 <ul class="org-ul">
 <li>差异无统计学意义</li>
 <li>差异有统计学意义</li>
 </ul>
 </div></li>
-<li><a id="orgheadline299"></a>假设检验与可信区间的区别与联系<br  /></li></ol></li>
-<li><a id="orgheadline301"></a>假设检验的实际意义<br  /><div class="outline-text-5" id="text-1-7-6-2">
+<li><a id="orgheadline299"></a>假设检验与可信区间的区别与联系<br  /></li></ol>
+</div>
+<div id="outline-container-orgheadline301" class="outline-4">
+<h4 id="orgheadline301"><span class="section-number-4">7.6.2</span> 假设检验的实际意义</h4>
+<div class="outline-text-4" id="text-7-6-2">
 <ul class="org-ul">
 <li>P 值大小只能说明统计学意义的「显著」，不一定有实际意义。</li>
 </ul>
-</div></li></ol>
 </div>
-<div id="outline-container-orgheadline313" class="outline-4">
-<h4 id="orgheadline313"><span class="section-number-4">1.7.7</span> 假设检验的功效</h4>
-<div class="outline-text-4" id="text-1-7-7">
-</div><ol class="org-ol"><li><a id="orgheadline305"></a>假设检验的两类错误<br  /><div class="outline-text-5" id="text-1-7-7-1">
+</div>
+</div>
+<div id="outline-container-orgheadline313" class="outline-3">
+<h3 id="orgheadline313"><span class="section-number-3">7.7</span> 假设检验的功效</h3>
+<div class="outline-text-3" id="text-7-7">
+</div><div id="outline-container-orgheadline305" class="outline-4">
+<h4 id="orgheadline305"><span class="section-number-4">7.7.1</span> 假设检验的两类错误</h4>
+<div class="outline-text-4" id="text-7-7-1">
 <ul class="org-ul">
 <li>由于假设检验是根据有限的样本信息对总体作推断，不论做出哪一种推断结论，都有可能发生错误。</li>
 </ul>
@@ -1401,93 +1899,117 @@ P 值是 H<sub>0</sub> 成立的条件下的 P 值。</li>
 <li>若要同时减小Ⅰ型错误的概率α和Ⅱ型错误的概率β，必须通过增加样本含量 n 减小均数的标准误。</li>
 </ul>
 </div>
-<ol class="org-ol"><li><a id="orgheadline303"></a>第Ⅰ类错误<br  /><div class="outline-text-6" id="text-1-7-7-1-1">
+<ol class="org-ol"><li><a id="orgheadline303"></a>第Ⅰ类错误<br  /><div class="outline-text-5" id="text-7-7-1-1">
 <ul class="org-ul">
 <li>如果实际情况与 H<sub>0</sub> 一致，仅仅由于抽样的原因，使得统计量的观察值落到拒绝域，拒绝原本正确的 H<sub>0</sub>，导致推断结论错误。</li>
 <li>概率用α控制，大小与检验水准相同。</li>
 </ul>
 </div></li>
-<li><a id="orgheadline304"></a>第Ⅱ类错误<br  /><div class="outline-text-6" id="text-1-7-7-1-2">
+<li><a id="orgheadline304"></a>第Ⅱ类错误<br  /><div class="outline-text-5" id="text-7-7-1-2">
 <ul class="org-ul">
 <li>如果实际情况与 H<sub>0</sub> 不一致，仅仅是抽样的原因使得统计量的观察值落到接受域，不能拒绝原本错误的 H<sub>0</sub>，导致的推断错误。</li>
 <li>概率用β控制。</li>
 </ul>
-</div></li></ol></li>
-<li><a id="orgheadline308"></a>假设检验的功效<br  /><div class="outline-text-5" id="text-1-7-7-2">
+</div></li></ol>
+</div>
+<div id="outline-container-orgheadline308" class="outline-4">
+<h4 id="orgheadline308"><span class="section-number-4">7.7.2</span> 假设检验的功效</h4>
+<div class="outline-text-4" id="text-7-7-2">
 <ul class="org-ul">
 <li>1-β</li>
 <li>当所研究的总体与 H<sub>0</sub> 确有差别时，按检验水平α能够发现它（拒绝 H<sub>0</sub>）的概率。</li>
 </ul>
 </div>
 <ol class="org-ol"><li><a id="orgheadline306"></a>单样本设计资料 t 检验的功效<br  /></li>
-<li><a id="orgheadline307"></a>两独立样本资料 t 检验的功效<br  /></li></ol></li>
-<li><a id="orgheadline312"></a>应用假设检验需要注意的问题<br  /><ol class="org-ol"><li><a id="orgheadline309"></a>应用检验方法必须符合其适用条件<br  /></li>
-<li><a id="orgheadline310"></a>权衡两类错误的危害以确定α的大小<br  /></li>
-<li><a id="orgheadline311"></a>正确理解 P 值的意义<br  /></li></ol></li></ol>
+<li><a id="orgheadline307"></a>两独立样本资料 t 检验的功效<br  /></li></ol>
 </div>
-<div id="outline-container-orgheadline323" class="outline-4">
-<h4 id="orgheadline323"><span class="section-number-4">1.7.8</span> 正态性检验</h4>
-<div class="outline-text-4" id="text-1-7-8">
-</div><ol class="org-ol"><li><a id="orgheadline316"></a>图示法<br  /><ol class="org-ol"><li><a id="orgheadline314"></a>P-P 图，频率-频率图（proportion-proportion plot）<br  /></li>
-<li><a id="orgheadline315"></a>Q-Q 图，分位数-分位数图（quantile-quanlite plot）<br  /></li></ol></li>
-<li><a id="orgheadline322"></a>统计检验法<br  /><div class="outline-text-5" id="text-1-7-8-2">
+<div id="outline-container-orgheadline312" class="outline-4">
+<h4 id="orgheadline312"><span class="section-number-4">7.7.3</span> 应用假设检验需要注意的问题</h4>
+<div class="outline-text-4" id="text-7-7-3">
+</div><ol class="org-ol"><li><a id="orgheadline309"></a>应用检验方法必须符合其适用条件<br  /></li>
+<li><a id="orgheadline310"></a>权衡两类错误的危害以确定α的大小<br  /></li>
+<li><a id="orgheadline311"></a>正确理解 P 值的意义<br  /></li></ol>
+</div>
+</div>
+<div id="outline-container-orgheadline323" class="outline-3">
+<h3 id="orgheadline323"><span class="section-number-3">7.8</span> 正态性检验</h3>
+<div class="outline-text-3" id="text-7-8">
+</div><div id="outline-container-orgheadline316" class="outline-4">
+<h4 id="orgheadline316"><span class="section-number-4">7.8.1</span> 图示法</h4>
+<div class="outline-text-4" id="text-7-8-1">
+</div><ol class="org-ol"><li><a id="orgheadline314"></a>P-P 图，频率-频率图（proportion-proportion plot）<br  /></li>
+<li><a id="orgheadline315"></a>Q-Q 图，分位数-分位数图（quantile-quanlite plot）<br  /></li></ol>
+</div>
+<div id="outline-container-orgheadline322" class="outline-4">
+<h4 id="orgheadline322"><span class="section-number-4">7.8.2</span> 统计检验法</h4>
+<div class="outline-text-4" id="text-7-8-2">
 <ul class="org-ul">
 <li>χ<sup>2</sup> 检验适用于任意频数分布的拟合优度检验，并非检验正态性的专用方法，效率不够高。</li>
 </ul>
 </div>
-<ol class="org-ol"><li><a id="orgheadline317"></a>W 检验（W test）<br  /><div class="outline-text-6" id="text-1-7-8-2-1">
+<ol class="org-ol"><li><a id="orgheadline317"></a>W 检验（W test）<br  /><div class="outline-text-5" id="text-7-8-2-1">
 <ul class="org-ul">
 <li>3≤n≤50 时使用</li>
 </ul>
 </div></li>
-<li><a id="orgheadline318"></a>D 检验（D' Agostino）<br  /><div class="outline-text-6" id="text-1-7-8-2-2">
+<li><a id="orgheadline318"></a>D 检验（D' Agostino）<br  /><div class="outline-text-5" id="text-7-8-2-2">
 <ul class="org-ul">
 <li>50&lt;n≤1000 时使用</li>
 </ul>
 </div></li>
-<li><a id="orgheadline321"></a>矩法，动差法<br  /><ol class="org-ol"><li><a id="orgheadline319"></a>偏度系数 SKEW<br  /><div class="outline-text-7" id="text-1-7-8-2-3-1">
+<li><a id="orgheadline321"></a>矩法，动差法<br  /><ol class="org-ol"><li><a id="orgheadline319"></a>偏度系数 SKEW<br  /><div class="outline-text-6" id="text-7-8-2-3-1">
 <ul class="org-ul">
 <li>分布不对称的程度和方向，用偏度系数（coefficient of skewness）衡量。</li>
 </ul>
 </div></li>
-<li><a id="orgheadline320"></a>峰度系数 KURT<br  /><div class="outline-text-7" id="text-1-7-8-2-3-2">
+<li><a id="orgheadline320"></a>峰度系数 KURT<br  /><div class="outline-text-6" id="text-7-8-2-3-2">
 <ul class="org-ul">
 <li>分布与正态曲线相比的尖削程度或平阔程度，用峰度系数（coefficient of kurtosis）衡量。</li>
 </ul>
-</div></li></ol></li></ol></li></ol>
+</div></li></ol></li></ol>
 </div>
 </div>
-<div id="outline-container-orgheadline352" class="outline-3">
-<h3 id="orgheadline352"><span class="section-number-3">1.8</span> 方差分析（analysis of variance, ANOVA），F 检验</h3>
-<div class="outline-text-3" id="text-1-8">
-</div><div id="outline-container-orgheadline328" class="outline-4">
-<h4 id="orgheadline328"><span class="section-number-4">1.8.1</span> 方差分析的基本思想</h4>
-<div class="outline-text-4" id="text-1-8-1">
+</div>
+<div id="outline-container-orgheadline352" class="outline-2">
+<h2 id="orgheadline352"><span class="section-number-2">8</span> 方差分析（analysis of variance, ANOVA），F 检验</h2>
+<div class="outline-text-2" id="text-8">
+</div><div id="outline-container-orgheadline328" class="outline-3">
+<h3 id="orgheadline328"><span class="section-number-3">8.1</span> 方差分析的基本思想</h3>
+<div class="outline-text-3" id="text-8-1">
 <ul class="org-ul">
 <li>t 检验方法只能判断两个处理组之间有无差别，对三个或以上处理组进行分析比较时多采用方差分析的方法。</li>
 <li>把全部观察值间的变异按设计和需要分解成两个或多个组成部分，然后将各部分的变异与随机误差进行比较，以判断各部分的变异是否具有统计学意义。</li>
 <li>F = MS<sub>组间</sub> / MS<sub>组内</sub></li>
 </ul>
 </div>
-<ol class="org-ol"><li><a id="orgheadline325"></a>总变异（total variation）<br  /><div class="outline-text-5" id="text-1-8-1-1">
+<div id="outline-container-orgheadline325" class="outline-4">
+<h4 id="orgheadline325"><span class="section-number-4">8.1.1</span> 总变异（total variation）</h4>
+<div class="outline-text-4" id="text-8-1-1">
 <ul class="org-ul">
 <li>总变异的大小等于所有观察值 X<sub>ij</sub> 与总均数 x̄(overall mean)的离均差平方和。</li>
 </ul>
-</div></li>
-<li><a id="orgheadline326"></a>组间变异（variation between groups）<br  /><div class="outline-text-5" id="text-1-8-1-2">
+</div>
+</div>
+<div id="outline-container-orgheadline326" class="outline-4">
+<h4 id="orgheadline326"><span class="section-number-4">8.1.2</span> 组间变异（variation between groups）</h4>
+<div class="outline-text-4" id="text-8-1-2">
 <ul class="org-ul">
 <li>各组均数与总均数的离均差平方和。</li>
 </ul>
-</div></li>
-<li><a id="orgheadline327"></a>组内变异（variation within groups）<br  /><div class="outline-text-5" id="text-1-8-1-3">
+</div>
+</div>
+<div id="outline-container-orgheadline327" class="outline-4">
+<h4 id="orgheadline327"><span class="section-number-4">8.1.3</span> 组内变异（variation within groups）</h4>
+<div class="outline-text-4" id="text-8-1-3">
 <ul class="org-ul">
 <li>随机误差，即个体变异和测量误差。</li>
 </ul>
-</div></li></ol>
 </div>
-<div id="outline-container-orgheadline329" class="outline-4">
-<h4 id="orgheadline329"><span class="section-number-4">1.8.2</span> 完全随机设计（completely randomized design）资料的方差分析</h4>
-<div class="outline-text-4" id="text-1-8-2">
+</div>
+</div>
+<div id="outline-container-orgheadline329" class="outline-3">
+<h3 id="orgheadline329"><span class="section-number-3">8.2</span> 完全随机设计（completely randomized design）资料的方差分析</h3>
+<div class="outline-text-3" id="text-8-2">
 <ul class="org-ul">
 <li>属单向方差分析（one-way ANOVA）</li>
 <li>F = t<sup>2</sup></li>
@@ -1552,9 +2074,9 @@ P 值是 H<sub>0</sub> 成立的条件下的 P 值。</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgheadline332" class="outline-4">
-<h4 id="orgheadline332"><span class="section-number-4">1.8.3</span> 随机区组设计（randomized block design）资料的方差分析</h4>
-<div class="outline-text-4" id="text-1-8-3">
+<div id="outline-container-orgheadline332" class="outline-3">
+<h3 id="orgheadline332"><span class="section-number-3">8.3</span> 随机区组设计（randomized block design）资料的方差分析</h3>
+<div class="outline-text-3" id="text-8-3">
 <ul class="org-ul">
 <li>属双向方差分析（two-way ANOVA）</li>
 <li>将数据按区组和处理组两个方向进行分组，并对两个分组变量进行方差分析。</li>
@@ -1628,120 +2150,175 @@ P 值是 H<sub>0</sub> 成立的条件下的 P 值。</li>
 </table></li>
 </ul>
 </div>
-<ol class="org-ol"><li><a id="orgheadline330"></a>离均差平方和与自由度的分解<br  /></li>
-<li><a id="orgheadline331"></a>随机区组设计资料方差分析的基本步骤<br  /></li></ol>
+<div id="outline-container-orgheadline330" class="outline-4">
+<h4 id="orgheadline330"><span class="section-number-4">8.3.1</span> 离均差平方和与自由度的分解</h4>
 </div>
-<div id="outline-container-orgheadline333" class="outline-4">
-<h4 id="orgheadline333"><span class="section-number-4">1.8.4</span> 析因设计（factorial design）资料的方差分析</h4>
+<div id="outline-container-orgheadline331" class="outline-4">
+<h4 id="orgheadline331"><span class="section-number-4">8.3.2</span> 随机区组设计资料方差分析的基本步骤</h4>
 </div>
-<div id="outline-container-orgheadline334" class="outline-4">
-<h4 id="orgheadline334"><span class="section-number-4">1.8.5</span> 重复测量资料（repeated measurement data）的方差分析</h4>
 </div>
-<div id="outline-container-orgheadline338" class="outline-4">
-<h4 id="orgheadline338"><span class="section-number-4">1.8.6</span> 多个样本均数的两两比较</h4>
-<div class="outline-text-4" id="text-1-8-6">
-</div><ol class="org-ol"><li><a id="orgheadline335"></a>SNK 法，q 检验<br  /><div class="outline-text-5" id="text-1-8-6-1">
+<div id="outline-container-orgheadline333" class="outline-3">
+<h3 id="orgheadline333"><span class="section-number-3">8.4</span> 析因设计（factorial design）资料的方差分析</h3>
+</div>
+<div id="outline-container-orgheadline334" class="outline-3">
+<h3 id="orgheadline334"><span class="section-number-3">8.5</span> 重复测量资料（repeated measurement data）的方差分析</h3>
+</div>
+<div id="outline-container-orgheadline338" class="outline-3">
+<h3 id="orgheadline338"><span class="section-number-3">8.6</span> 多个样本均数的两两比较</h3>
+<div class="outline-text-3" id="text-8-6">
+</div><div id="outline-container-orgheadline335" class="outline-4">
+<h4 id="orgheadline335"><span class="section-number-4">8.6.1</span> SNK 法，q 检验</h4>
+<div class="outline-text-4" id="text-8-6-1">
 <ul class="org-ul">
 <li>属多重极差检验（multiple range test）</li>
 <li>在研究设计阶段未预先考虑或预料到，经假设检验得出多个总体均数不全等的提示后，才决定进行多个均数的两两事后比较。</li>
 </ul>
-</div></li>
-<li><a id="orgheadline336"></a>Dunnett 法，Dunnett-t 检验<br  /><div class="outline-text-5" id="text-1-8-6-2">
-<ul class="org-ul">
-<li>在设计阶段就根据研究目的或专业知识而计划好的某些均数间的两两比较。</li>
-</ul>
-</div></li>
-<li><a id="orgheadline337"></a>Bonferroni 法<br  /><div class="outline-text-5" id="text-1-8-6-3">
-<ul class="org-ul">
-<li>在设计阶段就根据研究目的或专业知识而计划好的某些均数间的两两比较。</li>
-</ul>
-</div></li></ol>
 </div>
-<div id="outline-container-orgheadline351" class="outline-4">
-<h4 id="orgheadline351"><span class="section-number-4">1.8.7</span> 方差分析的前提条件和数据变换</h4>
-<div class="outline-text-4" id="text-1-8-7">
-</div><ol class="org-ol"><li><a id="orgheadline341"></a>方差分析的前提条件<br  /><ol class="org-ol"><li><a id="orgheadline339"></a>各样本是相互独立的随机样本，均服从正态分布<br  /></li>
-<li><a id="orgheadline340"></a>各样本的总体方差相等，即方差齐性（homogeneity of variance）<br  /></li></ol></li>
-<li><a id="orgheadline345"></a>方差齐性检验<br  /><ol class="org-ol"><li><a id="orgheadline342"></a>F 检验<br  /><div class="outline-text-6" id="text-1-8-7-2-1">
+</div>
+<div id="outline-container-orgheadline336" class="outline-4">
+<h4 id="orgheadline336"><span class="section-number-4">8.6.2</span> Dunnett 法，Dunnett-t 检验</h4>
+<div class="outline-text-4" id="text-8-6-2">
+<ul class="org-ul">
+<li>在设计阶段就根据研究目的或专业知识而计划好的某些均数间的两两比较。</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgheadline337" class="outline-4">
+<h4 id="orgheadline337"><span class="section-number-4">8.6.3</span> Bonferroni 法</h4>
+<div class="outline-text-4" id="text-8-6-3">
+<ul class="org-ul">
+<li>在设计阶段就根据研究目的或专业知识而计划好的某些均数间的两两比较。</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-orgheadline351" class="outline-3">
+<h3 id="orgheadline351"><span class="section-number-3">8.7</span> 方差分析的前提条件和数据变换</h3>
+<div class="outline-text-3" id="text-8-7">
+</div><div id="outline-container-orgheadline341" class="outline-4">
+<h4 id="orgheadline341"><span class="section-number-4">8.7.1</span> 方差分析的前提条件</h4>
+<div class="outline-text-4" id="text-8-7-1">
+</div><ol class="org-ol"><li><a id="orgheadline339"></a>各样本是相互独立的随机样本，均服从正态分布<br  /></li>
+<li><a id="orgheadline340"></a>各样本的总体方差相等，即方差齐性（homogeneity of variance）<br  /></li></ol>
+</div>
+<div id="outline-container-orgheadline345" class="outline-4">
+<h4 id="orgheadline345"><span class="section-number-4">8.7.2</span> 方差齐性检验</h4>
+<div class="outline-text-4" id="text-8-7-2">
+</div><ol class="org-ol"><li><a id="orgheadline342"></a>F 检验<br  /><div class="outline-text-5" id="text-8-7-2-1">
 <ul class="org-ul">
 <li>只用于两样本方差齐性检验</li>
 <li>F = S<sup>2</sup><sub>1</sub>(较大) / S<sup>2</sup><sub>2</sub>(较小)</li>
 </ul>
 </div></li>
 <li><a id="orgheadline343"></a>Bartlett χ<sup>2</sup> 检验<br  /></li>
-<li><a id="orgheadline344"></a>Levene 检验<br  /></li></ol></li>
-<li><a id="orgheadline346"></a>考察前提条件的残差图（residual plot）法<br  /></li>
-<li><a id="orgheadline350"></a>数据变换（data transformations）<br  /><ol class="org-ol"><li><a id="orgheadline347"></a>对数变换<br  /></li>
+<li><a id="orgheadline344"></a>Levene 检验<br  /></li></ol>
+</div>
+<div id="outline-container-orgheadline346" class="outline-4">
+<h4 id="orgheadline346"><span class="section-number-4">8.7.3</span> 考察前提条件的残差图（residual plot）法</h4>
+</div>
+<div id="outline-container-orgheadline350" class="outline-4">
+<h4 id="orgheadline350"><span class="section-number-4">8.7.4</span> 数据变换（data transformations）</h4>
+<div class="outline-text-4" id="text-8-7-4">
+</div><ol class="org-ol"><li><a id="orgheadline347"></a>对数变换<br  /></li>
 <li><a id="orgheadline348"></a>平方根变换<br  /></li>
-<li><a id="orgheadline349"></a>平方根反正弦变换<br  /></li></ol></li></ol>
+<li><a id="orgheadline349"></a>平方根反正弦变换<br  /></li></ol>
 </div>
 </div>
-<div id="outline-container-orgheadline378" class="outline-3">
-<h3 id="orgheadline378"><span class="section-number-3">1.9</span> χ<sup>2</sup> 检验</h3>
-<div class="outline-text-3" id="text-1-9">
+</div>
+<div id="outline-container-orgheadline378" class="outline-2">
+<h2 id="orgheadline378"><span class="section-number-2">9</span> χ<sup>2</sup> 检验</h2>
+<div class="outline-text-2" id="text-9">
 <ul class="org-ul">
 <li>如果 H<sub>0</sub> 成立，则各格子实际观察频数（actual observed frequency）与相应的理论期望频数（theoretical expected frequency）相差不会太大。</li>
 </ul>
 </div>
-<div id="outline-container-orgheadline355" class="outline-4">
-<h4 id="orgheadline355"><span class="section-number-4">1.9.1</span> χ<sup>2</sup> 分布和拟合优度检验</h4>
-<div class="outline-text-4" id="text-1-9-1">
-</div><ol class="org-ol"><li><a id="orgheadline353"></a>χ<sup>2</sup> 分布<br  /><div class="outline-text-5" id="text-1-9-1-1">
+<div id="outline-container-orgheadline355" class="outline-3">
+<h3 id="orgheadline355"><span class="section-number-3">9.1</span> χ<sup>2</sup> 分布和拟合优度检验</h3>
+<div class="outline-text-3" id="text-9-1">
+</div><div id="outline-container-orgheadline353" class="outline-4">
+<h4 id="orgheadline353"><span class="section-number-4">9.1.1</span> χ<sup>2</sup> 分布</h4>
+<div class="outline-text-4" id="text-9-1-1">
 <ul class="org-ul">
 <li>χ<sup>2</sup> 分布是一种连续型随机变量的概率分布。</li>
 <li>当自由度 v 趋于∞时，χ<sup>2</sup> 分布逼近正态分布。</li>
 </ul>
-</div></li>
-<li><a id="orgheadline354"></a>拟合优度检验<br  /><div class="outline-text-5" id="text-1-9-1-2">
+</div>
+</div>
+<div id="outline-container-orgheadline354" class="outline-4">
+<h4 id="orgheadline354"><span class="section-number-4">9.1.2</span> 拟合优度检验</h4>
+<div class="outline-text-4" id="text-9-1-2">
 <ul class="org-ul">
 <li>根据样本的概率分布检验其总体分布是否等于某给定的理论分布。</li>
 </ul>
-</div></li></ol>
 </div>
-<div id="outline-container-orgheadline364" class="outline-4">
-<h4 id="orgheadline364"><span class="section-number-4">1.9.2</span> 独立样本 2×2 列联表（contingency table）资料的χ<sup>2</sup> 检验，四格表χ<sup>2</sup> 检验</h4>
-<div class="outline-text-4" id="text-1-9-2">
-</div><ol class="org-ol"><li><a id="orgheadline359"></a>列联表χ<sup>2</sup> 检验的公式<br  /><ol class="org-ol"><li><a id="orgheadline356"></a>n 不小于 40，T 不小于 5<br  /><div class="outline-text-6" id="text-1-9-2-1-1">
+</div>
+</div>
+<div id="outline-container-orgheadline364" class="outline-3">
+<h3 id="orgheadline364"><span class="section-number-3">9.2</span> 独立样本 2×2 列联表（contingency table）资料的χ<sup>2</sup> 检验，四格表χ<sup>2</sup> 检验</h3>
+<div class="outline-text-3" id="text-9-2">
+</div><div id="outline-container-orgheadline359" class="outline-4">
+<h4 id="orgheadline359"><span class="section-number-4">9.2.1</span> 列联表χ<sup>2</sup> 检验的公式</h4>
+<div class="outline-text-4" id="text-9-2-1">
+</div><ol class="org-ol"><li><a id="orgheadline356"></a>n 不小于 40，T 不小于 5<br  /><div class="outline-text-5" id="text-9-2-1-1">
 <ul class="org-ul">
 <li>χ<sup>2</sup> = Σ ((A-T)<sup>2</sup>/T)</li>
 <li>χ<sup>2</sup> = (ad-bc)<sup>2</sup> n / (a+b)(c+d)(a+c)(b+d)</li>
 </ul>
 </div></li>
-<li><a id="orgheadline357"></a>n≥40，1≤T&lt;5，需进行校正<br  /><div class="outline-text-6" id="text-1-9-2-1-2">
+<li><a id="orgheadline357"></a>n≥40，1≤T&lt;5，需进行校正<br  /><div class="outline-text-5" id="text-9-2-1-2">
 <ul class="org-ul">
 <li>χ<sup>2</sup> = Σ ((|A-T|-0.5)<sup>2</sup>/T)</li>
 <li>χ<sup>2</sup> = (|ad-bc|-n/2)<sup>2</sup> n / (a+b)(c+d)(a+c)(b+d)</li>
 </ul>
 </div></li>
-<li><a id="orgheadline358"></a>任意一个格子 T&lt;1，或总例数 n&lt;40，或检验所得 P 值接近于检验水准α<br  /><div class="outline-text-6" id="text-1-9-2-1-3">
+<li><a id="orgheadline358"></a>任意一个格子 T&lt;1，或总例数 n&lt;40，或检验所得 P 值接近于检验水准α<br  /><div class="outline-text-5" id="text-9-2-1-3">
 <ul class="org-ul">
 <li>Fisher 确切频率检验</li>
 </ul>
-</div></li></ol></li>
-<li><a id="orgheadline363"></a>2×2 列联表χ<sup>2</sup> 检验注意事项<br  /><ol class="org-ol"><li><a id="orgheadline360"></a>χ<sup>2</sup> 校正公式仅用于 v=1 的四格表资料，对 v 大于等于 2 时的多组样本分布，一般不作校正<br  /></li>
-<li><a id="orgheadline361"></a>当 n&lt;40 或 T&lt;1 时，校正χ<sup>2</sup> 值也不恰当，这时可以用 Fisher 确切检验（Fisher's exact test）<br  /></li>
-<li><a id="orgheadline362"></a>只有在两组对象其他方面「同质」的前提下才能比较两个频率，才能进行 2×2 列联表的χ<sup>2</sup> 检验<br  /></li></ol></li></ol>
+</div></li></ol>
 </div>
-<div id="outline-container-orgheadline377" class="outline-4">
-<h4 id="orgheadline377"><span class="section-number-4">1.9.3</span> 独立样本 R×C 列联表资料的χ<sup>2</sup> 检验</h4>
-<div class="outline-text-4" id="text-1-9-3">
+<div id="outline-container-orgheadline363" class="outline-4">
+<h4 id="orgheadline363"><span class="section-number-4">9.2.2</span> 2×2 列联表χ<sup>2</sup> 检验注意事项</h4>
+<div class="outline-text-4" id="text-9-2-2">
+</div><ol class="org-ol"><li><a id="orgheadline360"></a>χ<sup>2</sup> 校正公式仅用于 v=1 的四格表资料，对 v 大于等于 2 时的多组样本分布，一般不作校正<br  /></li>
+<li><a id="orgheadline361"></a>当 n&lt;40 或 T&lt;1 时，校正χ<sup>2</sup> 值也不恰当，这时可以用 Fisher 确切检验（Fisher's exact test）<br  /></li>
+<li><a id="orgheadline362"></a>只有在两组对象其他方面「同质」的前提下才能比较两个频率，才能进行 2×2 列联表的χ<sup>2</sup> 检验<br  /></li></ol>
+</div>
+</div>
+<div id="outline-container-orgheadline377" class="outline-3">
+<h3 id="orgheadline377"><span class="section-number-3">9.3</span> 独立样本 R×C 列联表资料的χ<sup>2</sup> 检验</h3>
+<div class="outline-text-3" id="text-9-3">
 <ul class="org-ul">
 <li>基本原理与 2×2 列联表χ<sup>2</sup> 检验基本相同，不同的只是将χ<sup>2</sup> 统计量的计算改为等价的形式。</li>
 <li>χ<sup>2</sup> 检验与分类变量的各分类顺序无关。</li>
 </ul>
 </div>
-<ol class="org-ol"><li><a id="orgheadline365"></a>多个独立样本率的比较<br  /></li>
-<li><a id="orgheadline366"></a>多个独立样本频率分布的比较<br  /></li>
-<li><a id="orgheadline367"></a>R×C 列联表的分割<br  /><div class="outline-text-5" id="text-1-9-3-3">
+<div id="outline-container-orgheadline365" class="outline-4">
+<h4 id="orgheadline365"><span class="section-number-4">9.3.1</span> 多个独立样本率的比较</h4>
+</div>
+<div id="outline-container-orgheadline366" class="outline-4">
+<h4 id="orgheadline366"><span class="section-number-4">9.3.2</span> 多个独立样本频率分布的比较</h4>
+</div>
+<div id="outline-container-orgheadline367" class="outline-4">
+<h4 id="orgheadline367"><span class="section-number-4">9.3.3</span> R×C 列联表的分割</h4>
+<div class="outline-text-4" id="text-9-3-3">
 <ul class="org-ul">
 <li>结论为拒绝 H<sub>0</sub> 时，仅表示多组之间有差别，即多组中至少有两组的有效概率是不同的，但并不是任两组之间都有差别。</li>
 <li>进行多组频率的两两比较时候，根据比较的次数修正检验水准。</li>
 </ul>
-</div></li>
-<li><a id="orgheadline371"></a>R×C 列联表χ<sup>2</sup> 检验注意事项<br  /><ol class="org-ol"><li><a id="orgheadline368"></a>增加样本量，这是最好的方法<br  /></li>
+</div>
+</div>
+<div id="outline-container-orgheadline371" class="outline-4">
+<h4 id="orgheadline371"><span class="section-number-4">9.3.4</span> R×C 列联表χ<sup>2</sup> 检验注意事项</h4>
+<div class="outline-text-4" id="text-9-3-4">
+</div><ol class="org-ol"><li><a id="orgheadline368"></a>增加样本量，这是最好的方法<br  /></li>
 <li><a id="orgheadline369"></a>结合专业知识，考虑是否可以将该格所在的行或列与别的行或列合并，但可能会损失信息<br  /></li>
-<li><a id="orgheadline370"></a>改用 R×C 表的 Fisher 确切概率法，可以用计算机软件实现<br  /></li></ol></li>
-<li><a id="orgheadline374"></a>配对设计资料的χ<sup>2</sup> 检验<br  /><ol class="org-ol"><li><a id="orgheadline372"></a>配对 2×2 列联表资料的χ<sup>2</sup> 检验<br  /><div class="outline-text-6" id="text-1-9-3-5-1">
+<li><a id="orgheadline370"></a>改用 R×C 表的 Fisher 确切概率法，可以用计算机软件实现<br  /></li></ol>
+</div>
+<div id="outline-container-orgheadline374" class="outline-4">
+<h4 id="orgheadline374"><span class="section-number-4">9.3.5</span> 配对设计资料的χ<sup>2</sup> 检验</h4>
+<div class="outline-text-4" id="text-9-3-5">
+</div><ol class="org-ol"><li><a id="orgheadline372"></a>配对 2×2 列联表资料的χ<sup>2</sup> 检验<br  /><div class="outline-text-5" id="text-9-3-5-1">
 <ul class="org-ul">
 <li>χ<sup>2</sup> = (b-c)<sup>2</sup> / (b+c)
 <ul class="org-ul">
@@ -1754,78 +2331,103 @@ P 值是 H<sub>0</sub> 成立的条件下的 P 值。</li>
 </ul></li>
 </ul>
 </div></li>
-<li><a id="orgheadline373"></a>配对 R×R 列联表资料的χ<sup>2</sup> 检验<br  /></li></ol></li>
-<li><a id="orgheadline376"></a>2×2 列联表的确切概率法（Fisher's exact probability）<br  /><ol class="org-ol"><li><a id="orgheadline375"></a>首先在四格表边缘合计固定不变的条件下，计算表内 4 个实际频数变动时的各种组合的概率<br  /><div class="outline-text-6" id="text-1-9-3-6-1">
+<li><a id="orgheadline373"></a>配对 R×R 列联表资料的χ<sup>2</sup> 检验<br  /></li></ol>
+</div>
+<div id="outline-container-orgheadline376" class="outline-4">
+<h4 id="orgheadline376"><span class="section-number-4">9.3.6</span> 2×2 列联表的确切概率法（Fisher's exact probability）</h4>
+<div class="outline-text-4" id="text-9-3-6">
+</div><ol class="org-ol"><li><a id="orgheadline375"></a>首先在四格表边缘合计固定不变的条件下，计算表内 4 个实际频数变动时的各种组合的概率<br  /><div class="outline-text-5" id="text-9-3-6-1">
 <ul class="org-ul">
 <li>P<sub>i</sub> = (a+b)!(c+d)!(a+c)!(b+d)! / a!b!c!d!n!
 <ul class="org-ul">
 <li>i = 边缘合计中最小数 +1</li>
 </ul></li>
 </ul>
-</div></li></ol></li></ol>
+</div></li></ol>
 </div>
 </div>
-<div id="outline-container-orgheadline390" class="outline-3">
-<h3 id="orgheadline390"><span class="section-number-3">1.10</span> 基于秩次的非参数检验</h3>
-<div class="outline-text-3" id="text-1-10">
-</div><div id="outline-container-orgheadline381" class="outline-4">
-<h4 id="orgheadline381"><span class="section-number-4">1.10.1</span> 单样本和配对设计资料的符号秩和检验（Wilcoxon singned-rank test）</h4>
-<div class="outline-text-4" id="text-1-10-1">
-</div><ol class="org-ol"><li><a id="orgheadline379"></a>单样本资料的符号秩和检验<br  /><div class="outline-text-5" id="text-1-10-1-1">
+</div>
+<div id="outline-container-orgheadline390" class="outline-2">
+<h2 id="orgheadline390"><span class="section-number-2">10</span> 基于秩次的非参数检验</h2>
+<div class="outline-text-2" id="text-10">
+</div><div id="outline-container-orgheadline381" class="outline-3">
+<h3 id="orgheadline381"><span class="section-number-3">10.1</span> 单样本和配对设计资料的符号秩和检验（Wilcoxon singned-rank test）</h3>
+<div class="outline-text-3" id="text-10-1">
+</div><div id="outline-container-orgheadline379" class="outline-4">
+<h4 id="orgheadline379"><span class="section-number-4">10.1.1</span> 单样本资料的符号秩和检验</h4>
+<div class="outline-text-4" id="text-10-1-1">
 <ul class="org-ul">
 <li>常用于不满足 t 检验条件的单样本定量变量资料的比较。目的是推断样本中位数与已知总体中位数是否相等。</li>
 </ul>
-</div></li>
-<li><a id="orgheadline380"></a>配对设计资料的符号秩和检验<br  /><div class="outline-text-5" id="text-1-10-1-2">
+</div>
+</div>
+<div id="outline-container-orgheadline380" class="outline-4">
+<h4 id="orgheadline380"><span class="section-number-4">10.1.2</span> 配对设计资料的符号秩和检验</h4>
+<div class="outline-text-4" id="text-10-1-2">
 <ul class="org-ul">
 <li>由检验配对样本的差值是否来自中位数为 0，来推断两个总体中位数是否相等，即两种处理的效应是否相同。</li>
 <li>在配对样本中，由于随机误差的存在，各对差值的产生不可避免，假定两种处理的效应相同，则差值的总体分布为对称分布，并且差值的总体中位数为 0。</li>
 <li>若此假设成立，样本差值的正秩和与负秩和应相差不大，均接近 n(n+1)/4；当正负秩和相差悬殊，超出抽样误差可解释的范围时，则有理由怀疑该假设，从而拒绝 H<sub>0</sub>。</li>
 </ul>
-</div></li></ol>
 </div>
-<div id="outline-container-orgheadline384" class="outline-4">
-<h4 id="orgheadline384"><span class="section-number-4">1.10.2</span> 两组独立样本比较的秩和检验（Wilcoxon rank test for two independent samples）</h4>
-<div class="outline-text-4" id="text-1-10-2">
-</div><ol class="org-ol"><li><a id="orgheadline382"></a>定量变量两组独立样本的秩和检验<br  /><div class="outline-text-5" id="text-1-10-2-1">
+</div>
+</div>
+<div id="outline-container-orgheadline384" class="outline-3">
+<h3 id="orgheadline384"><span class="section-number-3">10.2</span> 两组独立样本比较的秩和检验（Wilcoxon rank test for two independent samples）</h3>
+<div class="outline-text-3" id="text-10-2">
+</div><div id="outline-container-orgheadline382" class="outline-4">
+<h4 id="orgheadline382"><span class="section-number-4">10.2.1</span> 定量变量两组独立样本的秩和检验</h4>
+<div class="outline-text-4" id="text-10-2-1">
 <ul class="org-ul">
 <li>假设含量为 n<sub>1</sub> 与 n<sub>2</sub> 的两个样本（且 n<sub>1</sub> ≤ n<sub>2</sub>），来自同一总体或分布相同的两个总体，则 n<sub>1</sub> 样本的秩和 T<sub>1</sub> 与其理论秩和 n<sub>1</sub>(N+1)/2 相差不大，即[T-n<sub>1</sub>(N+1)/2]仅为抽样误差所致。</li>
 <li>当两者相差悬殊，超出抽样误差可解释的范围时，则有理由怀疑该假设，从而拒绝 H<sub>0</sub>。</li>
 <li>若相同秩次较多（比如超过 25%），应按下式进行校正：
 Z<sub>c</sub> = Z/sqrt(c)</li>
 </ul>
-</div></li>
-<li><a id="orgheadline383"></a>有序分类变量两组独立样本的秩和检验<br  /></li></ol>
 </div>
-<div id="outline-container-orgheadline388" class="outline-4">
-<h4 id="orgheadline388"><span class="section-number-4">1.10.3</span> 多组独立样本比较的秩和检验（Kruskal-Wallis test for independent samples）</h4>
-<div class="outline-text-4" id="text-1-10-3">
+</div>
+<div id="outline-container-orgheadline383" class="outline-4">
+<h4 id="orgheadline383"><span class="section-number-4">10.2.2</span> 有序分类变量两组独立样本的秩和检验</h4>
+</div>
+</div>
+<div id="outline-container-orgheadline388" class="outline-3">
+<h3 id="orgheadline388"><span class="section-number-3">10.3</span> 多组独立样本比较的秩和检验（Kruskal-Wallis test for independent samples）</h3>
+<div class="outline-text-3" id="text-10-3">
 <ul class="org-ul">
 <li>Kruskal-Wallis H 检验，用于推断定量变量或有序分类变量的多个总体分布有无差别。</li>
 </ul>
 </div>
-<ol class="org-ol"><li><a id="orgheadline385"></a>定量变量多组独立样本的秩和检验<br  /><div class="outline-text-5" id="text-1-10-3-1">
+<div id="outline-container-orgheadline385" class="outline-4">
+<h4 id="orgheadline385"><span class="section-number-4">10.3.1</span> 定量变量多组独立样本的秩和检验</h4>
+<div class="outline-text-4" id="text-10-3-1">
 <ul class="org-ul">
 <li>基本思想类似于单因素方差分析。</li>
 <li>设有 k 个对比组，各组样本含量、秩和、平均秩次分别记为 n<sub>j</sub>、R<sub>j</sub>、R'<sub>j</sub>；N=n<sub>1</sub>+n<sub>2</sub>+……n<sub>k</sub>。则总秩和为 N(N+1)/2，平均秩和为(N+1)/2。</li>
 <li>若没有或较少相持现象，则 H = Q<sub>组间</sub> / (Q<sub>总</sub> / (N-1))</li>
 <li>H 为秩次的组间变异与总变异之比。H 越大，组间变异越大，反之亦然。</li>
 </ul>
-</div></li>
-<li><a id="orgheadline386"></a>有序变量多组独立样本的秩和检验<br  /><div class="outline-text-5" id="text-1-10-3-2">
+</div>
+</div>
+<div id="outline-container-orgheadline386" class="outline-4">
+<h4 id="orgheadline386"><span class="section-number-4">10.3.2</span> 有序变量多组独立样本的秩和检验</h4>
+<div class="outline-text-4" id="text-10-3-2">
 <ul class="org-ul">
 <li>推断处理组之间的等级是否不同。</li>
 </ul>
-</div></li>
-<li><a id="orgheadline387"></a>多个独立样本间的多重比较<br  /><div class="outline-text-5" id="text-1-10-3-3">
+</div>
+</div>
+<div id="outline-container-orgheadline387" class="outline-4">
+<h4 id="orgheadline387"><span class="section-number-4">10.3.3</span> 多个独立样本间的多重比较</h4>
+<div class="outline-text-4" id="text-10-3-3">
 <ul class="org-ul">
 <li>推断多个总体是否不等时，当推断结论为拒绝 H<sub>0</sub>，接受 H<sub>1</sub> 时，只能得出各总体分布不同或不全相同的结论，但不能说明任两个总体分布不同。</li>
 </ul>
-</div></li></ol>
 </div>
-<div id="outline-container-orgheadline389" class="outline-4">
-<h4 id="orgheadline389"><span class="section-number-4">1.10.4</span> 随机化区组设计资料的秩和检验，Friedman 秩和检验（Friedman's test）</h4>
-<div class="outline-text-4" id="text-1-10-4">
+</div>
+</div>
+<div id="outline-container-orgheadline389" class="outline-3">
+<h3 id="orgheadline389"><span class="section-number-3">10.4</span> 随机化区组设计资料的秩和检验，Friedman 秩和检验（Friedman's test）</h3>
+<div class="outline-text-3" id="text-10-4">
 <ul class="org-ul">
 <li>当各处理组的观察指标是计量资料且满足方差分析的条件时，可用随机化区组设计方差分析。无适当的变量变换方法使其满足方差分析条件时，需采用随机化区组设计资料的 Friedman 秩和检验。</li>
 <li>如果观察指标是计数资料，可用 Cochran 检验。</li>
@@ -1833,18 +2435,23 @@ Z<sub>c</sub> = Z/sqrt(c)</li>
 </div>
 </div>
 </div>
-<div id="outline-container-orgheadline404" class="outline-3">
-<h3 id="orgheadline404"><span class="section-number-3">1.11</span> 两变量关联性分析</h3>
-<div class="outline-text-3" id="text-1-11">
-</div><div id="outline-container-orgheadline396" class="outline-4">
-<h4 id="orgheadline396"><span class="section-number-4">1.11.1</span> 线性相关（linear correlation）</h4>
-<div class="outline-text-4" id="text-1-11-1">
-</div><ol class="org-ol"><li><a id="orgheadline391"></a>线性相关的概念及其统计描述<br  /><div class="outline-text-5" id="text-1-11-1-1">
+<div id="outline-container-orgheadline404" class="outline-2">
+<h2 id="orgheadline404"><span class="section-number-2">11</span> 两变量关联性分析</h2>
+<div class="outline-text-2" id="text-11">
+</div><div id="outline-container-orgheadline396" class="outline-3">
+<h3 id="orgheadline396"><span class="section-number-3">11.1</span> 线性相关（linear correlation）</h3>
+<div class="outline-text-3" id="text-11-1">
+</div><div id="outline-container-orgheadline391" class="outline-4">
+<h4 id="orgheadline391"><span class="section-number-4">11.1.1</span> 线性相关的概念及其统计描述</h4>
+<div class="outline-text-4" id="text-11-1-1">
 <ul class="org-ul">
 <li>线性相关：两随机变量之间呈线性趋势的关系，散点的趋势接近一直线。</li>
 </ul>
-</div></li>
-<li><a id="orgheadline392"></a>相关系数的意义及计算<br  /><div class="outline-text-5" id="text-1-11-1-2">
+</div>
+</div>
+<div id="outline-container-orgheadline392" class="outline-4">
+<h4 id="orgheadline392"><span class="section-number-4">11.1.2</span> 相关系数的意义及计算</h4>
+<div class="outline-text-4" id="text-11-1-2">
 <ul class="org-ul">
 <li>线性相关系数，Pearson 积矩相关系数（Pearson product moment coefficient）：定量描述两个变量间线性关系密切程度和相关方向的统计指标。</li>
 <li>相关系数 = (X 和 Y 的协方差) / sqrt((X 的方差)(Y 的方差))</li>
@@ -1856,47 +2463,64 @@ Z<sub>c</sub> = Z/sqrt(c)</li>
 <li>r 的绝对值大小则表示两变量之间线性相关的密切程度，|r|越接近于 1，说明密切程度越高，|r|越接近于 0，说明密切程度越低。</li>
 </ul></li>
 </ul>
-</div></li>
-<li><a id="orgheadline395"></a>相关系数的统计推断<br  /><ol class="org-ol"><li><a id="orgheadline393"></a>直接查相关系数临界值表<br  /><div class="outline-text-6" id="text-1-11-1-3-1">
+</div>
+</div>
+<div id="outline-container-orgheadline395" class="outline-4">
+<h4 id="orgheadline395"><span class="section-number-4">11.1.3</span> 相关系数的统计推断</h4>
+<div class="outline-text-4" id="text-11-1-3">
+</div><ol class="org-ol"><li><a id="orgheadline393"></a>直接查相关系数临界值表<br  /><div class="outline-text-5" id="text-11-1-3-1">
 <ul class="org-ul">
 <li>根据自由度 v=n-2，查临界值表，比较|r|与临界值，统计量绝对值越大，概率 P 越小；统计量绝对值越小，概率 P 越大。</li>
 </ul>
 </div></li>
-<li><a id="orgheadline394"></a>采用 t 检验<br  /></li></ol></li></ol>
+<li><a id="orgheadline394"></a>采用 t 检验<br  /></li></ol>
 </div>
-<div id="outline-container-orgheadline399" class="outline-4">
-<h4 id="orgheadline399"><span class="section-number-4">1.11.2</span> 秩相关</h4>
-<div class="outline-text-4" id="text-1-11-2">
-</div><ol class="org-ol"><li><a id="orgheadline397"></a>秩相关的概念及其统计描述<br  /><div class="outline-text-5" id="text-1-11-2-1">
+</div>
+<div id="outline-container-orgheadline399" class="outline-3">
+<h3 id="orgheadline399"><span class="section-number-3">11.2</span> 秩相关</h3>
+<div class="outline-text-3" id="text-11-2">
+</div><div id="outline-container-orgheadline397" class="outline-4">
+<h4 id="orgheadline397"><span class="section-number-4">11.2.1</span> 秩相关的概念及其统计描述</h4>
+<div class="outline-text-4" id="text-11-2-1">
 <ul class="org-ul">
 <li>秩相关（rank correlation），等级相关：用于不服从正态分布的资料，总体分布未知的资料和原始数据用等级表示的资料。</li>
 <li>属于非参数检验方法。Spearman 秩相关，r<sub>s</sub> 介于-1 与 1 之间。</li>
 </ul>
-</div></li>
-<li><a id="orgheadline398"></a>秩相关系数的统计推断<br  /></li></ol>
 </div>
-<div id="outline-container-orgheadline403" class="outline-4">
-<h4 id="orgheadline403"><span class="section-number-4">1.11.3</span> 分类变量的关联性分析</h4>
-<div class="outline-text-4" id="text-1-11-3">
+</div>
+<div id="outline-container-orgheadline398" class="outline-4">
+<h4 id="orgheadline398"><span class="section-number-4">11.2.2</span> 秩相关系数的统计推断</h4>
+</div>
+</div>
+<div id="outline-container-orgheadline403" class="outline-3">
+<h3 id="orgheadline403"><span class="section-number-3">11.3</span> 分类变量的关联性分析</h3>
+<div class="outline-text-3" id="text-11-3">
 <ul class="org-ul">
 <li>先根据交叉分类计数所得的列联表进行两种属性独立性的Χ<sup>2</sup> 检验，然后计算关联系数。</li>
 </ul>
 </div>
-<ol class="org-ol"><li><a id="orgheadline400"></a>交叉分类 2×2 表的关联分析<br  /><div class="outline-text-5" id="text-1-11-3-1">
+<div id="outline-container-orgheadline400" class="outline-4">
+<h4 id="orgheadline400"><span class="section-number-4">11.3.1</span> 交叉分类 2×2 表的关联分析</h4>
+<div class="outline-text-4" id="text-11-3-1">
 <ul class="org-ul">
 <li>交叉分类资料独立性检验与比较两独立样本频率的假设检验所用的 χ<sup>2</sup> 检验公式、理论频数计算公式和自由度的计算公式完全相同。</li>
 <li>这两类问题的研究目的、设计方案、数据结构以及最后对于结果的解释都是不同的。</li>
 <li>Pearson 列联系数（contingency coefficient）：
 r = sqrt( χ<sup>2</sup> / (χ<sup>2</sup>+n))</li>
 </ul>
-</div></li>
-<li><a id="orgheadline401"></a>2×2 配对资料的关联性分析<br  /></li>
-<li><a id="orgheadline402"></a>R×C 表分类资料的关联性分析<br  /></li></ol>
 </div>
 </div>
-<div id="outline-container-orgheadline437" class="outline-3">
-<h3 id="orgheadline437"><span class="section-number-3">1.12</span> 简单回归分析</h3>
-<div class="outline-text-3" id="text-1-12">
+<div id="outline-container-orgheadline401" class="outline-4">
+<h4 id="orgheadline401"><span class="section-number-4">11.3.2</span> 2×2 配对资料的关联性分析</h4>
+</div>
+<div id="outline-container-orgheadline402" class="outline-4">
+<h4 id="orgheadline402"><span class="section-number-4">11.3.3</span> R×C 表分类资料的关联性分析</h4>
+</div>
+</div>
+</div>
+<div id="outline-container-orgheadline437" class="outline-2">
+<h2 id="orgheadline437"><span class="section-number-2">12</span> 简单回归分析</h2>
+<div class="outline-text-2" id="text-12">
 <ul class="org-ul">
 <li>线性（Linear）</li>
 <li>独立（Independence）</li>
@@ -1904,10 +2528,12 @@ r = sqrt( χ<sup>2</sup> / (χ<sup>2</sup>+n))</li>
 <li>等方差（Equal variance）</li>
 </ul>
 </div>
-<div id="outline-container-orgheadline419" class="outline-4">
-<h4 id="orgheadline419"><span class="section-number-4">1.12.1</span> 线性回归</h4>
-<div class="outline-text-4" id="text-1-12-1">
-</div><ol class="org-ol"><li><a id="orgheadline405"></a>概念及统计描述<br  /><div class="outline-text-5" id="text-1-12-1-1">
+<div id="outline-container-orgheadline419" class="outline-3">
+<h3 id="orgheadline419"><span class="section-number-3">12.1</span> 线性回归</h3>
+<div class="outline-text-3" id="text-12-1">
+</div><div id="outline-container-orgheadline405" class="outline-4">
+<h4 id="orgheadline405"><span class="section-number-4">12.1.1</span> 概念及统计描述</h4>
+<div class="outline-text-4" id="text-12-1-1">
 <ul class="org-ul">
 <li>因变量 Y 依赖于另一自变量 X 的线性回归模型（linear regression model）表述为：μ<sub>Y</sub>|X = α+βX
 <ul class="org-ul">
@@ -1917,22 +2543,29 @@ r = sqrt( χ<sup>2</sup> / (χ<sup>2</sup>+n))</li>
 Y' = a+bX</li>
 <li>直线回归是回归分析中最基本、最简单的一种。又称简单线性回归（simple linear regression）。</li>
 </ul>
-</div></li>
-<li><a id="orgheadline410"></a>线性回归模型的适用条件<br  /><ol class="org-ol"><li><a id="orgheadline406"></a>因变量（independent variable）Y 与自变量（dependent variable）X 呈线性（linear）关系<br  /></li>
-<li><a id="orgheadline407"></a>每个个体观察值之间相互独立（independent）<br  /><div class="outline-text-6" id="text-1-12-1-2-2">
+</div>
+</div>
+<div id="outline-container-orgheadline410" class="outline-4">
+<h4 id="orgheadline410"><span class="section-number-4">12.1.2</span> 线性回归模型的适用条件</h4>
+<div class="outline-text-4" id="text-12-1-2">
+</div><ol class="org-ol"><li><a id="orgheadline406"></a>因变量（independent variable）Y 与自变量（dependent variable）X 呈线性（linear）关系<br  /></li>
+<li><a id="orgheadline407"></a>每个个体观察值之间相互独立（independent）<br  /><div class="outline-text-5" id="text-12-1-2-2">
 <ul class="org-ul">
 <li>即任意两个观察值之间不应该有关联性。</li>
 </ul>
 </div></li>
 <li><a id="orgheadline408"></a>在一定范围内，任意给定 X 值，对应的随机变量 Y 都服从正态分布（normal distribution）<br  /></li>
-<li><a id="orgheadline409"></a>在一定范围内，不同的 X 值所对应的随机变量 Y 的方差相等（equal variance）<br  /></li></ol></li>
-<li><a id="orgheadline413"></a>回归参数的估计<br  /><div class="outline-text-5" id="text-1-12-1-3">
+<li><a id="orgheadline409"></a>在一定范围内，不同的 X 值所对应的随机变量 Y 的方差相等（equal variance）<br  /></li></ol>
+</div>
+<div id="outline-container-orgheadline413" class="outline-4">
+<h4 id="orgheadline413"><span class="section-number-4">12.1.3</span> 回归参数的估计</h4>
+<div class="outline-text-4" id="text-12-1-3">
 <ul class="org-ul">
 <li>实测值 Y 与假定回归线上的估计值 Y'的纵向距离 Y-Y'称为残差（residual）或剩余值。各点的残差要尽可能小。</li>
 </ul>
 </div>
 <ol class="org-ol"><li><a id="orgheadline411"></a>最小二乘原则（least squares method）<br  /></li>
-<li><a id="orgheadline412"></a>回归参数的估计方法<br  /><div class="outline-text-6" id="text-1-12-1-3-2">
+<li><a id="orgheadline412"></a>回归参数的估计方法<br  /><div class="outline-text-5" id="text-12-1-3-2">
 <ul class="org-ul">
 <li>回归直线的适用范围一般以自变量的取值范围为限，若无充分理由证明超过自变量的取值范围还是直线，应该避免外延。</li>
 <li>b = l<sub>xy</sub> / l<sub>xx</sub> = Σ(X-X')(Y-Y') / Σ(X-X')<sup>2</sup>
@@ -1941,8 +2574,12 @@ Y' = a+bX</li>
 <li>l<sub>xx</sub> = Σ(X<sup>2</sup>) - (ΣX)<sup>2</sup>/n</li>
 </ul></li>
 </ul>
-</div></li></ol></li>
-<li><a id="orgheadline418"></a>总体回归系数β的统计推断<br  /><ol class="org-ol"><li><a id="orgheadline414"></a>方差分析<br  /><div class="outline-text-6" id="text-1-12-1-4-1">
+</div></li></ol>
+</div>
+<div id="outline-container-orgheadline418" class="outline-4">
+<h4 id="orgheadline418"><span class="section-number-4">12.1.4</span> 总体回归系数β的统计推断</h4>
+<div class="outline-text-4" id="text-12-1-4">
+</div><ol class="org-ol"><li><a id="orgheadline414"></a>方差分析<br  /><div class="outline-text-5" id="text-12-1-4-1">
 <ul class="org-ul">
 <li>SS<sub>总</sub> = SS<sub>回</sub> + SS<sub>残</sub></li>
 <li>SS<sub>回为回归平方和</sub>（regression sum of squares），反映在 Y 的总变异中由于 X 与 Y 的直线关系可以用 X 解释的部分。
@@ -2003,64 +2640,87 @@ SS<sub>回越大</sub>，说明回归效果越好。</li>
 </ul>
 </div></li>
 <li><a id="orgheadline415"></a>t 检验<br  /></li>
-<li><a id="orgheadline416"></a>总体回归系数β的置信区间<br  /><div class="outline-text-6" id="text-1-12-1-4-3">
+<li><a id="orgheadline416"></a>总体回归系数β的置信区间<br  /><div class="outline-text-5" id="text-12-1-4-3">
 <ul class="org-ul">
 <li>b ± (t<sub>α</sub>/2,n-2)(S<sub>b</sub>)</li>
 </ul>
 </div></li>
-<li><a id="orgheadline417"></a>决定系数（coefficient of determination）<br  /><div class="outline-text-6" id="text-1-12-1-4-4">
+<li><a id="orgheadline417"></a>决定系数（coefficient of determination）<br  /><div class="outline-text-5" id="text-12-1-4-4">
 <ul class="org-ul">
 <li>回归平方和与总平方和之比。</li>
 <li>R<sup>2</sup> = SS<sub>回</sub>/SS<sub>总</sub> = l<sub>xy</sub><sup>2</sup>/l<sub>xx</sub> / l<sub>yy</sub> = l<sub>xy</sub><sup>2</sup> / (l<sub>xx</sub>)(l<sub>yy</sub>)</li>
 <li>R<sup>2</sup> 取值在 0 到 1 之间且无单位，其数值大小反映了回归贡献的相对程度，也就是在 Y 的总变异中回归关系所能解释的百分比。</li>
 </ul>
-</div></li></ol></li></ol>
+</div></li></ol>
 </div>
-<div id="outline-container-orgheadline424" class="outline-4">
-<h4 id="orgheadline424"><span class="section-number-4">1.12.2</span> 线性回归的应用</h4>
-<div class="outline-text-4" id="text-1-12-2">
-</div><ol class="org-ol"><li><a id="orgheadline422"></a>统计预测（prediction）<br  /><ol class="org-ol"><li><a id="orgheadline420"></a>Y 的总体均数的置信区间<br  /><div class="outline-text-6" id="text-1-12-2-1-1">
+</div>
+<div id="outline-container-orgheadline424" class="outline-3">
+<h3 id="orgheadline424"><span class="section-number-3">12.2</span> 线性回归的应用</h3>
+<div class="outline-text-3" id="text-12-2">
+</div><div id="outline-container-orgheadline422" class="outline-4">
+<h4 id="orgheadline422"><span class="section-number-4">12.2.1</span> 统计预测（prediction）</h4>
+<div class="outline-text-4" id="text-12-2-1">
+</div><ol class="org-ol"><li><a id="orgheadline420"></a>Y 的总体均数的置信区间<br  /><div class="outline-text-5" id="text-12-2-1-1">
 <ul class="org-ul">
 <li>(1-α)置信带（confidence band），在满足线性回归的假设条件下，可以认为真实的回归曲线落在两条弧形曲线所形成的区带内，其置信度为 1-α。</li>
 </ul>
 </div></li>
-<li><a id="orgheadline421"></a>个体 Y 值的预测区间（prediction interval）<br  /></li></ol></li>
-<li><a id="orgheadline423"></a>统计控制（statistical control）<br  /><div class="outline-text-5" id="text-1-12-2-2">
+<li><a id="orgheadline421"></a>个体 Y 值的预测区间（prediction interval）<br  /></li></ol>
+</div>
+<div id="outline-container-orgheadline423" class="outline-4">
+<h4 id="orgheadline423"><span class="section-number-4">12.2.2</span> 统计控制（statistical control）</h4>
+<div class="outline-text-4" id="text-12-2-2">
 <ul class="org-ul">
 <li>利用回归方程进行逆估计，即若要求因变量 Y 在一定数值范围内变化，可以通过控制自变量 X 的取值来实现。</li>
 </ul>
-</div></li></ol>
 </div>
-<div id="outline-container-orgheadline425" class="outline-4">
-<h4 id="orgheadline425"><span class="section-number-4">1.12.3</span> 残差分析（residual analysis）</h4>
-<div class="outline-text-4" id="text-1-12-3">
+</div>
+</div>
+<div id="outline-container-orgheadline425" class="outline-3">
+<h3 id="orgheadline425"><span class="section-number-3">12.3</span> 残差分析（residual analysis）</h3>
+<div class="outline-text-3" id="text-12-3">
 <ul class="org-ul">
 <li>旨在通过残差分布深入了解实际资料是否符合回归模型假设，尤其在识别离群点（outlier）方面有着重要作用。</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-orgheadline429" class="outline-4">
-<h4 id="orgheadline429"><span class="section-number-4">1.12.4</span> 非线性回归（non-linear regression）</h4>
-<div class="outline-text-4" id="text-1-12-4">
-</div><ol class="org-ol"><li><a id="orgheadline428"></a>基本策略<br  /><ol class="org-ol"><li><a id="orgheadline426"></a>曲线直线化（linearization）<br  /></li>
-<li><a id="orgheadline427"></a>非线性回归<br  /></li></ol></li></ol>
+<div id="outline-container-orgheadline429" class="outline-3">
+<h3 id="orgheadline429"><span class="section-number-3">12.4</span> 非线性回归（non-linear regression）</h3>
+<div class="outline-text-3" id="text-12-4">
+</div><div id="outline-container-orgheadline428" class="outline-4">
+<h4 id="orgheadline428"><span class="section-number-4">12.4.1</span> 基本策略</h4>
+<div class="outline-text-4" id="text-12-4-1">
+</div><ol class="org-ol"><li><a id="orgheadline426"></a>曲线直线化（linearization）<br  /></li>
+<li><a id="orgheadline427"></a>非线性回归<br  /></li></ol>
 </div>
-<div id="outline-container-orgheadline436" class="outline-4">
-<h4 id="orgheadline436"><span class="section-number-4">1.12.5</span> 注意事项</h4>
-<div class="outline-text-4" id="text-1-12-5">
-</div><ol class="org-ol"><li><a id="orgheadline430"></a>要有实际意义，不能把毫无关联的两种现象随意进行回归分析，忽视事物现象间的内在联系和规律<br  /></li>
-<li><a id="orgheadline431"></a>进行回归分析时应先绘制散点图（scatter plot）<br  /></li>
-<li><a id="orgheadline432"></a>直线回归分析用于刻画应变量 Y 对自变量 X 在数值上的依存关系，应变量根据专业上的要求而定，把易于精确测量的变量作为 X<br  /></li>
-<li><a id="orgheadline433"></a>对于线性回归模型通常采用最小二乘法来估计回归系数，并作进一步推断<br  /></li>
-<li><a id="orgheadline434"></a>建立回归方差后，须对回归系数β进行假设检验<br  /></li>
-<li><a id="orgheadline435"></a>直线回归的适用范围应以自变量取值范围为限<br  /></li></ol>
+</div>
+<div id="outline-container-orgheadline436" class="outline-3">
+<h3 id="orgheadline436"><span class="section-number-3">12.5</span> 注意事项</h3>
+<div class="outline-text-3" id="text-12-5">
+</div><div id="outline-container-orgheadline430" class="outline-4">
+<h4 id="orgheadline430"><span class="section-number-4">12.5.1</span> 要有实际意义，不能把毫无关联的两种现象随意进行回归分析，忽视事物现象间的内在联系和规律</h4>
+</div>
+<div id="outline-container-orgheadline431" class="outline-4">
+<h4 id="orgheadline431"><span class="section-number-4">12.5.2</span> 进行回归分析时应先绘制散点图（scatter plot）</h4>
+</div>
+<div id="outline-container-orgheadline432" class="outline-4">
+<h4 id="orgheadline432"><span class="section-number-4">12.5.3</span> 直线回归分析用于刻画应变量 Y 对自变量 X 在数值上的依存关系，应变量根据专业上的要求而定，把易于精确测量的变量作为 X</h4>
+</div>
+<div id="outline-container-orgheadline433" class="outline-4">
+<h4 id="orgheadline433"><span class="section-number-4">12.5.4</span> 对于线性回归模型通常采用最小二乘法来估计回归系数，并作进一步推断</h4>
+</div>
+<div id="outline-container-orgheadline434" class="outline-4">
+<h4 id="orgheadline434"><span class="section-number-4">12.5.5</span> 建立回归方差后，须对回归系数β进行假设检验</h4>
+</div>
+<div id="outline-container-orgheadline435" class="outline-4">
+<h4 id="orgheadline435"><span class="section-number-4">12.5.6</span> 直线回归的适用范围应以自变量取值范围为限</h4>
 </div>
 </div>
 </div>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Yuanchen Xie &lt;yuanchen.gm@gmail.com&gt;</p>
-<p class="date">Created: 2015-12-25 五 00:02</p>
+<p class="date">Created: 2015-12-28 一 11:29</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
