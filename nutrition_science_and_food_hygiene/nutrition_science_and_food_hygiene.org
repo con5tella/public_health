@@ -1,4 +1,4 @@
-#+TITLE: Nutrition Science & Food Hygiene
+#+TITLE: 营养与食品卫生学 Nutrition Science & Food Hygiene
 #+AUTHOR: Yuanchen Xie <yuanchen.gm@gmail.com>
 #+STARTUP: content
 #+STARTUP: indent

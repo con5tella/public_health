@@ -1,4 +1,4 @@
-#+TITLE: Occupational Health & Occupational Medicine
+#+TITLE: 职业卫生与职业医学 Occupational Health & Occupational Medicine
 #+AUTHOR: Yuanchen Xie <yuanchen.gm@gmail.com>
 #+STARTUP: content
 #+STARTUP: indent
