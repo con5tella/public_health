@@ -109,8 +109,13 @@
 - PER = 动物体重增加（g） / 摄入食物蛋白质（g）
 ****** 氨基酸评分（amino acid score, AAS），蛋白质化学评分（chemical score）
 - AAS = 被测蛋白质每克氮（或蛋白质）中氨基酸量（mg） / 理想模式或参考蛋白质中每克氮（或蛋白质）中氨基酸量（mg）
+- 第一步计算被测蛋白质每种必需氨基酸的评分值；
+- 第二步是在上述计算结果中，找出最低的必需氨基酸（第一限制氨基酸）评分值，即为该蛋白质的氨基酸评分。
 ****** 经消化率修正的氨基酸评分（protein digestibility corrected amino acid score, PDCAAS）
 - PDCAAS = 氨基酸评分×真消化率
+****** 相对蛋白质值（relative protein value, RPV）
+****** 净蛋白质比值（net protein ratio, NPR）
+****** 氮平衡指数（nitrogen balance index, NBI）
 **** 蛋白质营养不良及营养状况评价
 - 蛋白质-热能营养不良（protein-energy malnutrition，PEM）
   + Kwashiorkor
