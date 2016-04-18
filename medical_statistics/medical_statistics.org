@@ -24,11 +24,15 @@
 - 只能取整数值。
 ***** 连续型变量（continuous variable）
 *** 参数与统计量
-- 正态分布（normal distribution）
-- 二项分布（binomial distribution）
-- Poisson 分布（Poisson distribution）
+- 用变量取值的分布（distribution）来全面反映同一总体的个体彼此之间的差异具有一定
+  的规律性。
+- 统计模型（statistical model）
+  - 正态分布（normal distribution）
+  - 二项分布（binomial distribution）
+  - Poisson 分布（Poisson distribution）
 - 参数（parameter）
 - 统计量（statistic）
+  - 由观察资料计算出来的量。
 *** 设计与分析
 *** 因果与联系
 ** 医学统计工作的基本步骤
@@ -64,6 +68,12 @@
 **** 列表
 *** 频率分布表（图）的用途
 **** 揭示资料的分布类型
+***** 对称分布
+***** 偏峰分布                                                 :偏峰分布:
+****** 正偏峰分布
+- 峰向左侧偏移的分布。
+****** 负偏峰分布
+- 峰向右侧偏移的分布。
 **** 描述分布的集中趋势和离散趋势
 **** 便于发现某些特大和特小的可疑值
 **** 便于进一步计算指标和统计分析
@@ -80,7 +90,7 @@
 **** 直接法
 - 对数与反对数的底必须相同。
 **** 频率表法
-*** 中位数（median, M）
+*** 中位数（median, M）                                          :偏峰分布:
 - 将原始观察值从小到大或从大到小排序后，位次居中的那个数。适用于偏峰分布。
 **** 直接法
 **** 频率表法
@@ -88,7 +98,7 @@
 ** 描述离散趋势的统计指标
 *** 极差（range, R）
 - 最大值与最小值之差。
-*** 四分位数间距（quartile range, Q）
+*** 四分位数间距（quartile range, Q）                            :偏峰分布:
 - 对于偏峰分布资料，常把中位数和四分位数间距结合起来描述资料的集中趋势和离散趋势。
 *** 方差（variance），均方差（mean square deviation）
 - 描述一个变量的所有观察值与总体均数的平均离散程度的指标。
@@ -100,7 +110,7 @@
 - 主要用于量纲不同的变量间，或均数差别较大的变量间变异程度的比较。
 - CV = S/x̄×100%
 ** 描述分布形态的统计指标
-*** 偏度系数（coefficient of skewness, SKEW）
+*** 偏度系数（coefficient of skewness, SKEW）                    :偏峰分布:
 - 取正值时，分布为正偏峰；取负值时，分布为负偏峰。
 *** 峰度系数（coefficient of kurtosis, KURT）
 * 定性资料的统计描述
@@ -556,7 +566,7 @@ u 检验，相应的检验统计量为 Z。
 **** D 检验（D' Agostino）
 - 50<n≤1000 时使用
 **** 矩法，动差法
-***** 偏度系数 SKEW
+***** 偏度系数 SKEW                                            :偏峰分布:
 - 分布不对称的程度和方向，用偏度系数（coefficient of skewness）衡量。
 ***** 峰度系数 KURT
 - 分布与正态曲线相比的尖削程度或平阔程度，用峰度系数（coefficient of kurtosis）衡量。
