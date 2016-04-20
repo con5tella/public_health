@@ -2,7 +2,6 @@
 #+AUTHOR: Yuanchen Xie <yuanchen.gm@gmail.com>
 #+STARTUP: content
 #+STARTUP: indent
-#+HTML_MATHJAX: align: left indent: 5em tagside: left font: Neo-Euler
 * 绪论
 ** 统计学的若干概念
 *** 总体与样本
@@ -80,14 +79,19 @@
 **** 便于发现某些特大和特小的可疑值
 **** 便于进一步计算指标和统计分析
 ** 描述集中趋势的统计指标
+- 对于连续型定量变量，平均数（average）是应用最广泛、最重要的一个指标体系，
 *** 算数均数（arithmetic mean）
-- 总体均数用 μ 表示，样本均数用 x̄ 表示。
+- 总体均数用 μ 表示，样本均数用 X̄ 表示。
 **** 直接法
 - 直接将所有原始观察值相加，再除以总例数。
-- x̄ = ( X_1 + X_2 + ... + X_n ) / n = ( Σ^n_{i=1} X_i) / n
+  #+BEGIN_SRC latex
+  $  \bar{X}=(X_1 + X_2 + ... + X_n)/n = (Σ^n_{i=1} X_i) /n $
+  #+END_SRC
 **** 频率表法，加权法
 - 对于样本含量较大的数据集，可以在编制频率表的基础上计算均数的近似值。
-- x̄ = (Σ /f/ X_0) / Σ /f/ = (Σ /f/ X_0) / n
+  #+BEGIN_SRC latex
+  $  X̄ = (Σ\emph{f}X_0 ) / Σ\emph{f} = (Σ\emph{f}X_0) / n
+  #+END_SRC
 - 各组段的频率（ /f/ /n）称为权重系数。
 *** 几何均数（geometric mean, G）
 **** 直接法
