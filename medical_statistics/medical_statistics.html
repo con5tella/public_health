@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2016-04-18 一 17:41 -->
+<!-- 2016-04-20 三 11:06 -->
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="viewport" content="width=device-width, initial-scale=1" />
 <title>卫生统计学 Medical Statistics</title>
@@ -140,6 +140,28 @@ for the JavaScript code in this tag.
  }
 /*]]>*///-->
 </script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script type="text/javascript"
+        src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
 </head>
 <body>
 <div id="content">
@@ -690,23 +712,32 @@ for the JavaScript code in this tag.
 <div id="outline-container-orgheadline55" class="outline-3">
 <h3 id="orgheadline55"><span class="section-number-3">2.2</span> 描述集中趋势的统计指标</h3>
 <div class="outline-text-3" id="text-2-2">
-</div><div id="outline-container-orgheadline47" class="outline-4">
+<ul class="org-ul">
+<li>对于连续型定量变量，平均数（average）是应用最广泛、最重要的一个指标体系，它常用于描述一组同质观察值的集中趋势，反映一组观察值的平均水平。
+<ul class="org-ul">
+<li>算术均数</li>
+<li>几何均数</li>
+<li>中位数</li>
+</ul></li>
+</ul>
+</div>
+<div id="outline-container-orgheadline47" class="outline-4">
 <h4 id="orgheadline47"><span class="section-number-4">2.2.1</span> 算数均数（arithmetic mean）</h4>
 <div class="outline-text-4" id="text-2-2-1">
 <ul class="org-ul">
-<li>总体均数用 μ 表示，样本均数用 x̄ 表示。</li>
+<li>总体均数用 μ 表示，样本均数用 X̄ 表示。</li>
 </ul>
 </div>
 <ol class="org-ol"><li><a id="orgheadline45"></a>直接法<br  /><div class="outline-text-5" id="text-2-2-1-1">
 <ul class="org-ul">
 <li>直接将所有原始观察值相加，再除以总例数。</li>
-<li>x̄ = ( X<sub>1</sub> + X<sub>2</sub> + &#x2026; + X<sub>n</sub> ) / n = ( Σ<sup>n</sup><sub>i=1</sub> X<sub>i</sub>) / n</li>
+<li>X̄ =( X<sub>1</sub> + X<sub>2</sub> + &#x2026; + X<sub>n</sub> )/n = (Σ<sup>n</sup><sub>i=1</sub> X<sub>i</sub>) /n</li>
 </ul>
 </div></li>
 <li><a id="orgheadline46"></a>频率表法，加权法<br  /><div class="outline-text-5" id="text-2-2-1-2">
 <ul class="org-ul">
 <li>对于样本含量较大的数据集，可以在编制频率表的基础上计算均数的近似值。</li>
-<li>x̄ = (Σ <i>f</i> X<sub>0</sub>) / Σ <i>f</i> = (Σ <i>f</i> X<sub>0</sub>) / n</li>
+<li>X̄ = (Σ <i>f</i> X<sub>0</sub> ) / Σ <i>f</i> = (Σ <i>f</i> X<sub>0</sub> ) / n</li>
 <li>各组段的频率（ <i>f</i> /n）称为权重系数。</li>
 </ul>
 </div></li></ol>
@@ -715,6 +746,9 @@ for the JavaScript code in this tag.
 <h4 id="orgheadline50"><span class="section-number-4">2.2.2</span> 几何均数（geometric mean, G）</h4>
 <div class="outline-text-4" id="text-2-2-2">
 </div><ol class="org-ol"><li><a id="orgheadline48"></a>直接法<br  /><div class="outline-text-5" id="text-2-2-2-1">
+<p>
+$ G = \sqrt[n]{ X_1 X_2 ... X_n } $
+</p>
 <ul class="org-ul">
 <li>对数与反对数的底必须相同。</li>
 </ul>
@@ -725,7 +759,7 @@ for the JavaScript code in this tag.
 <h4 id="orgheadline53"><span class="section-number-4">2.2.3</span> 中位数（median, M）&#xa0;&#xa0;&#xa0;<span class="tag"><span class="____">偏峰分布</span></span></h4>
 <div class="outline-text-4" id="text-2-2-3">
 <ul class="org-ul">
-<li>将原始观察值从小到大或从大到小排序后，位次居中的那个数。适用于偏峰分布。</li>
+<li>将原始观察值从小到大或从大到小排序后，位次居中的那个数。适用于偏峰分布资料。</li>
 </ul>
 </div>
 <ol class="org-ol"><li><a id="orgheadline51"></a>直接法<br  /></li>
@@ -738,7 +772,14 @@ for the JavaScript code in this tag.
 <div id="outline-container-orgheadline61" class="outline-3">
 <h3 id="orgheadline61"><span class="section-number-3">2.3</span> 描述离散趋势的统计指标</h3>
 <div class="outline-text-3" id="text-2-3">
-</div><div id="outline-container-orgheadline56" class="outline-4">
+<ul class="org-ul">
+<li>变异（variation）
+<ul class="org-ul">
+<li>同一总体中不同个体间存在的差异。</li>
+</ul></li>
+</ul>
+</div>
+<div id="outline-container-orgheadline56" class="outline-4">
 <h4 id="orgheadline56"><span class="section-number-4">2.3.1</span> 极差（range, R）</h4>
 <div class="outline-text-4" id="text-2-3-1">
 <ul class="org-ul">
@@ -760,7 +801,8 @@ for the JavaScript code in this tag.
 <ul class="org-ul">
 <li>描述一个变量的所有观察值与总体均数的平均离散程度的指标。</li>
 <li>总体方差：σ<sup>2</sup>，样本方差：S<sup>2</sup>。</li>
-<li>S<sup>2</sup> = (Σ X<sup>2</sup>) - ((ΣX)<sup>2</sup>/n) / n-1</li>
+<li>σ<sup>2</sup> = Σ(X-μ)<sup>2</sup> / N</li>
+<li>S<sup>2</sup> = Σ(X-X̄)<sup>2</sup> / (n-1) = (ΣX<sup>2</sup> - ((ΣX)<sup>2</sup>/n)) / (n-1)</li>
 </ul>
 </div>
 </div>
@@ -2742,7 +2784,7 @@ SS<sub>回越大</sub>，说明回归效果越好。</li>
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Yuanchen Xie &lt;yuanchen.gm@gmail.com&gt;</p>
-<p class="date">Created: 2016-04-18 一 17:41</p>
+<p class="date">Created: 2016-04-20 三 11:06</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
