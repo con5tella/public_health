@@ -6,8 +6,10 @@
 ** 统计学的若干概念
 *** 总体与样本
 - 总体（population）
+  - 指根据研究目的确定的、全部同质个体的某个（或某些）变量值。
 - 个体（indiviual）
 - 样本（sample）
+  - 从总体中抽取一部分有代表性的个体，这些个体的观测值就构成样本。
 *** 同质与变异
 - 同质性（homogeneity）
 - 变异（variation）
@@ -15,10 +17,12 @@
 - 异质性（heterogeneity）
 *** 变量的类型
 - 变量（variable）
+  - 根据研究目的，对研究对象的某个或某些特征（亦称研究指标或项目）实施观测，这些
+    特征（指标或项目）称为变量，变量的观测值（即变量值）构成数据或资料（data）。
 **** 定性（qualitative）
 ***** 分类变量（categorical variable），名义变量（nominative variable）
 ***** 二分类变量（binary variable）
-***** 有序变量（ordinal variable），等级变量
+***** 有序变量（ordinal variable），等级变量（ordinal data）
 **** 定量（quantitative）
 ***** 离散型变量（discrete variable）
 - 只能取整数值。
@@ -31,8 +35,10 @@
   - 二项分布（binomial distribution）
   - Poisson 分布（Poisson distribution）
 - 参数（parameter）
+  - 刻画总体特征的指标。
 - 统计量（statistic）
   - 由观察资料计算出来的量。
+  - 刻画样本特征的指标。
 *** 设计与分析
 *** 因果与联系
 ** 医学统计工作的基本步骤
