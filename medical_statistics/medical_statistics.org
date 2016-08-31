@@ -63,6 +63,42 @@
 ***** 假设检验（hypothesis testing），显著性检验（significance test）
 - 用样本统计量对总体参数或分布的特定假设进行检验，进而对该假设的成立与否作出推断。
 * 医学研究统计设计概述
+** 医学研究的分类
+*** 目的
+**** 探索性研究（exploratory study）
+**** 验证性研究（confirmatory study）
+*** 指标
+**** 单因素研究
+**** 多因素研究
+*** 对象
+*** 时限
+**** 前瞻性研究（prospective study）
+**** 回顾性研究（retrospective study）
+**** 横断面研究（cross-sectional study）
+*** 发展阶段
+**** 基础研究
+**** 应用研究
+**** 发展研究
+*** 施加干预（intervention）
+**** 实验性研究（experimental study）
+**** 观察性研究（observational study）
+** 实验性研究统计设计概念
+*** 实验设计的基本要素
+**** 处理因素（treatment, study factor）
+**** 实验对象（experiment unit, subject）
+**** 实验效应（effect）
+- 是处理因素作用于受试对象的反应（response）或结果（outcome）。一般通过实验指标
+  （即变量）来表达。
+***** 客观性
+- 应以客观指标为首选指标。
+***** 有效性
+****** 灵敏度（sensitivity）
+****** 特异度（specificity）
+***** 准确性
+****** 效度（validity）、准确度（accuracy）
+- 观测值与真值的接近程度，主要受系统误差影响。
+****** 信度（reliability）、精密度（precision）
+- 观测值与其均值的接近程度，主要受随机因素的影响。
 * 定量资料的统计描述
 ** 频率分布表（frequency distribution table）与频率分布图
 *** 离散型定量变量的频率分布
