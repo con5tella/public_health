@@ -174,3 +174,147 @@
 ** 定性和定量分析
 
 ** 荧光新技术和应用示例
+
+* 原子吸收分光光度法
+
+原子吸收分光光度法（atomic absorption spectrophotometry, AAS）亦称原子吸收光谱法（atomic absorption spectrometry），是基于待测元素的基态原子对其特征辐射的吸收程度来测量该元素含量的一种分析方法。
+
+** 基本原理
+
+*** 原子吸收光谱的产生
+原子对辐射能选择性吸收而产生的光谱，称为原子吸收光谱（atomic absorption spectrum）；激发态原子发射出相同频率的辐射跃迁回到基态而产生的光谱，称为原子发射光谱（atomic emission spectrum）。
+
+电子从基态跃迁到第一电子激发态吸收一定频率的辐射，由此产生的吸收谱线称为共振吸收线，简称共振线（resonance line）。当电子从第一电子激发态再返回基态时，则发射出相同频率的辐射，产生的发射谱线称为共振发射线，也称共振线。
+
+由于各种元素的原子结构和外层电子排布不同，不同元素的原子从基态激发至第一电子激发态时，吸收的能量不同，因此各种元素的共振线也不同，是元素的特征谱线（characteristic spectrum line）。从基态到第一电子激发态间的跃迁最容易发生，对大多数元素来说，共振线是元素的最灵敏线，常作为分析线。
+
+*** 谱线轮廓及谱线展宽
+理论上原子光谱应是线光谱，实际上，无论是原子发射线还是原子吸收线都不是严格的几何线，而是具有一定的宽度，称为谱线轮廓（line profile）。
+
+引起谱线展宽的主要原因有：
+1. 自然宽度（natural width, ΔγN）
+2. 多普勒展宽（Doppler broadening, ΔγD），热展宽
+3. 碰撞展宽（collisional broadening）
+   + 洛伦兹展宽（Lorentz broadening, ΔγL）
+   + 霍尔兹马克展宽（Holtsmark broadening, ΔγH）
+
+*** 原子吸收值与原子浓度的关系
+玻尔兹曼分布定律（Boltzman distribution law）
+
+** 原子吸收分光光度计（atomic absorption spectrophotometry）
+
+*** 仪器的基本结构
+
+**** 光源
+光源的作用是发射待测元素的特征谱线。
+
+***** 空心阴极灯（hollow cathode lamp, HCL）
+灯辉光放电，电子从阴极高速飞向阳极的过程中，与惰性气体原子发生碰撞使之电离。
+
+***** 无极放电灯（electrodeless discharge lamp, EDL）
+
+**** 原子化器（atomizer）
+原子化器的作用是提供一定的能量，使试样中的待测元素转变为基态原子蒸气，并使其进入光源的辐射光程。
+
+原子化器的性能直接影响测定的灵敏度和重现性。
+
+***** 火焰原子化器（flame atomizer）
+
+***** 石墨炉原子化器（graphite furnace atomizer）
+1. 干燥（drying）
+2. 灰化（ashing）
+3. 原子化（atomizing）
+4. 净化（cleaning）
+
+***** 氢化物发生原子化器（hydride generation atomizer）
+
+**** 分光系统
+
+**** 检测系统
+
+**** 显示系统
+
+*** 仪器的类型
+
+** 原子吸收分光光度法实验技术
+
+*** 干扰及其消除
+
+**** 光谱干扰（spectral interference）
+
+**** 电离干扰（ionization interference）
+
+**** 化学干扰（chemical interference）
+
+**** 物理干扰（physical interference）
+
+**** 背景干扰（background interference）
+
+*** 分析条件的选择
+
+**** 分析线
+
+**** 狭缝宽度
+
+**** 灯电流
+
+**** 原子化条件
+
+*** 定量分析
+
+**** 定量分析方法
+1. 标准曲线法
+2. 标准加入法
+
+**** 灵敏度和检出限
+
+*** 应用示例
+
+* 原子荧光光谱法
+基态原子蒸气吸收其特征辐射而被激发，激发态原子去活化，发射出一定波长的辐射，即原子荧光，测量原子荧光的强度进行定量分析的方法被称为原子荧光光谱法（atomic fluorescence spectrometry, AFS）。
+
+** 基本原理
+
+*** 原子荧光的产生
+
+*** 原子荧光的类型
+
+**** 共振荧光（resonance fluorescence）
+
+**** 非共振荧光（non resonance fluorescence）
+
+***** 直跃线荧光（direct-line fluorescence）
+
+***** 阶跃缐荧光（stepwise-line fluorescence）
+
+**** 敏化荧光（sensitized fluorescence）
+
+*** 荧光猝灭（quenching of fluorescence）和荧光量子化效率
+
+*** 原子荧光强度与待测物浓度的关系
+
+*** 原子荧光分析中的干扰和消除
+
+** 仪器装置
+
+*** 原子荧光光谱仪的基本结构
+
+**** 激发光源
+1. 激光光源
+2. 连续光源
+3. 等离子体光源
+   电感耦合等离子体（inductively coupled plasma, ICP）
+
+**** 原子化器
+1. 火焰原子化器
+2. ICP 原子化器
+3. 电热原子化器
+4. 氢化物发生原子化器（hydride generation atomizer）
+
+**** 分光系统
+
+**** 检测系统
+
+*** 原子荧光光谱仪的类型
+
+** 原子荧光分析的性能特点和应用示例
