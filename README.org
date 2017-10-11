@@ -6,3 +6,4 @@
 ** Medical Statistics - 卫生统计学
 ** Nutrition Science And Food Hygiene - 营养与食品卫生学
 ** Occupational Health And Occupational Medicine - 职业卫生与职业医学
+** Sanitary Chemistry - 卫生化学

@@ -1,5 +1,0 @@
-* medical statistics
-- the context of knowledge about medical statistics, people's health publishing house, version 6th.
-* 卫生（医学）统计学
-- 人民卫生出版社，第 6 版，「卫生统计学」知识整理。
-- 框架完结，内容完善中……
