@@ -175,7 +175,7 @@
 
 ** 荧光新技术和应用示例
 
-* 原子吸收分光光度法
+* 原子吸收分光光度法（AAS）
 
 原子吸收分光光度法（atomic absorption spectrophotometry, AAS）亦称原子吸收光谱法（atomic absorption spectrometry），是基于待测元素的基态原子对其特征辐射的吸收程度来测量该元素含量的一种分析方法。
 
@@ -270,7 +270,7 @@
 
 *** 应用示例
 
-* 原子荧光光谱法
+* 原子荧光光谱法（AFS）
 基态原子蒸气吸收其特征辐射而被激发，激发态原子去活化，发射出一定波长的辐射，即原子荧光，测量原子荧光的强度进行定量分析的方法被称为原子荧光光谱法（atomic fluorescence spectrometry, AFS）。
 
 ** 基本原理
@@ -318,3 +318,142 @@
 *** 原子荧光光谱仪的类型
 
 ** 原子荧光分析的性能特点和应用示例
+
+* 原子发射光谱法（AES）
+电感耦合等离子体-原子发射光谱法（inductively coupled plasma - atomic emission spectrometry, ICP-AES）
+
++ 应用范围广
++ 分析速度快
++ 检出限低
++ 线性范围宽
++ 精密度高
++ 基体效应低，选择性好，元素间干扰小
+
+电子亚层
+| 1s |    |    |    |    |
+| 2s |    |    |    | 2p |
+| 3s |    |    |    | 3p |
+| 4s |    |    | 3d | 4p |
+| 5s |    |    | 4d | 5p |
+| 6s |    | 4f | 5d | 6p |
+| 7s |    | 5f | 6d | 7p |
+| 8s | 5g | 6f | 7d | 8p |
+
+* 色谱分析法概论
+色谱分析法简称色谱法（chromatography），又称为层析法，是一种物理或物理化学的分离分析方法。
+
+** 色谱法的发展与分类
+
+*** 色谱法的发展
+管内填充物称为固定相（stationary phase），淋洗剂称为流动相（mobile phase），而填充有固定相的管柱被称为色谱柱（column）。
+
+*** 色谱法的分类
+
+**** 按流动相与固定相的状态分类
++ 气相色谱法（gas chromatography, GC）
+  + 气-固色谱法（gas solid chromatography, GSC）
+  + 气-液色谱法（gas liquid chromatography, GLC）
++ 液相色谱法（liquid chromatography, LC）
+  + 液-固色谱法（liquid solid chromatography, LSC）
+  + 液-液色谱法（liquid liquid chromatography, LLC）
++ 超临界流体色谱法（supercritical fluid chromatography, SFC）
+
+**** 按操作形式分类
++ 柱色谱法（column chromatography）
+  + 填充柱色谱法（packed column chromatography）
+  + 毛细管柱色谱法（capillary column chromatography）
++ 平面色谱法（planar chromatography）
+  + 薄层色谱法（thin layer chromatography, TLC）
+  + 纸色谱法（paper chromatography）
+
+**** 按分离原理分类
++ 吸附色谱法（adsorption chromatography）
++ 分配色谱法（partition chromatography）
++ 离子交换色谱法（ion exchange chromatography, IEC）
++ 尺寸排阻色谱法（size exclusion chromatography, SEC）
++ 亲和色谱法（affinity chromatography）
+
+** 基本原理
+
+** 经典液相柱色谱法
+
+*** 吸附柱色谱法
+吸附柱色谱法以固体吸附剂为固定相，又称液-固色谱法，是建立最早的色谱分离方法。
+
+**** 基本原理
+1. 吸附作用及吸附平衡
+2. 吸附等温线（absorption isotherm）
+
+**** 固定相和流动相
+
+*** 分配柱色谱法
+分配柱色谱法又称液-液色谱法，其固定相和流动相均为液体，液态固定相又称为固定液，被涂渍在惰性材料载体上构成固定相。
+
+**** 基本原理
+平衡时组分在固定相（s）与流动相（m）中的浓度之比称为分配系数。
+
+**** 固定相和流动相
+
+***** 固定相
+
+***** 流动相
+1. 正相色谱法（normal phase chromatography, NPC）
+   用极性溶剂作固定液，用非极性或弱极性溶剂作流动相，适用于分离极性化合物。
+2. 反相色谱法（reversed phase chromatography, RPC）
+   用非极性或弱极性溶剂作固定液，极性溶剂作流动相。
+
+*** 离子交换色谱法
+离子交换树脂作为固定相的液相色谱法称为离子交换色谱法。
+
+*** 尺寸排阻色谱法
+依据被分离组分分子的尺寸和形状不同来实现分离的液相色谱法，称为尺寸排阻色谱法（size exclusion chromatography），又称凝胶色谱法（gel chromatography），他是以多孔性凝胶为固定相，按照分子大小顺序对试样中各组分进行分离的液相色谱法。
+
+通常将以水溶液为流动相的凝胶色谱法称为凝胶过滤色谱法（gel filtration chromatography, GFC），适用于水溶性高分子化合物的分离与分析。以有机溶剂作流动相的凝胶色谱法称为凝胶渗透色谱法（gel permeation chromatography, GPC），适用于脂溶性高分子化合物的分离与分析。
+
+** 平面色谱法（planar chromatography）
+平面色谱法是将固定相涂铺成平面层状，色谱分离即在此平面层上进行，为开放式的离线操作，其原理与柱色谱法完全相同。
+
++ 薄层色谱法（thin layer chromatography, TLC）
++ 纸色谱法（paper chromatography, PC）
++ 薄层电泳法（thin layer electrophoresis）
+
+* 气相色谱法（gas chromatography, GC）
+气相色谱法是以气体作为流动相的柱色谱分析方法。
+
+** 分析流程及常用术语
+
+*** 分析流程
+载气（carries gas）
+
+*** 气相色谱图
+在气相色谱分析中，柱后流出物流经检测器时，载气中各组分的量所产生的信号对时间的曲线称为色谱流出曲线，又称为色谱图（chromatogram）。
+
+分配系数 K=C_s/C_m
+
+** 基本理论
+
+*** 塔板理论（Plate Theory）
+
+*** 速率理论（Velocity Theory）
+
+** 气相色谱柱（gas chromatographic column）
+
+*** 固定相的类型
+
+*** 固定相的选择
+固定液的选择方法并没有严格的规律性，一般是按照“相似相溶”原理，根据待测组分的性质和结构进行选择。
+
+*** 色谱柱的类型
++ 毛细管柱（capillary column）
++ 填充柱（packed column）
+
+** 气相色谱检测器
+
+** 分离操作条件的选择
+
+** 毛细管气相色谱法
+
+** 定性定量分析
+
+* 高效液相色谱法
+高效液相色谱法（high performance liquid chromatography, HPLC）是以高压输出的液体为流动相的色谱技术。
