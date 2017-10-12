@@ -320,7 +320,9 @@
 ** 原子荧光分析的性能特点和应用示例
 
 * 原子发射光谱法（AES）
-电感耦合等离子体-原子发射光谱法（inductively coupled plasma - atomic emission spectrometry, ICP-AES）
+是将试样用热能或电能激发，然后测量被激发试样所发射的光辐射。根据发射谱线的波长进行定性分析，谱线的强度进行定量分析。
+
+电感耦合等离子体-原子发射光谱法（inductively coupled plasma - atomic emission spectrometry, ICP-AES），ICP 光谱法。
 
 + 应用范围广
 + 分析速度快
@@ -457,3 +459,42 @@
 
 * 高效液相色谱法
 高效液相色谱法（high performance liquid chromatography, HPLC）是以高压输出的液体为流动相的色谱技术。
+
+* 离子色谱法（ion chromatography, IC）
+
+** 概述
+1. 基本原理
+   + 化学抑制型
+     + 高效离子色谱法（high performance ion chromatography, HPIC）
+     + 高效离子排斥色谱法（high performance ion exclusion chromatography, HPIEC）
+     + 流动相离子色谱法（mobile phase ion chromatography, MPIC），离子对色谱法（ion pair chromatography, IPC）
+   + 非抑制型
+2. 离子色谱柱固定相
+   是经过特殊处理的离子交换树脂或多孔树脂。离子交换树脂以交联有机聚合物为骨架，在其链上连接离子交换功能基团。
+3. 流动相
+   在离子色谱法中，流动相也称之为“洗脱液”或“淋洗液”。常用的淋洗剂是无机弱酸盐。
+
+** 离子色谱分析装置
+
+** 离子色谱法应用示例
+
+* 质谱法及其联用技术
+质谱法（mass spectrometry）是利用离子化技术将物质分子或原子转化为离子，然后按质荷比（m/z）对这些离子进行分离和检测，从而进行物质成分和结构分析的方法。
+
+** 质谱法
+
+** 主要离子及其裂解类型
+
+** 联用技术
+
+*** 色谱-质谱联用技术
+1. 气相色谱质谱联用仪（gas chromatography-mass spectrometry, GC-MS）
+2. 液相色谱质谱联用仪（liquid chromatography-mass spectrometry, LC-MS）
+
+*** ICP-MS 联用技术
+
+* 毛细管电泳法
+毛细管电泳（capillary electrophoresis），又称高效毛细管电泳（high performance capillary electrophoresis, HPCE），一种高效、快速的分离分析技术，是指以高压直流电场为驱动力，毛细管为分离通道，根据样品中各组分的淌度和（或）分配行为的不同进行分离的一种分析方法，是经典电泳技术和现代微柱分离相结合的产物。广义上讲，仍属于色谱技术。
+
+* 化学发光分析法
+化学发光（chemiluminescence, CL）是指在某些特殊的化学反应中，反应的中间体或产物借助反应释放的化学能而发出可见光的现象。
